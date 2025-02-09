@@ -1690,6 +1690,7 @@
 				{
 					"TZ": "Europe/Amsterdam"
 				}
+                        ],
 			"ports": [
 				"8080:8080/tcp"
 			],
@@ -8446,13 +8447,13 @@
 			
 				},
 				{
-					"TWINGATE_ACCESS_TOKEN": ""
+					"TWINGATE_ACCESS_TOKEN": "",
 				},
 				{
-					"TWINGATE_REFRESH_TOKEN": ""
+					"TWINGATE_REFRESH_TOKEN": "",
 				},
 				{
-					"TWINGATE_DNS": "198.51.100.42"
+					"TWINGATE_DNS": "198.51.100.42",
 				},
 				{
 					"TWINGATE_LABEL_HOSTNAME": "`hostname`"
