@@ -8441,15 +8441,6 @@
 				"Tools"
 			],
 			"description": "Twingate. Secure Network Tunnel.",
-			"env": [
-				{
-					"TWINGATE_NETWORK": "twingate-network",
-					"TWINGATE_ACCESS_TOKEN": "",
-					"TWINGATE_REFRESH_TOKEN": "",
-					"TWINGATE_DNS": "198.51.100.42",
-					"TWINGATE_LABEL_HOSTNAME": "`hostname`"
-				}
-			],
 			"image": "twingate/connector:latest",
 			"logo": "https://github.com/Wishmasterflo/pi-hosted/blob/master/images/twingate.png",
 			"name": "Twingate",
