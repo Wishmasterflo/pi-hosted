@@ -16,9 +16,27 @@ function check_internet() {
 }
 
 check_internet
+echo " "
+echo "Installing Portainer..."
+systemctl --user enable --now podman.socket
+sudo mkdir -p /portainer/Config/portainer || error "Failed to create the Portainer Config Folder"
+chown flo:flo /portainer/Config/portainer
+podman run -d -p 9443:9443 --pid=host --privileged --name portainer --restart=always -v /run/user/$UID/podman/podman.sock:/var/run/docker.sock:Z -v /portainer/Config/portainer:/data docker.io/portainer/portainer-ce:latest
+export DOCKER_HOST=unix:///run/user/$UID/podman/podman.sock
+systemctl --user start --now podman.socket
+systemctl --user status --now podman.socket
+echo " "
+podman ps -all
+echo " "
+mkdir -p ~/.config/systemd/user
+cd $_
+podman generate systemd --new --name --files portainer
+systemctl --user daemon-reload
+systemctl --user enable --now container-portainer
+systemctl --user status container-portainer
+systemctl --user enable podman-restart.service
+sudo loginctl enable-linger flo
+echo " "
+echo "Portainer Installation done!"
 
-sudo mkdir -p /portainer/Files/AppData/Config/portainer || error "Failed to create the Portainer Config Folder"
-
-sudo docker pull portainer/portainer-ce:latest || error "Failed to pull latest Portainer docker image!"
-sudo docker run -d -p 9000:9000 -p 9443:9443 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /portainer/Files/AppData/Config/portainer:/data portainer/portainer-ce:latest --logo "https://pi-hosted.com/pi-hosted-logo.png" || error "Failed to run Portainer docker image!"
 
