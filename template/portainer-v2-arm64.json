@@ -1683,7 +1683,7 @@
 			],
 			"description": "Zigbee2MQTT",
 			"image": "koenkk/zigbee2mqtt:latest",
-			"logo": "https://github.com/Wishmasterflo/pi-hosted/blob/master/images/zigbee2mqtt.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/zigbee2mqtt.png",
 			"name": "Zigbee2MQTT",
 			"platform": "linux",
                         "env": [
@@ -8442,7 +8442,7 @@
 			],
 			"description": "Twingate. Secure Network Tunnel.",
 			"image": "twingate/connector:latest",
-			"logo": "https://github.com/Wishmasterflo/pi-hosted/blob/master/images/twingate.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/twingate.png",
 			"name": "Twingate",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://transmissionbt.com/\" target=\"_blank\">https://transmissionbt.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://haugene.github.io/docker-transmission-openvpn/run-container/\" target=\"_blank\">https://haugene.github.io/docker-transmission-openvpn/run-container/</a><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=tGLVEq913_4&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=5 target=\"_blank\">Novaspirit Tech - Torrent with Docker and OPENVPN with Transmission and PIA</a><br><br>List of supported providers available <a href='https://haugene.github.io/docker-transmission-openvpn/supported-providers'/>here</a>.",
 			"platform": "linux",
