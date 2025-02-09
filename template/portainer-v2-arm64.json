@@ -1689,7 +1689,7 @@
                         "env": [
 				{
 					"TZ": "Europe/Amsterdam"
-				},
+				}
 			"ports": [
 				"8080:8080/tcp"
 			],
