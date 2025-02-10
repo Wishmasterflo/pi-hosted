@@ -31,11 +31,11 @@
 	"type": 1,
 	"volumes": [
 		{
-      "bind": "/portainer/Files/AppData/Config/AdguardHome/config",
+      "bind": "/portainer/Config/AdguardHome/config",
 			"container": "/opt/adguardhome/conf"
 		},
 		{
-      "bind": "/portainer/Files/AppData/Config/AdguardHome/work",
+      "bind": "/portainer/Config/AdguardHome/work",
 			"container": "/opt/adguardhome/work"
 		}
 	],
