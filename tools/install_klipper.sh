@@ -18,39 +18,39 @@ function check_internet() {
 check_internet
 
 echo "Creating directories..."
-sudo mkdir -p /portainer/Files/AppData/Config/klipper/klipper/ || error "Failed to create data directory for klipper / klipper!"
-sudo mkdir -p /portainer/Files/AppData/Config/klipper/klipper/logs || error "Failed to create data directory for klipper / klipper!"
-sudo mkdir -p /portainer/Files/AppData/Config/klipper/moonraker/ || error "Failed to create data directory for klipper / moonraker!"
-sudo mkdir -p /portainer/Files/AppData/Config/klipper/moonraker/logs || error "Failed to create data directory for klipper / moonraker!"
-sudo mkdir -p /portainer/Files/AppData/Config/klipper/run/ || error "Failed to create data directory for klipper / run!"
-sudo mkdir -p /portainer/Files/AppData/Config/klipper/gcodes/ || error "Failed to create data directory for klipper / gcodes!"
+sudo mkdir -p /portainer/Config/klipper/klipper/ || error "Failed to create data directory for klipper / klipper!"
+sudo mkdir -p /portainer/Config/klipper/klipper/logs || error "Failed to create data directory for klipper / klipper!"
+sudo mkdir -p /portainer/Config/klipper/moonraker/ || error "Failed to create data directory for klipper / moonraker!"
+sudo mkdir -p /portainer/Config/klipper/moonraker/logs || error "Failed to create data directory for klipper / moonraker!"
+sudo mkdir -p /portainer/Config/klipper/run/ || error "Failed to create data directory for klipper / run!"
+sudo mkdir -p /portainer/Config/klipper/gcodes/ || error "Failed to create data directory for klipper / gcodes!"
 
 echo "Checking config file setup..."
-if [ -d /portainer/Files/AppData/Config/klipper/klipper/printer.cfg ];
+if [ -d /portainer/Config/klipper/klipper/printer.cfg ];
 then
-    echo "/portainer/Files/AppData/Config/klipper/klipper/printer.cfg is a directory removing"
-    rm -rf '/portainer/Files/AppData/Config/klipper/klipper/printer.cfg'
+    echo "/portainer/Config/klipper/klipper/printer.cfg is a directory removing"
+    rm -rf '/portainer/Config/klipper/klipper/printer.cfg'
 fi
-sudo touch /portainer/Files/AppData/Config/klipper/klipper/printer.cfg || error "Failed to touch printer.cfg file!"
+sudo touch /portainer/Config/klipper/klipper/printer.cfg || error "Failed to touch printer.cfg file!"
 
-if [ -d /portainer/Files/AppData/Config/klipper/moonraker/moonraker.conf ];
+if [ -d /portainer/Config/klipper/moonraker/moonraker.conf ];
 then
-    echo "/portainer/Files/AppData/Config/klipper/moonraker/moonraker.conf is a directory removing"
-    rm -rf '/portainer/Files/AppData/Config/klipper/moonraker/moonraker.conf'
+    echo "/portainer/Config/klipper/moonraker/moonraker.conf is a directory removing"
+    rm -rf '/portainer/Config/klipper/moonraker/moonraker.conf'
 fi
-sudo touch /portainer/Files/AppData/Config/klipper/moonraker/moonraker.conf || error "Failed to touch moonraker.conf file!"
+sudo touch /portainer/Config/klipper/moonraker/moonraker.conf || error "Failed to touch moonraker.conf file!"
 
-if [ -d /portainer/Files/AppData/Config/klipper/mainsail/config.json ];
+if [ -d /portainer/Config/klipper/mainsail/config.json ];
 then
-    echo "/portainer/Files/AppData/Config/klipper/mainsail/config.json is a directory removing"
-    rm -rf '/portainer/Files/AppData/Config/klipper/mainsail/config.json'
+    echo "/portainer/Config/klipper/mainsail/config.json is a directory removing"
+    rm -rf '/portainer/Config/klipper/mainsail/config.json'
 fi
 
-if [ ! -f /portainer/Files/AppData/Config/klipper/mainsail/config.json ]; 
+if [ ! -f /portainer/Config/klipper/mainsail/config.json ]; 
 then
-	sudo wget -O /portainer/Files/AppData/Config/klipper/mainsail/config.json https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/configs/klipper/mainsail.json || error "Failed to download mainsail config file!"
+	sudo wget -O /portainer/Config/klipper/mainsail/config.json https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/configs/klipper/mainsail.json || error "Failed to download mainsail config file!"
 fi
 
 echo "Setting permissions..."
-sudo chown -R 1000:1000  /portainer/Files/AppData/Config/klipper/ || error "Failed to set permissions for klipper data!"
+sudo chown -R 1000:1000  /portainer/Config/klipper/ || error "Failed to set permissions for klipper data!"
 echo "Done You are ready to goto next step."
