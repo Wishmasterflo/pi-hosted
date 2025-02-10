@@ -4,8 +4,8 @@ services:
     image: jc21/nginx-proxy-manager:latest
     container_name: nginx-proxy-manager
     volumes:
-      - /portainer/Files/AppData/Config/nginx-proxy-manager/data:/data
-      - /portainer/Files/AppData/Config/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
+      - /portainer/Config/nginx-proxy-manager/data:/data
+      - /portainer/Config/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
     depends_on:
       - stats
     ports:
@@ -29,4 +29,4 @@ services:
       - 7880:7880
  
     volumes:
-      - /portainer/Files/AppData/Config/nginx-proxy-manager/data/logs:/opt/log:ro
+      - /portainer/Config/nginx-proxy-manager/data/logs:/opt/log:ro
