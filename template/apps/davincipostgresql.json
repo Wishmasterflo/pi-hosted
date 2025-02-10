@@ -50,7 +50,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/DavinciServer/",
+			"bind": "/portainer/Config/DavinciServer/",
 			"container": "/var/lib/postgresql/data"
 		}
 	],
