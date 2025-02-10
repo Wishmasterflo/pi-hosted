@@ -15,7 +15,7 @@ services:
       - drupal_network
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/drupal/database:/config
+      - /portainer/Config/drupal/database:/config
   phpmyadmin:
     image: phpmyadmin:latest
     environment:
@@ -38,10 +38,10 @@ services:
       - 4080:80
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/drupal/modules:/var/www/html/modules
-      - /portainer/Files/AppData/Config/drupal/profiles:/var/www/html/profiles
-      - /portainer/Files/AppData/Config/drupal/themes:/var/www/html/themes
-      - /portainer/Files/AppData/Config/drupal/sites:/var/www/html/sites
+      - /portainer/Config/drupal/modules:/var/www/html/modules
+      - /portainer/Config/drupal/profiles:/var/www/html/profiles
+      - /portainer/Config/drupal/themes:/var/www/html/themes
+      - /portainer/Config/drupal/sites:/var/www/html/sites
     depends_on:
       - mariadb
 
