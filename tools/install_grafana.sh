@@ -18,15 +18,15 @@ function check_internet() {
 check_internet
 
 echo "Creating directories..."
-sudo mkdir -p /portainer/Files/AppData/Config/grafana/data || error "Failed to create data directory for Grafana!"
+sudo mkdir -p /portainer/Config/grafana/data || error "Failed to create data directory for Grafana!"
 
 echo "Download grafana.ini ..."
-if [ -d /portainer/Files/AppData/Config/grafana/grafana.ini ];
+if [ -d /portainer/Config/grafana/grafana.ini ];
 then
-    echo "/portainer/Files/AppData/Config/grafana/grafana.ini is a directory removing"
-    rm -rf '/portainer/Files/AppData/Config/grafana/grafana.ini'
+    echo "/portainer/Config/grafana/grafana.ini is a directory removing"
+    rm -rf '/portainer/Config/grafana/grafana.ini'
 fi
-sudo touch /portainer/Files/AppData/Config/grafana/grafana.ini || error "Failed to touch grafana.ini file!"
+sudo touch /portainer/Config/grafana/grafana.ini || error "Failed to touch grafana.ini file!"
 echo "Setting permissions..."
-sudo chown -R 472:472 /portainer/Files/AppData/Config/grafana/data || error "Failed to set permissions for Grafana data!"
+sudo chown -R 472:472 /portainer/Config/grafana/data || error "Failed to set permissions for Grafana data!"
 echo "Done You are ready to goto next step in the install document"
