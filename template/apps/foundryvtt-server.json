@@ -41,7 +41,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/foundryvtt",
+			"bind": "/portainer/Config/foundryvtt",
 			"container": "/data"
 		}
 	],
