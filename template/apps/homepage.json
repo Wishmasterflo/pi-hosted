@@ -18,11 +18,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Homepage/",
+			"bind": "/portainer/Config/Homepage/",
 			"container": "/app/config"
 		},
 		{
-			"bind": "/var/run/docker.sock",
+			"bind": "/var/run/podman.sock",
 			"container": "/var/run/docker.sock"
 		}
 	],
