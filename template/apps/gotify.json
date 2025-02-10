@@ -6,7 +6,7 @@
 	"description": "A simple server for sending and receiving messages",
 	"env": [
 		{
-			"default": "America/New_York",
+			"default": "Europe/Amsterdam",
 			"label": "TZ",
 			"name": "TZ"
 		},
@@ -37,7 +37,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/gotify",
+			"bind": "/portainer/Config/gotify",
 			"container": "/app/data"
 		}
 	],
