@@ -36,7 +36,7 @@
 	"videoID": "N.16",
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Deluge",
+			"bind": "/portainer/Config/Deluge",
 			"container": "/config"
 		},
 		{
