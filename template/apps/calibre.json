@@ -40,7 +40,7 @@
 			"container": "/books"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Calibre",
+			"bind": "/portainer/Config/Calibre",
 			"container": "/config"
 		}
 	],
