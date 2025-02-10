@@ -34,7 +34,7 @@
 	"videoID": "N.02",
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Homer/assets",
+			"bind": "/portainer/Config/Homer/assets",
 			"container": "/www/assets"
 		}
 	],
