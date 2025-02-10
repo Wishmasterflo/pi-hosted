@@ -18,4 +18,4 @@ function error {
 check_internet
 
 echo "Creating directories..."
-sudo mkdir -p /portainer/Files/AppData/Config/lldap/data || error "Failed to create Maloja data directory!"
+sudo mkdir -p /portainer/Config/lldap/data || error "Failed to create Maloja data directory!"
