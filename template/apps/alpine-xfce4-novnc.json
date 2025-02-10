@@ -21,7 +21,7 @@
 	"type": 1,
         "volumes": [
                 {
-                        "bind": "/portainer/Files/AppData/Config/alpine-xfce4-novnc/home/alpine/downloads",
+                        "bind": "/portainer/Config/alpine-xfce4-novnc/home/alpine/downloads",
                         "container": "/home/alpine/downloads"
                 }
         ],
