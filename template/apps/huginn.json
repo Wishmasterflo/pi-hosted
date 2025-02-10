@@ -19,7 +19,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/huginn",
+			"bind": "/portainer/Config/huginn",
 			"container": "/var/lib/mysql"
 		}
 	],
