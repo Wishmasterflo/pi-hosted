@@ -24,15 +24,15 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Caddy/Data",
+			"bind": "/portainer/Config/Caddy/Data",
 			"container": "/data"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Caddy/Config",
+			"bind": "/portainer/Config/Caddy/Config",
 			"container": "/config"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Caddy/Caddyfile",
+			"bind": "/portainer/Config/Caddy/Caddyfile",
 			"container": "/etc/caddy/Caddyfile"
 		}
 	],
