@@ -47,7 +47,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/archivebox",
+			"bind": "/portainer/Config/archivebox",
 			"container": "/data"
 		}
 	],
