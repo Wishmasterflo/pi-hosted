@@ -55,9 +55,9 @@ services:
       - invidious_network
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/invidious/dbdata:/var/lib/postgresql/data
-      - /portainer/Files/AppData/Config/invidious/config-sql:/config/sql
-      - /portainer/Files/AppData/Config/invidious/init-invidious-db.sh:/docker-entrypoint-initdb.d/init-invidious-db.sh
+      - /portainer/Config/invidious/dbdata:/var/lib/postgresql/data
+      - /portainer/Config/invidious/config-sql:/config/sql
+      - /portainer/Config/invidious/init-invidious-db.sh:/docker-entrypoint-initdb.d/init-invidious-db.sh
     environment:
       POSTGRES_DB: invidious
       POSTGRES_USER: kemal
