@@ -32,7 +32,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/apache-httpd",
+			"bind": "/portainer/Config/apache-httpd",
 			"container": "/usr/local/apache2/htdocs/"
 		}
 	],
