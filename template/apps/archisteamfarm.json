@@ -28,15 +28,15 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/ArchiSteamFarm/config",
+			"bind": "/portainer/Config/ArchiSteamFarm/config",
 			"container": "/app/config"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/ArchiSteamFarm/plugins",
+			"bind": "/portainer/Config/ArchiSteamFarm/plugins",
 			"container": "/app/plugins"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/ArchiSteamFarm/logs",
+			"bind": "/portainer/Config/ArchiSteamFarm/logs",
 			"container": "/app/logs"
 		}
 	],
