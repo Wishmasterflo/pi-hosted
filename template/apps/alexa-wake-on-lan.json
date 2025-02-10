@@ -17,7 +17,7 @@
 	"type": 1,
 	"volumes": [
 		{
-      "bind": "/portainer/Files/AppData/Config/AlexaWakeOnLan/config",
+      "bind": "/portainer/Config/AlexaWakeOnLan/config",
 			"container": "/alexa/api/config"
 		}
 	]
