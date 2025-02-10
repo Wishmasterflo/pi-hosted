@@ -14,7 +14,7 @@ services:
       - DB_PASS=${DATABASE_PASSWORD}
       - DB_DATABASE=bookstackapp
     volumes:
-      - /portainer/Files/AppData/Config/Bookstack:/config
+      - /portainer/Config/Bookstack:/config
     ports:
       - ${PORT}:80
     restart: unless-stopped
@@ -32,5 +32,5 @@ services:
       - MYSQL_USER=bookstack
       - MYSQL_PASSWORD=${DATABASE_PASSWORD}
     volumes:
-      - /portainer/Files/AppData/Config/Bookstack/DB:/config
+      - /portainer/Config/Bookstack/DB:/config
     restart: unless-stopped
