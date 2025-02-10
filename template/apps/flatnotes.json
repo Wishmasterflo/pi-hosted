@@ -41,7 +41,7 @@
 	"type": 1,
         "volumes": [
                 {
-                        "bind": "/portainer/Files/AppData/Config/flatnotes/data",
+                        "bind": "/portainer/Config/flatnotes/data",
                         "container": "/app/data"
                 }
 	],
