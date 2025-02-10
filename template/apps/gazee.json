@@ -31,7 +31,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Gazee",
+			"bind": "/portainer/Config/Gazee",
 			"container": "/config"
 		},
 		{
@@ -39,7 +39,7 @@
 			"container": "/comics"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Gazee",
+			"bind": "/portainer/Gazee",
 			"container": "/mylar"
 		}
 	],
