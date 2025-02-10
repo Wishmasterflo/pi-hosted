@@ -21,15 +21,15 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/eclipse-mosquitto/config",
+			"bind": "/portainer/Config/eclipse-mosquitto/config",
 			"container": "/mosquitto/config"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/eclipse-mosquitto/data",
+			"bind": "/portainer/Config/eclipse-mosquitto/data",
 			"container": "/mosquitto/data"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/eclipse-mosquitto/log",
+			"bind": "/portainer/Config/eclipse-mosquitto/log",
 			"container": "/mosquitto/log"
 		}
 	],
