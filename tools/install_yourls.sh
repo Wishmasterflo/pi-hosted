@@ -18,6 +18,6 @@ function check_internet() {
 check_internet
 
 echo "Creating directories..."
-sudo mkdir -p /portainer/Files/AppData/Config/yourls/database || error "Failed to create database directory!"
-sudo chown -R 1000:1000 /portainer/Files/AppData/Config/yourls/database || error "Failed to set permissions for database data!"
+sudo mkdir -p /portainer/Config/yourls/database || error "Failed to create database directory!"
+sudo chown -R 1000:1000 /portainer/Config/yourls/database || error "Failed to set permissions for database data!"
 echo "Done You are ready to install the Yourls Template"
