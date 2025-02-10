@@ -45,7 +45,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/homebridge",
+			"bind": "/portainer/Config/homebridge",
 			"container": "/homebridge"
 		}
 	],
