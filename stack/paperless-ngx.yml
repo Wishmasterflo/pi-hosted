@@ -6,7 +6,7 @@ services:
       - paperless_network
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/paperless-ngx/redis/data:/data
+      - /portainer/Config/paperless-ngx/redis/data:/data
 
   webserver:
     image: ghcr.io/paperless-ngx/paperless-ngx:latest
@@ -33,10 +33,10 @@ services:
     networks:
       - paperless_network
     volumes:
-      - /portainer/Files/AppData/Config/paperless-ngx/data:/usr/src/paperless/data
-      - /portainer/Files/AppData/Config/paperless-ngx/media:/usr/src/paperless/media
-      - /portainer/Files/AppData/Config/paperless-ngx/export:/usr/src/paperless/export
-      - /portainer/Files/AppData/Config/paperless-ngx/consume:/usr/src/paperless/consume
+      - /portainer/Config/paperless-ngx/data:/usr/src/paperless/data
+      - /portainer/Config/paperless-ngx/media:/usr/src/paperless/media
+      - /portainer/Config/paperless-ngx/export:/usr/src/paperless/export
+      - /portainer/Config/paperless-ngx/consume:/usr/src/paperless/consume
 
 networks:
   paperless_network:
