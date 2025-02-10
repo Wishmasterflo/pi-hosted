@@ -15,7 +15,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/HomeAssistant/assets",
+			"bind": "/portainer/Config/HomeAssistant/assets",
 			"container": "/config"
 		}
 	],
