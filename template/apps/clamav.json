@@ -29,11 +29,11 @@
 			"container": "/etc/localtime"
 		},
 		{
-	      		"bind": "/portainer/Files/AppData/Config/clamav/config",
+	      		"bind": "/portainer/Config/clamav/config",
 			"container": "/etc/clamav"
 		},
 		{
-      			"bind": "/portainer/Files/AppData/Config/clamav/virus_definitions",
+      			"bind": "/portainer/Config/clamav/virus_definitions",
 			"container": "/var/lib/clamav"
 		}
 	],
