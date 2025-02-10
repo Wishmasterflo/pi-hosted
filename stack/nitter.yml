@@ -11,7 +11,7 @@ services:
     depends_on:
       - redis
     volumes:
-      - /portainer/Files/AppData/Config/nitter/data:/data
+      - /portainer/Config/nitter/data:/data
     ports:
       - 3300:8080
     environment:
@@ -24,7 +24,7 @@ services:
       - nitter_network
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/nitter/redis:/data
+      - /portainer/Config/nitter/redis:/data
 
 networks:
   nitter_network:
