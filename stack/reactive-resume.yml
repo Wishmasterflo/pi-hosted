@@ -16,8 +16,8 @@ services:
       - PUBLIC_URL=${PUBLIC_URL}
       - PUBLIC_SERVER_URL=${PUBLIC_SERVER_URL}
     volumes:
-      - /portainer/Files/AppData/Config/reactive-resume/uploads:/home/debian/reactiveresume/server/dist/assets/uploads
-      - /portainer/Files/AppData/Config/reactive-resume/exports:/home/debian/reactiveresume/server/dist/assets/exports
+      - /portainer/Config/reactive-resume/uploads:/home/debian/reactiveresume/server/dist/assets/uploads
+      - /portainer/Config/reactive-resume/exports:/home/debian/reactiveresume/server/dist/assets/exports
     ports:
       - ${CLIENT_PORT}:3000
       - ${SERVER_PORT}:3100
@@ -31,5 +31,5 @@ services:
       - POSTGRES_DB=reactiveresume
     restart: always
     volumes:
-      - /portainer/Files/AppData/Config/reactive-resume/db:/var/lib/postgresql/data
+      - /portainer/Config/reactive-resume/db:/var/lib/postgresql/data
 
