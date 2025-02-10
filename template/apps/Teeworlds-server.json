@@ -29,11 +29,11 @@
 	"type": 1,
 	"volumes": [
 	{
-		"bind": "/portainer/Files/AppData/Config/Teeworlds/config",
+		"bind": "/portainer/Config/Teeworlds/config",
 		"container": "/config"
 	},
 	{
-		"bind": "/portainer/Files/AppData/Config/Teeworlds/data",
+		"bind": "/portainer/Config/Teeworlds/data",
 		"container": "/data"
 	}
 	],
