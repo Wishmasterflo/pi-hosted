@@ -13,7 +13,7 @@ services:
       - DB_PASSWORD=${DATABASE_PASSWORD}
       - APP_ENV=${APP_ENV}
     volumes:
-      - /portainer/Files/AppData/Config/Monica/storage:/var/www/html/storage
+      - /portainer/Config/Monica/storage:/var/www/html/storage
     restart: always
 
   monica_db:
@@ -27,5 +27,5 @@ services:
       PGID: ${PGID}
       TZ: ${TZ}
     volumes:
-      - /portainer/Files/AppData/Config/Monica/data:/var/lib/mysql
+      - /portainer/Config/Monica/data:/var/lib/mysql
     restart: always
