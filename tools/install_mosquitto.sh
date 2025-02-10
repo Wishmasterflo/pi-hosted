@@ -18,18 +18,18 @@ function check_internet() {
 check_internet
 
 echo "Creating directories..."
-sudo mkdir -p /portainer/Files/AppData/Config/eclipse-mosquitto/config || error "Failed to create config directory!"
-sudo mkdir -p /portainer/Files/AppData/Config/eclipse-mosquitto/data || error "Failed to create data directory!"
-sudo mkdir -p /portainer/Files/AppData/Config/eclipse-mosquitto/log || error "Failed to create log directory!"
+sudo mkdir -p /portainer/Config/eclipse-mosquitto/config || error "Failed to create config directory!"
+sudo mkdir -p /portainer/Config/eclipse-mosquitto/data || error "Failed to create data directory!"
+sudo mkdir -p /portainer/Config/eclipse-mosquitto/log || error "Failed to create log directory!"
 echo "Downloading Eclipse Mosquitto MQTT config files if they don't exist"
-if [ -d /portainer/Files/AppData/Config/eclipse-mosquitto/config/mosquitto.conf ];
+if [ -d /portainer/Config/eclipse-mosquitto/config/mosquitto.conf ];
 then
-    echo "/portainer/Files/AppData/Config/eclipse-mosquitto/config/mosquitto.conf is a directory removing"
-    rm -rf '/portainer/Files/AppData/Config/eclipse-mosquitto/config/mosquitto.conf/'
+    echo "/portainer/Config/eclipse-mosquitto/config/mosquitto.conf is a directory removing"
+    rm -rf '/portainer/Config/eclipse-mosquitto/config/mosquitto.conf/'
 fi
 
-if [ ! -f /portainer/Files/AppData/Config/eclipse-mosquitto/config/mosquitto.conf ]; 
+if [ ! -f /portainer/Config/eclipse-mosquitto/config/mosquitto.conf ]; 
 then
-	sudo wget -O /portainer/Files/AppData/Config/eclipse-mosquitto/config/mosquitto.conf https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/configs/eclipse-mosquitto.conf || error "Failed to download mosquitto.conf file!"
+	sudo wget -O /portainerConfig/eclipse-mosquitto/config/mosquitto.conf https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/configs/eclipse-mosquitto.conf || error "Failed to download mosquitto.conf file!"
 fi
 echo "Pre-install is complete"
