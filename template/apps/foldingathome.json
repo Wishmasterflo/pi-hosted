@@ -29,11 +29,11 @@
 	"type": 1,
 	"volumes": [
 	{
-		"bind": "/portainer/Files/AppData/Config/FoldingAthome/config",
+		"bind": "/portainer/Config/FoldingAthome/config",
 		"container": "/config"
 	},
 	{
-		"bind": "/portainer/Files/AppData/Config/FoldingAtHome/data",
+		"bind": "/portainer/Config/FoldingAtHome/data",
 		"container": "/data"
 	}
 	],
