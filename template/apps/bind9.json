@@ -27,15 +27,15 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/bind9/named.conf",
+			"bind": "/portainer/Config/bind9/named.conf",
 			"container": "/etc/bind/named.conf"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/bind9/cache",
+			"bind": "/portainer/Config/bind9/cache",
 			"container": "/var/cache/bind"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/bind9/bind",
+			"bind": "/portainer/Config/bind9/bind",
 			"container": "/var/lib/bind"
 		}
 	],
