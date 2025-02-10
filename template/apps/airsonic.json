@@ -48,7 +48,7 @@
 			"container": "/music"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Airsonic/Playlists",
+			"bind": "/portainer/Config/Airsonic/Playlists",
 			"container": "/playlists"
 		},
 		{
@@ -56,11 +56,11 @@
 			"container": "/podcasts"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Airsonic/Media",
+			"bind": "/portainer/Config/Airsonic/Media",
 			"container": "/media"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Airsonic/config/",
+			"bind": "/portainer/Config/Airsonic/config/",
 			"container": "/config"
 		}
 	],
