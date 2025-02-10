@@ -6,13 +6,13 @@ function error {
 }
 
 echo "Creating directories..."
-sudo mkdir -p /portainer/Files/AppData/Config/PhotoPrism/storage || error "Failed to create storage and database directories!"
-sudo mkdir -p /portainer/Files/AppData/Config/PhotoPrism/database || error "Failed to create storage and database directories!"
+sudo mkdir -p /portainer/Config/PhotoPrism/storage || error "Failed to create storage and database directories!"
+sudo mkdir -p /portainer/Config/PhotoPrism/database || error "Failed to create storage and database directories!"
 sudo mkdir -p /portainer/PhotoPrism || error "Failed to create storage and database directories!"
 
 echo "Setting permissions..."
-sudo chown -R 1000:1000 /portainer/Files/AppData/Config/PhotoPrism/storage || error "Failed to set permissions for PhotoPrism data!"
-sudo chown -R 1000:1000 /portainer/Files/AppData/Config/PhotoPrism/database || error "Failed to set permissions for PhotoPrism data!"
+sudo chown -R 1000:1000 /portainer/Config/PhotoPrism/storage || error "Failed to set permissions for PhotoPrism data!"
+sudo chown -R 1000:1000 /portainer/Config/PhotoPrism/database || error "Failed to set permissions for PhotoPrism data!"
 sudo chown -R 1000:1000 /portainer/PhotoPrism || error "Failed to set permissions for PhotoPrism data!"
 
 echo
