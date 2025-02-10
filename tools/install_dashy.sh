@@ -6,11 +6,11 @@ function error {
 }
 
 echo "Creating directory..."
-sudo mkdir -p /portainer/Files/AppData/Config/Dashy/ || error "Failed to create Dashy folder!"
+sudo mkdir -p /portainer/Config/Dashy/ || error "Failed to create Dashy folder!"
 echo "Creating a blank Dashy config files"
-if [ -d /portainer/Files/AppData/Config/Dashy/local-conf.yml ];
+if [ -d /portainer/Config/Dashy/local-conf.yml ];
 then
-    sudo rm -rf /portainer/Files/AppData/Config/Dashy/local-conf.yml || error "Failed to remove the folder /portainer/Files/AppData/Config/Dashy/local-conf.yml!"
+    sudo rm -rf /portainer/Config/Dashy/local-conf.yml || error "Failed to remove the folder /portainer/Files/AppData/Config/Dashy/local-conf.yml!"
 fi
-sudo touch /portainer/Files/AppData/Config/Dashy/local-conf.yml || error "Failed to touch local-conf.yml file!"
+sudo touch /portainer/Config/Dashy/local-conf.yml || error "Failed to touch local-conf.yml file!"
 echo "Setup complete. You can now install the Dashy using the App Template."
