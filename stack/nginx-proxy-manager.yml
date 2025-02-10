@@ -10,9 +10,9 @@ services:
       DB_MYSQL_PASSWORD: ${DATABASE_PASSWORD}
       DB_MYSQL_NAME: 'npm'
     volumes:
-      - /portainer/Files/AppData/Config/nginx-proxy-manager/config.json:/app/config/production.json
-      - /portainer/Files/AppData/Config/nginx-proxy-manager/data:/data
-      - /portainer/Files/AppData/Config/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
+      - /portainer/Config/nginx-proxy-manager/config.json:/app/config/production.json
+      - /portainer/Config/nginx-proxy-manager/data:/data
+      - /portainer/Config/nginx-proxy-manager/letsencrypt:/etc/letsencrypt
     depends_on:
       - db
     ports:
@@ -33,4 +33,4 @@ services:
       TZ: ${TZ}
 
     volumes:
-      - /portainer/Files/AppData/Config/nginx-proxy-manager/database:/config
+      - /portainer/Config/nginx-proxy-manager/database:/config
