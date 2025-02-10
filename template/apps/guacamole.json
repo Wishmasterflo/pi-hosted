@@ -20,7 +20,7 @@
 	"videoID": "N.03",
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Guacamole",
+			"bind": "/portainer/Config/Guacamole",
 			"container": "/config"
 		}
 	],
