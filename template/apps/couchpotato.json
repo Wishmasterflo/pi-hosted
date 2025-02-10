@@ -30,7 +30,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Couchpotato",
+			"bind": "/portainer/Config/Couchpotato",
 			"container": "/config"
 		},
 		{
