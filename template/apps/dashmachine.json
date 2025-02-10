@@ -19,7 +19,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Dashmachine",
+			"bind": "/portainer/Config/Dashmachine",
 			"container": "/dashmachine/dashmachine/user_data"
 		}
 	],
