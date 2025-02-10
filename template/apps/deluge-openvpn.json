@@ -80,7 +80,7 @@
 			"container": "/downloads"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/DelugeOpenVPN/config",
+			"bind": "/portainer/Config/DelugeOpenVPN/config",
 			"container": "/config"
 		}
 	],
