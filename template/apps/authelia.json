@@ -28,7 +28,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Authelia",
+			"bind": "/portainer/Config/Authelia",
 			"container": "/etc/authelia/"
 		}
 	],
