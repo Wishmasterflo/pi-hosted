@@ -17,7 +17,7 @@ function check_internet() {
 
 check_internet
 
-BASE_DIR='/portainer/Files/AppData/Config/invidious'
+BASE_DIR='/portainer/Config/invidious'
 
 echo "Creating directories..."
 sudo mkdir -p "${BASE_DIR}/config-sql" || error "Failed to create config directory"
