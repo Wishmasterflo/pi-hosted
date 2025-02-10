@@ -15,7 +15,7 @@ services:
       - yourls
     restart: unless-stopped
     volumes:
-      - /portainer/Files/AppData/Config/yourls/database:/config
+      - /portainer/Config/yourls/database:/config
   phpmyadmin:
     image: phpmyadmin:latest
     environment:
