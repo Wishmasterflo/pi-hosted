@@ -32,11 +32,11 @@
     "type": 1,
     "volumes": [
         {
-            "bind": "/portainer/Files/AppData/Config/Homarr/configs",
+            "bind": "/portainer/Config/Homarr/configs",
             "container": "/app/data/configs"
         },
         {
-            "bind": "/portainer/Files/AppData/Config/Homarr/icons",
+            "bind": "/portainer/Config/Homarr/icons",
             "container": "/app/public/icons"
         }
     ],
