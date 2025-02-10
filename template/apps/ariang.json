@@ -35,7 +35,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/AriaNG",
+			"bind": "/portainer/Config/AriaNG",
 			"container": "/aria2/conf"
 		},
 		{
