@@ -34,7 +34,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Plex",
+			"bind": "/portainer/Config/Plex",
 			"container": "/config"
 		},
 		{
