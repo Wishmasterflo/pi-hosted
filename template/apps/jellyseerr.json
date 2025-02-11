@@ -40,7 +40,7 @@
     "type": 1,
     "volumes": [
         {
-            "bind": "/portainer/Files/AppData/Config/Jellyseerr",
+            "bind": "/portainer/Config/Jellyseerr",
             "container": "/app/config"
         }
     ],
