@@ -19,7 +19,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/libreddit",
+			"bind": "/portainer/Config/libreddit",
 			"container": "/config"
 		}
 	],
