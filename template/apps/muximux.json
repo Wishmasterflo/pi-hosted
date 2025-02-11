@@ -32,7 +32,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Muximux",
+			"bind": "/portainer/Config/Muximux",
 			"container": "/config"
 		}
 	],
