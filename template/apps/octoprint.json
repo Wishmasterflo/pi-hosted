@@ -31,7 +31,7 @@
     "type": 1,
     "volumes": [
         {
-            "bind": "/portainer/Files/AppData/Config/OctoPrint",
+            "bind": "/portainer/Config/OctoPrint",
             "container": "/octoprint"
         },
         {
