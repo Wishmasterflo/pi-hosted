@@ -1705,7 +1705,7 @@
 				{
 					"bind": "/run/udev",
 					"container": "/run/udev"
-				}
+				},
 				{
 					"bind": "/dev/ttyACM0",
 					"container": "/dev/ttyACM0"
