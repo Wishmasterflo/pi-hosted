@@ -32,11 +32,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/netdata/netdataconfig",
+			"bind": "/portainer/Config/netdata/netdataconfig",
 			"container": "/etc/netdata"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/netdata/netdatalib",
+			"bind": "/portainer/Config/netdata/netdatalib",
 			"container": "/var/lib/netdata"
 		},
 		{
