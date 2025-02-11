@@ -34,11 +34,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/PrivateBin",
+			"bind": "/portainer/PrivateBin",
 			"container": "/srv/data"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/PrivateBin",
+			"bind": "/portainer/Config/PrivateBin",
 			"container": "/srv/cfg"
 		}
 	],
