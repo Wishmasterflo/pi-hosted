@@ -23,11 +23,11 @@
 	],
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Jelllyfin",
+			"bind": "/portainer/Config/Jelllyfin",
 			"container": "/jf"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/jfago",
+			"bind": "/portainer/Config/jfago",
 			"container": "/data"
 		},
 		{
