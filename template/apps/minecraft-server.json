@@ -27,7 +27,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Minecraft-data",
+			"bind": "/portainer/Config/Minecraft-data",
 			"container": "/data"
 		}
 	],
