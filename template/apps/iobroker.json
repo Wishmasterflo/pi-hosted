@@ -30,7 +30,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/iobrokerdata",
+			"bind": "/portainer/Config/iobrokerdata",
 			"container": "/opt/iobroker"
 		}
 	],
