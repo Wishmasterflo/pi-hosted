@@ -15,7 +15,7 @@
 			"name": "PGID"
 		},
 		{
-			"default": "America/New_York",
+			"default": "Europe/Amsterdam",
 			"label": "Time Zone",
 			"name": "TZ"
 		}
@@ -34,7 +34,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/prowlarr",
+			"bind": "/portainer/Config/prowlarr",
 			"container": "/config"
 		}
 	],
