@@ -32,7 +32,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Ombi",
+			"bind": "/portainer/Config/Ombi",
 			"container": "/config"
 		}
 	],
