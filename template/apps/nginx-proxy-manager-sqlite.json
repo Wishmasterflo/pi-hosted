@@ -16,7 +16,7 @@
 			"name": "PGID"
 		},
 		{
-			"default": "America/New_York",
+			"default": "Europe/Amsterdam",
 			"label": "TZ",
 			"name": "TZ"
 		}
@@ -40,11 +40,11 @@
 	"videoID": "N.09",
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/nginx-proxy-manager/data",
+			"bind": "/portainer/Config/nginx-proxy-manager/data",
 			"container": "/data"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/nginx-proxy-manager/letsencrypt",
+			"bind": "/portainer/Config/nginx-proxy-manager/letsencrypt",
 			"container": "/etc/letsencrypt"
 		}
 	],
