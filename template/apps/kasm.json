@@ -28,11 +28,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/kasm/opt",
+			"bind": "/portainer/Config/kasm/opt",
 			"container": "/opt"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/kasm/profiles",
+			"bind": "/portainer/Config/kasm/profiles",
 			"container": "/profiles"
                 }
 	],
