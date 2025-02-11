@@ -33,11 +33,11 @@
 			"container": "/Pictures"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Photoshow/Thumbs",
+			"bind": "/portainer/Photoshow/Thumbs",
 			"container": "/Thumbs"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/PhotoShow",
+			"bind": "/portainer/Config/PhotoShow",
 			"container": "/config"
 		}
 	],
