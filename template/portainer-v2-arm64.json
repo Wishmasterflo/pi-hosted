@@ -1706,6 +1706,10 @@
 					"bind": "/run/udev",
 					"container": "/run/udev"
 				}
+				{
+					"bind": "/dev/ttyACM0",
+					"container": "/dev/ttyACM0"
+				}
 			],
 			"note": "<b>Device needs to be forwarded and added like this: device=/dev/serial/by-id/usb-dresden_elektronik_ingenieurtechnik_GmbH_ConBee_II_DE2654991-if00:/dev/ttyACM0 </b><br>"
 		},
