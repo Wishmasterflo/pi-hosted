@@ -19,11 +19,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/komga/config",
+			"bind": "/portainer/Config/komga/config",
 			"container": "/config"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/komga/data",
+			"bind": "/portainer/Config/komga/data",
 			"container": "/data"
 		},
 		{
