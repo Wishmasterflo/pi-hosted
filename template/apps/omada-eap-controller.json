@@ -38,7 +38,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Omada",
+			"bind": "/portainer/Config/Omada",
 			"container": "/config"
 		}
 	],
