@@ -30,11 +30,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Pydio",
+			"bind": "/portainer/Config/Pydio",
 			"container": "/config"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Pydio",
+			"bind": "/portainer/Pydio",
 			"container": "/data"
 		}
 	],
