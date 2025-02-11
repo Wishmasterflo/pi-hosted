@@ -28,7 +28,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/PlexRipper",
+			"bind": "/portainer/Config/PlexRipper",
 			"container": "/config"
 		},
 		{
