@@ -22,7 +22,7 @@
     "volumes": [
         {
             "bind": "/downloads",
-            "container": "/portainer/Files/AppData/Config/rss-dl"
+            "container": "/portainer/Config/rss-dl"
         }
     ],
     "webpage": "https://git.bossman7309.net/bossman7309/rss-dl"
