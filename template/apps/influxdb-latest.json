@@ -47,11 +47,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Influxdb2/data",
+			"bind": "/portainer/Config/Influxdb2/data",
 			"container": "/var/lib/influxdb2"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/Influxdb2/config",
+			"bind": "/portainer/Config/Influxdb2/config",
 			"container": "/etc/influxdb2"
 		}
 	],
