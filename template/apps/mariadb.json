@@ -50,7 +50,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Mariadb",
+			"bind": "/portainer/Config/Mariadb",
 			"container": "/config"
 		}
 	],
