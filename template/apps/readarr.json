@@ -16,7 +16,7 @@
 			"name": "PGID"
 		},
 		{
-			"default": "America/New_York",
+			"default": "Europe/Amsterdam",
 			"label": "Time Zone",
 			"name": "TZ"
 		}
@@ -35,7 +35,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/readarr",
+			"bind": "/portainer/Config/readarr",
 			"container": "/config"
 		},
 		{
