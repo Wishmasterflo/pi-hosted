@@ -35,7 +35,7 @@
     "type": 1,
     "volumes": [
         {
-            "bind": "/portainer/Files/AppData/Config/Overseerr",
+            "bind": "/portainer/Config/Overseerr",
             "container": "/config"
         }
     ],
