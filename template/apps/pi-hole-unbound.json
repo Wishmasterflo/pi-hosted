@@ -64,11 +64,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/PiHole-Unbound",
+			"bind": "/portainer/Config/PiHole-Unbound",
 			"container": "/etc/pihole"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/PiHole-Unbound/DNS",
+			"bind": "/portainer/Config/PiHole-Unbound/DNS",
 			"container": "/etc/dnsmasq.d"
 		}
 	],
