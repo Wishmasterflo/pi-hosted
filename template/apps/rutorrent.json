@@ -55,7 +55,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/ruTorrent/config",
+			"bind": "/portainer/Config/ruTorrent/config",
 			"container": "/config"
 		},
 		{
@@ -63,7 +63,7 @@
 			"container": "/downloads"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/ruTorrent/passwd",
+			"bind": "/portainer/Config/ruTorrent/passwd",
 			"container": "/passwd"
 		}
 	],
