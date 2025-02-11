@@ -25,11 +25,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/PiHole",
+			"bind": "/portainer/Config/PiHole",
 			"container": "/etc/pihole"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/PiHole/DNS",
+			"bind": "/portainer/Config/PiHole/DNS",
 			"container": "/etc/dnsmasq.d"
 		}
 	],
