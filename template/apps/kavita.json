@@ -26,19 +26,19 @@
   ],
 	"volumes": [
 		{
-      "bind": "/portainer/Files/AppData/Config/Kavita/manga",
+      "bind": "/portainer/Config/Kavita/manga",
 			"container": "/manga"
 		},
 		{
-      "bind": "/portainer/Files/AppData/Config/Kavita/comics",
+      "bind": "/portainer/Config/Kavita/comics",
 			"container": "/comics"
 		},
 		{
-      "bind": "/portainer/Files/AppData/Config/Kavita/books",
+      "bind": "/portainer/Config/Kavita/books",
 			"container": "/books"
 		},
 		{
-      "bind": "/portainer/Files/AppData/Config/Kavita/config",
+      "bind": "/portainer/Config/Kavita/config",
 			"container": "/kavita/config"
 		}
 	],
