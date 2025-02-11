@@ -32,11 +32,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/ProjectSend",
+			"bind": "/portainer/ProjectSend",
 			"container": "/data"
 		},
 		{
-			"bind": "/portainer/Files/AppData/Config/ProjectSend",
+			"bind": "/portainer/Config/ProjectSend",
 			"container": "/config"
 		}
 	],
