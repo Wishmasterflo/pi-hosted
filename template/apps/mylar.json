@@ -30,7 +30,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/Mylar",
+			"bind": "/portainer/Config/Mylar",
 			"container": "/config"
 		},
 		{
