@@ -47,7 +47,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/qFlood",
+			"bind": "/portainer/Config/qFlood",
 			"container": "/config"
 		},
 		{
