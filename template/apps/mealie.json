@@ -77,7 +77,7 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/mealie",
+			"bind": "/portainer/Config/mealie",
 			"container": "/app/data"
 		}
 	],
