@@ -40,7 +40,7 @@
 	"videoID": "N.15",
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/rustdesk",
+			"bind": "/portainer/Config/rustdesk",
 			"container": "/data"
 		}
 	],
