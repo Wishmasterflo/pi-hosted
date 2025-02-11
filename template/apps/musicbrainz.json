@@ -36,11 +36,11 @@
 	"type": 1,
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/MusicBrainz",
+			"bind": "/portainer/Config/MusicBrainz",
 			"container": "/config"
 		},
 		{
-			"bind": "/portainer/Files/AppData/MusicBrainz",
+			"bind": "/portainer/MusicBrainz",
 			"container": "/data"
 		}
 	],
