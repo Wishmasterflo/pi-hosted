@@ -21,7 +21,7 @@
             "name": "POSTGRES_PASSWORD"
         },
         {
-            "default": "America/New_York",
+            "default": "Europe/Amsterdam",
             "label": "TZ",
             "name": "TZ"
         }
@@ -40,7 +40,7 @@
     "type": 1,
     "volumes": [
         {
-            "bind": "/portainer/Files/AppData/Config/PostgreSQL",
+            "bind": "/portainer/Config/PostgreSQL",
             "container": "/var/lib/postgresql/data"
         }
     ],
