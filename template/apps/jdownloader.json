@@ -37,7 +37,7 @@
 	"videoID": "N.04",
 	"volumes": [
 		{
-			"bind": "/portainer/Files/AppData/Config/JDownloader",
+			"bind": "/portainer/Config/JDownloader",
 			"container": "/opt/JDownloader/app/cfg"
 		},
 		{
