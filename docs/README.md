@@ -56,9 +56,4 @@ You're done! Now just click App Templates and deploy applications!
 
 * Amd64 should work on all distros with **scripts written for Debian based distros**
 
-### ARM32 support
-
-**ARM32 support is slowly getting dropped, we recommend you upgrade to ARM64 as soon as possible**
-
-The above script to install Portainer doesn't work, as the `portainer/portainer-ce:latest` Docker image doesn't support ARM32 any more. You can run the commands in the script directly and use `portainer/portainer-cs:linux-arm-2.11.1-alpine` instead.
 
