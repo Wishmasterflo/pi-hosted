@@ -30,10 +30,13 @@ You need to reboot/logout for changes to take effect
 sudo reboot
 ```
 
-After a reboot, run `install_portainer.sh`, to install Portainer.io
+After a reboot, run `install_portainer_docker.sh`, to install Portainer using Docker or
+run `install_portainer_podman.sh`, to install Portainer using Podman. 
 
 ```
-wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/install_portainer.sh | bash
+wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/install_portainer_docker.sh | bash
+wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/install_portainer_podman.sh | bash
+
 # to update portainer, run this command instead
 wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/update_portainer.sh | bash
 ```
@@ -55,5 +58,3 @@ You're done! Now just click App Templates and deploy applications!
 | Amd64   | Ubuntu, Debian | https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/template/portainer-v2-amd64.json |
 
 * Amd64 should work on all distros with **scripts written for Debian based distros**
-
-
