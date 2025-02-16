@@ -12,7 +12,7 @@ See the list of apps included in this template [here](https://github.com/Wishmas
 ### Installation
 Run `install_docker.sh`, to install docker, and add the current user to the docker usergroup.
 or
-Run 'install_podman.sh', to install Podman.
+Run `install_podman.sh`, to install Podman.
 
 For Docker:
 ```
