@@ -1066,8 +1066,8 @@
 					"name": "extra_params"
 				},
 				{
-					"description": "The domain of your NextCloud instance.",
-					"default": "nextcloud.domain.tld",
+					"description": "The domain of your  instance.",
+					"default": ".domain.tld",
 					"label": "domain",
 					"name": "domain"
 				}
@@ -5063,7 +5063,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/nextcloud.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"title": "Nextcloud",
 			"type": 3
