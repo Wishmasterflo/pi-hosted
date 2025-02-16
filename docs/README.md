@@ -1,13 +1,13 @@
 # Pi-Hosted Portainer Template V2
 
-This repository is a collection of tutorials for hosting a variety of server applications using Podman and [Portainer](https://github.com/portainer/portainer).
+This repository is a collection of tutorials for hosting a variety of server applications using Docker or Podman and [Portainer](https://github.com/portainer/portainer).
 
 ### App Template for Portainer
-![App Template Image](https://github.com/pi-hosted/pi-hosted/blob/master/apptemplate.png?raw=true)
+![App Template Image](https://github.com/Wishmasterflo/pi-hosted/blob/master/apptemplate.png?raw=true)
 
 ### Apps List
 
-See the list of apps included in this template [here](https://github.com/pi-hosted/pi-hosted/blob/master/docs/AppList.md).
+See the list of apps included in this template [here](https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/AppList.md).
 
 ### Installation
 Run `install_docker.sh`, to install docker, and add the current user to the docker usergroup.
