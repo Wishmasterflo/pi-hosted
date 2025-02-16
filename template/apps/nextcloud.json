@@ -19,7 +19,7 @@
 			"name": "PGID"
 		},
 		{
-			"default": "America/New_York",
+			"default": "Europe/Amsterdam",
 			"label": "TZ",
 			"name": "TZ"
 		},
@@ -36,7 +36,7 @@
 			"name": "PORT"
 		}
 	],
-	"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/nextcloud-icon.png",
+	"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/nextcloud-icon.png",
 	"name": "nextcloud",
 	"note": "The database user is nextcloud and the database is nextcloud_db. The host of the database will be located at the bottom of the DB conotainer in portainer.",
 	"officialDoc": "https://docs.linuxserver.io/images/docker-nextcloud",
@@ -44,7 +44,7 @@
 	"repository": {
 		"stackfile_arm64": "stack/nextcloud.yml",
 		"stackfile_amd64": "stack/nextcloud.yml",
-		"url": "https://github.com/pi-hosted/pi-hosted"
+		"url": "https://github.com/Wishmasterflo/pi-hosted/"
 	},
 	"title": "Nextcloud",
 	"type": 3,
