@@ -62,8 +62,6 @@ You're done! Now just click App Templates and deploy applications!
 
 | Architecture | Tested OS's | URL |
 | ------------ | ----------- | --- |
-| **Arm32 | Pi OS, DietPi | https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/template/portainer-v2-arm32.json |
 | Arm64   | Pi OS, Ubuntu, DietPi | [https://github.com/Wishmasterflo/pi-hosted/master/template/portainer-v2-arm64.json](https://github.com/Wishmasterflo/pi-hosted/blob/master/template/portainer-v2-arm64.json) |
 | Amd64   | Ubuntu, Debian | https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/template/portainer-v2-amd64.json |
 
-* Amd64 should work on all distros with **scripts written for Debian based distros**
