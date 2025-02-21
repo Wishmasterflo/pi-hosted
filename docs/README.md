@@ -28,29 +28,30 @@ You need to reboot/logout for changes to take effect
 
 ```
 sudo reboot
-```
 
+```
 After a reboot, run `install_portainer_docker.sh`, to install Portainer using Docker or
 run `install_portainer_podman.sh`, to install Portainer using Podman. 
 
 For Docker:
 ```
 wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/install_portainer_docker.sh | bash
-...
 
+```
 For Podman:
-...
+
 wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/install_portainer_podman.sh | bash
-...
+```
 
 # to update portainer using Docker, run this command:
 wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/update_portainer_docker.sh | bash
+
 ```
 
 # to update portainer using Podman, run this command:
 wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/update_portainer_podman.sh | bash
-```
 
+```
 ### Login to Portainer to update the App Template.
 
 Goto pi-ip:9000 (or pi-ip:9443) and then login
