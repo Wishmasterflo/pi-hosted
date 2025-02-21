@@ -1727,7 +1727,9 @@
 			"platform": "linux",
                         "env": [
 				{
-					"TZ": "Europe/Amsterdam"
+					"default": "Europe/Amsterdam",
+					"label": "TZ",
+					"name": "TZ"
 				}
                         ],
 			"ports": [
