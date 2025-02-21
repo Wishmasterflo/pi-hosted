@@ -1,4 +1,4 @@
-# Pi-Hosted Portainer Template V2
+# Pi-Hosted Portainer Template V2 and V3
 
 This repository is a collection of tutorials for hosting a variety of server applications using Docker or Podman and [Portainer](https://github.com/portainer/portainer).
 
