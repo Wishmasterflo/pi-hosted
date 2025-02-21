@@ -1700,7 +1700,7 @@
 			"volumes": [
 				{
 					"bind": "/portainer/Config/zigbee2mqtt/data",
-					"container": "/zigbee2mqtt/data"
+					"container": "/app/data"
 				},
 				{
 					"bind": "/run/udev",
