@@ -41,11 +41,11 @@ For Podman:
 wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/install_portainer_podman.sh | bash
 ```
 
-To update portainer using Docker, run this command:
+### To update portainer using Docker, run this command:
 ```
 wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/update_portainer_docker.sh | bash
 ```
-To update portainer using Podman, run this command:
+### To update portainer using Podman, run this command:
 ```
 wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/update_portainer_podman.sh | bash
 ```
