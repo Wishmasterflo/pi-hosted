@@ -28,7 +28,6 @@ You need to reboot/logout for changes to take effect
 
 ```
 sudo reboot
-
 ```
 After a reboot, run `install_portainer_docker.sh`, to install Portainer using Docker or
 run `install_portainer_podman.sh`, to install Portainer using Podman. 
@@ -36,10 +35,9 @@ run `install_portainer_podman.sh`, to install Portainer using Podman.
 For Docker:
 ```
 wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/install_portainer_docker.sh | bash
-
 ```
 For Podman:
-
+```
 wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/install_portainer_podman.sh | bash
 ```
 
