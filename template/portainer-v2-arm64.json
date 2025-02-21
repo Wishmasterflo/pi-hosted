@@ -1066,8 +1066,8 @@
 					"name": "extra_params"
 				},
 				{
-					"description": "The domain of your NextCloud instance.",
-					"default": "nextcloud.domain.tld",
+					"description": "The domain of your  instance.",
+					"default": ".domain.tld",
 					"label": "domain",
 					"name": "domain"
 				}
@@ -1701,12 +1701,12 @@
 				{
 					"bind": "/portainer/Config/zigbee2mqtt/data",
 					"container": "/app/data"
-				}
+				},
 				{
 					"bind": "/run/udev",
 					"container": "/run/udev"
-				}
-         			{
+				},
+				{
 					"bind": "/dev/ttyACM0",
 					"container": "/dev/ttyACM0"
 				}
@@ -2701,7 +2701,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/var/run/docker.sock",
+					"bind": "/var/run/podman.sock",
 					"container": "/var/run/docker.sock"
 				},
 				{
@@ -5057,7 +5057,7 @@
 					"name": "PORT"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/nextcloud-icon.png",
+			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/nextcloud-icon.png",
 			"name": "nextcloud",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://nextcloud.com/\" target=\"_blank\">https://nextcloud.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.linuxserver.io/images/docker-nextcloud\" target=\"_blank\">https://docs.linuxserver.io/images/docker-nextcloud</a><br><br><br>The database user is nextcloud and the database is nextcloud_db. The host of the database will be located at the bottom of the DB conotainer in portainer.",
 			"platform": "linux",
