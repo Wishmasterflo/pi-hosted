@@ -1,4 +1,4 @@
-# Pi-Hosted Portainer Template V2 and V3
+# Pi-Hosted Portainer Template V3
 
 This repository is a collection of tutorials for hosting a variety of server applications using Docker or Podman and [Portainer](https://github.com/portainer/portainer).
 
@@ -54,7 +54,7 @@ wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/update_portainer_pod
 
 Goto pi-ip:9000 (or pi-ip:9443) and then login
 
-Click Settings, in the bottom-left corner, and paste the Portainer v2 json file link from below into the "App Templates" box.
+Click Settings, in the bottom-left corner, and paste the Portainer v3 json file link from below into the "App Templates" box.
 
 You're done! Now just click App Templates and deploy applications!
 
@@ -62,6 +62,6 @@ You're done! Now just click App Templates and deploy applications!
 
 | Architecture | Tested OS's | URL |
 | ------------ | ----------- | --- |
-| Arm64   | Pi OS, Ubuntu, DietPi | [https://github.com/Wishmasterflo/pi-hosted/master/template/portainer-v2-arm64.json](https://github.com/Wishmasterflo/pi-hosted/blob/master/template/portainer-v2-arm64.json) |
-| Amd64   | Ubuntu, Debian | https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/template/portainer-v2-amd64.json |
+| Arm64   | Pi OS, Ubuntu, DietPi | [https://github.com/Wishmasterflo/pi-hosted/master/template/portainer-v3-arm64.json](https://github.com/Wishmasterflo/pi-hosted/blob/master/template/portainer-v3-arm64.json) |
+| Amd64   | Ubuntu, Debian | https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/template/portainer-v3-amd64.json |
 
