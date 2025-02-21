@@ -42,10 +42,8 @@ wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/install_portainer_po
 ```
 
 # to update portainer using Docker, run this command:
-
 ```
- -qO- https://github.com/Wishmasterflo/pi-hosted/master/update_portainer_docker.sh | bash
-
+wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/update_portainer_docker.sh | bash
 ```
 # to update portainer using Podman, run this command:
 ```
