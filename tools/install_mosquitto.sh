@@ -30,6 +30,6 @@ fi
 
 if [ ! -f /portainer/Config/eclipse-mosquitto/config/mosquitto.conf ]; 
 then
-	sudo wget -O /portainer/Config/eclipse-mosquitto/config/mosquitto.conf https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/configs/eclipse-mosquitto.conf || error "Failed to download mosquitto.conf file!"
+	sudo wget -O /portainer/Config/eclipse-mosquitto/config/mosquitto.conf https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/configs/eclipse-mosquitto.conf || error "Failed to download mosquitto.conf file!"
 fi
 echo "Pre-install is complete"
