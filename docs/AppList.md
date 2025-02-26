@@ -2,10 +2,6 @@
 
 List of all apps included in this project with info related to it.
 
-|**Arm32:**          |**Arm64:**|**Amd64:**|**Total:**|
-|:-------------------|:--------:|:--------:|:--------:|
-| 104 apps | 233 apps | 233 apps | 236 apps |
-
 ---
 
 |App Title|Arm32|Arm64|Amd64|Type |Official<br>Doc|PiHosted<br>Doc|Install Script|Youtube Video|
