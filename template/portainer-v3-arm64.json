@@ -9637,42 +9637,6 @@
 				}
 			],
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://wiki.znc.in/ZNC\" target=\"_blank\">https://wiki.znc.in/ZNC</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.linuxserver.io/images/docker-znc\" target=\"_blank\">https://docs.linuxserver.io/images/docker-znc</a><br><br><br>"
-		},
-		{
-			"categories": [
-				"Other",
-				"Tools"
-			],
-			"description": "ntfy is a simple HTTP-based pub-sub notification service. It allows you to send notifications to your phone or desktop via scripts from any computer, and/or using a REST API.",
-			"image": "binwiederhier/ntfy:latest",
-			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/ntfy.png",
-			"name": "ntfy",
-			"platform": "linux",
-			"env": [
-				{
-					"default": "Europe/Amsterdam",
-					"label": "TZ",
-					"name": "TZ"
-				}
-			],			
-			"ports": [
-				"8089:80"
-			],
-			"restart_policy": "unless-stopped",
-			"title": "ntfy",
-			"id": 218,
-			"type": 1,
-			"volumes": [
-				{
-					"bind": "/portainer/Config/ntfy",
-					"container": "/var/cache/ntfy"
-				},
-				{
-					"bind": "/portainer/Config/ntfy",
-					"container": "/etc/ntfy"
-				}
-			],
-			"note": "<b>Template created by Wishmasterflo</b>"
 		}
 	]
 }
