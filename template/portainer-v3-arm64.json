@@ -73,7 +73,7 @@
 					"description": "Set a custom config file."
 				}
 			],
-			"description": "[Adguardhome-sync](https://github.com/bakito/adguardhome-sync/) is a tool to synchronize AdGuardHome config to replica instances.",
+			"description": "Adguardhome-sync is a tool to synchronize AdGuardHome config to replica instances.",
 			"image": "linuxserver/adguardhome-sync:latest",
 			"logo": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/adguardhomesync-icon.png",
 			"name": "Adguardhome-sync",
