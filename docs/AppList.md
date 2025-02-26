@@ -4,7 +4,7 @@ List of all apps included in this project with info related to it.
 
 |**Arm32:**          |**Arm64:**|**Amd64:**|**Total:**|
 |:-------------------|:--------:|:--------:|:--------:|
-| 104 apps | 230 apps | 233 apps | 236 apps |
+| 104 apps | 233 apps | 233 apps | 236 apps |
 
 ---
 
@@ -130,6 +130,7 @@ List of all apps included in this project with info related to it.
 |[Minetest](https://www.minetest.net/)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-minetest) |  |  |  |
 |[MinIO](https://min.io/)|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.min.io/minio/baremetal/quickstart/quickstart.html) |  |  |  |
 |[Minisatip](https://github.com/catalinii/minisatip)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-minisatip) |  |  |  |
+|[Mollysocket](https://github.com/mollyim/mollysocket)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/mollyim/mollysocket) |  |  |  |
 |[Monica](https://www.monicahq.com/)|:x:|:heavy_check_mark:|:heavy_check_mark:|Stack| [![](../build/images/blue_doc_icon.png)](https://github.com/monicahq/docker#use-monica-docker-image) |  |  |  |
 |[Mstream](https://mstream.io/)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-mstream) |  |  |  |
 |[Murmur](https://www.mumble.info/)|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/yhaenggi/murmur-docker) |  |  |  |
@@ -149,6 +150,7 @@ List of all apps included in this project with info related to it.
 |[Nitter](https://nitter.net/)|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Stack| [![](../build/images/blue_doc_icon.png)](https://github.com/zedeus/nitter) |  |  |  |
 |[Node Red](https://nodered.org/)|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Stack| [![](../build/images/blue_doc_icon.png)](https://nodered.org/docs/getting-started/docker) |  |  |  |
 |[nord-vpn](https://github.com/azinchen/nordvpn)|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://hub.docker.com/r/azinchen/nordvpn) |  |  |  |
+|[ntfy](https://ntfy.sh)|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://ntfy.sh) |  |  |  |
 |[NUT Server](https://networkupstools.org)|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://hub.docker.com/r/instantlinux/nut-upsd) |  |  |  |
 |[NZBGet](https://nzbget.net/)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-nzbget) |  |  |  |
 |[NZBHydra 2](https://github.com/theotherp/nzbhydra2)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-nzbhydra2) |  |  |  |
@@ -245,4 +247,5 @@ List of all apps included in this project with info related to it.
 |[Yourls](https://yourls.org/)|:x:|:heavy_check_mark:|:heavy_check_mark:|Stack| [![](../build/images/blue_doc_icon.png)](https://yourls.org/#Install) |  | [![](../build/images/script_icon.png)](../tools/install_yourls.sh) |  |
 |[your-spotify](https://github.com/Yooooomi/your_spotify)|:x:|:heavy_check_mark:|:heavy_check_mark:|Stack| [![](../build/images/blue_doc_icon.png)](https://github.com/Yooooomi/your_spotify#readme) |  |  |  |
 |[YouTubeDL-Material](https://github.com/Tzahi12345/YoutubeDL-Material)|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/Tzahi12345/YoutubeDL-Material#docker) |  |  |  |
+|[Zigbee2MQTT](https://www.zigbee2mqtt.io)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://www.zigbee2mqtt.io) |  |  |  |
 |[ZNC](https://wiki.znc.in/ZNC)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-znc) |  |  |  |
