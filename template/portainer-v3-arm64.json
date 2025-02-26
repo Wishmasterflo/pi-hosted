@@ -6366,7 +6366,7 @@
 					"name": "ServerIP"
 				},
 				{
-					"default": "Europe\Amsterdam",
+					"default": "Europe/Amsterdam",
 					"label": "TZ",
 					"name": "TZ"
 				},
