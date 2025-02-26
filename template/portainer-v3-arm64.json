@@ -9686,12 +9686,34 @@
 			"platform": "linux",
 			"env": [
 				{
-					"MOLLY_DB": "/data/mollysocket.db",
-					"MOLLY_ALLOWED_ENDPOINTS": "*",
-					"MOLLY_ALLOWED_UUIDS": "*",
-					"MOLLY_HOST": "0.0.0.0",
-					"MOLLY_PORT": "8020",
-					"RUST_LOG": "info"
+					"default": "/data/mollysocket.db",
+					"label": "MOLLY_DB",
+					"name": "MOLLY_DB"
+				},
+				{
+					"default": "*",
+					"label": "MOLLY_ALLOWED_ENDPOINTS",
+					"name": "MOLLY_ALLOWED_ENDPOINTS"
+				},
+				{
+					"default": "*",
+					"label": "MOLLY_ALLOWED_UUIDS",
+					"name": "MOLLY_ALLOWED_UUIDS"
+				},
+				{									
+					"default": "0.0.0.0",
+					"label": "MOLLY_HOST",
+					"name": "MOLLY_HOST"
+				},				
+				{
+					"default": "8020",
+					"label": "MOLLY_PORT",
+					"name": "MOLLY_PORT"	
+				},
+				{
+					"default": "info",
+					"label": "RUST_LOG",
+					"name": "RUST_LOG"
 				}
 			],			
 			"ports": [
