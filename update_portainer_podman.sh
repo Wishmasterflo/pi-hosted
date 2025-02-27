@@ -28,4 +28,5 @@ export DOCKER_HOST=unix:///run/user/$UID/podman/podman.sock
 systemctl --user start --now podman.socket                                                                                                                                                                           
 systemctl --user status --now podman.socket                                                                                                                                                                          
 echo " "                                                                                                                                                                                                             
-podman ps -all                                                                                                                                                                                                       
+podman ps -all 
+
