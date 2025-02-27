@@ -5173,6 +5173,7 @@
 					"name": "MYSQL_ROOT_PASSWORD"
 				},
 				{
+					"default": "8811",
 					"label": "PORT",
 					"name": "PORT"
 				}
