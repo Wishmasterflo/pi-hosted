@@ -24,3 +24,4 @@ sudo chown -R 33:33 /portainer/Config/ncdata/ncp || error "Failed to set permiss
 sudo chown -R 101:102 /portainer/Config/ncdata/database || error "Failed to set permissions!"
 sudo chmod -R 755 /portainer/Config/ncdata/ || error "Failed to set permissions!"
 echo "Permissions are reset to a working config."
+
