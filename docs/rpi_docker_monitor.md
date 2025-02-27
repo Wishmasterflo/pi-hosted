@@ -75,7 +75,7 @@ First thing we need to do is setup the folder structure and install some files t
 
 Run the following script
 ```
-wget -qO- https://git.io/JPXba | sudo bash
+wget -qO- https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/tools/rpi_docker_monitor.sh | sudo bash
 ```
 
 Your output should look something like this
