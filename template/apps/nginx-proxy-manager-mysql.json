@@ -31,7 +31,7 @@
 			"name": "MYSQL_ROOT_PASSWORD"
 		}
 	],
-	"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/proxy_mgr.png",
+	"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/proxy_mgr.png",
 	"name": "nginx-proxy-manager-mysql",
 	"officialDoc": "https://nginxproxymanager.com/setup/#using-mysql-mariadb-database",
 	"piHostedDoc": "nginx_proxy_manager.md",
@@ -45,7 +45,7 @@
 	"repository": {
 		"stackfile_arm64": "stack/nginx-proxy-manager.yml",
 		"stackfile_amd64": "stack/nginx-proxy-manager.yml",
-		"url": "https://github.com/pi-hosted/pi-hosted"
+		"url": "https://github.com/Wishmasterflo/pi-hosted"
 	},
 	"restart_policy": "unless-stopped",
 	"title": "Nginx Proxy Manager v2 with Mysql [DEPRECATED]",
