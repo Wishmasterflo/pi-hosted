@@ -476,7 +476,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/authentik.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted/"
+				"url": "https://github.com/Wishmasterflo/pi-hosted/"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Authentik",
@@ -665,7 +665,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/bookstack.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted/"
+				"url": "https://github.com/Wishmasterflo/pi-hosted/"
 			},
 			"title": "Bookstack",
 			"id": 15,
@@ -1582,7 +1582,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/drupal.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted/"
+				"url": "https://github.com/Wishmasterflo/pi-hosted/"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Drupal",
@@ -2361,7 +2361,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/ghostfolio.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted/"
+				"url": "https://github.com/Wishmasterflo/pi-hosted/"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Ghostfolio",
@@ -2464,7 +2464,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/gitea-mariadb.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted/"
+				"url": "https://github.com/Wishmasterflo/pi-hosted/"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Gitea with Mariadb",
@@ -2545,7 +2545,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/grafana.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Grafana",
@@ -2578,7 +2578,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/graylog.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Graylog",
@@ -3344,7 +3344,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/invidious.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"title": "Invidious",
 			"id": 76,
@@ -3655,7 +3655,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/joplin-server.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted/master/"
+				"url": "https://github.com/Wishmasterflo/pi-hosted/master/"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Joplin server",
@@ -3807,7 +3807,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/klipper.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted/"
+				"url": "https://github.com/Wishmasterflo/pi-hosted/"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Klipper[Testing], Mainsail, Moonraker",
@@ -4255,7 +4255,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/lychee-mariadb.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted/"
+				"url": "https://github.com/Wishmasterflo/pi-hosted/"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Lychee With Mariadb",
@@ -4754,7 +4754,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/monica.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"title": "Monica",
 			"id": 108,
@@ -5286,7 +5286,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/nginx-proxy-manager-sqlite-goaccess.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Nginx Proxy Manager v2 with Sqlite and Goaccess Charts",
@@ -5397,7 +5397,7 @@
 			"name": "nitter",
 			"repository": {
 				"stackfile": "stack/nitter.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted/"
+				"url": "https://github.com/Wishmasterflo/pi-hosted/"
 			},
 			"platform": "linux",
 			"restart_policy": "unless-stopped",
@@ -5433,7 +5433,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/node-red.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted/"
+				"url": "https://github.com/Wishmasterflo/pi-hosted/"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Node Red",
@@ -5978,7 +5978,7 @@
 			"name": "paperless-ngx",
 			"repository": {
 				"stackfile": "stack/paperless-ngx.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted/"
+				"url": "https://github.com/Wishmasterflo/pi-hosted/"
 			},
 			"platform": "linux",
 			"restart_policy": "unless-stopped",
@@ -6096,7 +6096,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/passbolt.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Passbolt",
@@ -6239,7 +6239,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/photoprism.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"title": "PhotoPrism",
 			"id": 138,
@@ -6655,7 +6655,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/pritunl.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"title": "Pritunl",
 			"id": 148,
@@ -7264,7 +7264,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/reactive-resume.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"title": "Reactive-Resume",
 			"id": 162,
@@ -7379,7 +7379,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/redmine.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Redmine",
@@ -8910,7 +8910,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/unpoller-stack.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "UnPoller Monitor",
@@ -9060,7 +9060,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/vikunja.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted/"
+				"url": "https://github.com/Wishmasterflo/pi-hosted/"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Vikunja With Frontend",
@@ -9365,7 +9365,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/wireguard-easy.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"title": "Wireguard Server",
 			"id": 212,
@@ -9403,7 +9403,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/wordpress-stack.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"title": "Wordpress",
 			"id": 213,
@@ -9488,7 +9488,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/your-spotify.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"title": "your-spotify",
 			"id": 214,
@@ -9559,7 +9559,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/yourls.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted/"
+				"url": "https://github.com/Wishmasterflo/pi-hosted/"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Yourls",
