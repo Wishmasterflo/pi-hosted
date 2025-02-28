@@ -2106,7 +2106,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Europe/Amsterdam",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -2146,7 +2146,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/nginx-proxy-manager-sqlite-goaccess.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Nginx Proxy Manager v2 with Sqlite and Goaccess Charts",
@@ -2190,11 +2190,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/nginx-proxy-manager/data",
+					"bind": "/portainer/Config/nginx-proxy-manager/data",
 					"container": "/data"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/nginx-proxy-manager/letsencrypt",
+					"bind": "/portainer/Config/nginx-proxy-manager/letsencrypt",
 					"container": "/etc/letsencrypt"
 				}
 			],
@@ -2218,7 +2218,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Europe/Amsterdam",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -2237,7 +2237,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/nginx-proxy-manager-v3/data",
+					"bind": "/portainer/Config/nginx-proxy-manager-v3/data",
 					"container": "/data"
 				}
 			],
@@ -2254,7 +2254,7 @@
 			"name": "nitter",
 			"repository": {
 				"stackfile": "stack/nitter.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted/"
+				"url": "https://github.com/Wishmasterflo/pi-hosted/"
 			},
 			"platform": "linux",
 			"restart_policy": "unless-stopped",
@@ -2276,7 +2276,7 @@
 					"name": "NODE_RED_CREDENTIAL_SECRET"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Europe/Amsterdam",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -2289,7 +2289,7 @@
 			],
 			"repository": {
 				"stackfile": "stack/node-red.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted/"
+				"url": "https://github.com/Wishmasterflo/pi-hosted/"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Node Red",
@@ -2447,7 +2447,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/OctoPrint",
+					"bind": "/portainer/Config/OctoPrint",
 					"container": "/octoprint"
 				},
 				{
@@ -2494,7 +2494,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Omada",
+					"bind": "/portainer/Config/Omada",
 					"container": "/config"
 				}
 			],
@@ -2530,7 +2530,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Organizr",
+					"bind": "/portainer/Config/Organizr",
 					"container": "/config"
 				}
 			],
@@ -2557,7 +2557,7 @@
 					"description": "for GroupID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Europe/Amsterdam",
 					"label": "TZ",
 					"name": "TZ",
 					"description": "Specify a timezone to use for example America/New_York"
@@ -2597,7 +2597,7 @@
 			"name": "paperless-ngx",
 			"repository": {
 				"stackfile": "stack/paperless-ngx.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted/"
+				"url": "https://github.com/Wishmasterflo/pi-hosted/"
 			},
 			"platform": "linux",
 			"restart_policy": "unless-stopped",
@@ -2714,7 +2714,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/passbolt.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Passbolt",
@@ -2749,7 +2749,7 @@
 					"name": "PGADMIN_DEFAULT_PASSWORD"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Europe/Amsterdam",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -2766,7 +2766,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/pgadmin",
+					"bind": "/portainer/Config/pgadmin",
 					"container": "/var/lib/pgadmin"
 				}
 			],
@@ -2795,11 +2795,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole",
+					"bind": "/portainer/Config/PiHole",
 					"container": "/etc/pihole"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole/DNS",
+					"bind": "/portainer/Config/PiHole/DNS",
 					"container": "/etc/dnsmasq.d"
 				}
 			]
@@ -2827,11 +2827,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole_DoH-DoT",
+					"bind": "/portainer/Config/PiHole_DoH-DoT",
 					"container": "/etc/pihole"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole_DoH-DoT/DNS",
+					"bind": "/portainer/Config/PiHole_DoH-DoT/DNS",
 					"container": "/etc/dnsmasq.d"
 				}
 			]
@@ -2898,11 +2898,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole-Unbound",
+					"bind": "/portainer/Config/PiHole-Unbound",
 					"container": "/etc/pihole"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/PiHole-Unbound/DNS",
+					"bind": "/portainer/Config/PiHole-Unbound/DNS",
 					"container": "/etc/dnsmasq.d"
 				}
 			]
@@ -2936,7 +2936,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/PiWigo",
+					"bind": "/portainer/Config/PiWigo",
 					"container": "/config"
 				}
 			],
@@ -2959,15 +2959,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/pixel-server/auth.cfg",
+					"bind": "/portainer/Config/pixel-server/auth.cfg",
 					"container": "/opt/pixel-server/auth.cfg"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/pixel-server/pixelserver.cfg",
+					"bind": "/portainer/Config/pixel-server/pixelserver.cfg",
 					"container": "/opt/pixel-server/pixelserver.cfg"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/pixel-server/users.cfg",
+					"bind": "/portainer/Config/pixel-server/users.cfg",
 					"container": "/opt/pixel-server/users.cfg"
 				},
 				{
@@ -3000,7 +3000,7 @@
 					"name": "POSTGRES_PASSWORD"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Europe/Amsterdam",
 					"label": "TZ",
 					"name": "TZ"
 				}
@@ -3017,7 +3017,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/PostgreSQL",
+					"bind": "/portainer/Config/PostgreSQL",
 					"container": "/var/lib/postgresql/data"
 				}
 			],
@@ -3056,11 +3056,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/PrivateBin",
+					"bind": "/portainer/PrivateBin",
 					"container": "/srv/data"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/PrivateBin",
+					"bind": "/portainer/Config/PrivateBin",
 					"container": "/srv/cfg"
 				}
 			],
@@ -3112,7 +3112,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/qFlood",
+					"bind": "/portainer/Config/qFlood",
 					"container": "/config"
 				},
 				{
@@ -3187,7 +3187,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/rustdesk",
+					"bind": "/portainer/Config/rustdesk",
 					"container": "/data"
 				}
 			]
@@ -3209,7 +3209,7 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Europe/Amsterdam",
 					"label": "TZ",
 					"name": "TZ"
 				},
@@ -3246,7 +3246,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/ruTorrent/config",
+					"bind": "/portainer/Config/ruTorrent/config",
 					"container": "/config"
 				},
 				{
@@ -3254,7 +3254,7 @@
 					"container": "/downloads"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/ruTorrent/passwd",
+					"bind": "/portainer/Config/ruTorrent/passwd",
 					"container": "/passwd"
 				}
 			]
@@ -3353,7 +3353,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/searxng",
+					"bind": "/portainer/Config/searxng",
 					"container": "/etc/searxng"
 				}
 			],
@@ -3377,7 +3377,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Shiori",
+					"bind": "/portainer/Config/Shiori",
 					"container": "/srv/shiori"
 				}
 			],
@@ -3402,7 +3402,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Snippet-box",
+					"bind": "/portainer/Config/Snippet-box",
 					"container": "/app/data"
 				}
 			]
@@ -3433,7 +3433,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/speedtest-tracker",
+					"bind": "/portainer/Config/speedtest-tracker",
 					"container": "/config"
 				}
 			],
@@ -3485,7 +3485,7 @@
 			"command": "start --user ${SDB_USERNAME} --pass ${SDB_PASSWORD} file:/data/database.db",
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/surrealdb/data",
+					"bind": "/portainer/Config/surrealdb/data",
 					"container": "/data"
 				}
 			],
@@ -3557,7 +3557,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/tailscale",
+					"bind": "/portainer/Config/tailscale",
 					"container": "/var/lib/tailscale"
 				},
 				{
@@ -3585,7 +3585,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/TiddlyWiki",
+					"bind": "/portainer/Config/TiddlyWiki",
 					"container": "/var/lib/tiddlywiki"
 				}
 			],
@@ -3613,15 +3613,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/traefik/traefik.yml",
+					"bind": "/portainer/Config/traefik/traefik.yml",
 					"container": "/traefik.yml"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/traefik/config.yml",
+					"bind": "/portainer/Config/traefik/config.yml",
 					"container": "/config.yml"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/traefik/acme.json",
+					"bind": "/portainer/Config/traefik/acme.json",
 					"container": "/acme.json"
 				},
 				{
@@ -3695,7 +3695,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/transmission-openvpn",
+					"bind": "/portainer/Config/transmission-openvpn",
 					"container": "/config"
 				},
 				{
@@ -3773,7 +3773,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/transmission-openvpn",
+					"bind": "/portainer/Config/transmission-openvpn",
 					"container": "/config"
 				},
 				{
@@ -3833,11 +3833,11 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/UnifFiVideo/Recordings/",
+					"bind": "/portainer/Config/UnifFiVideo/Recordings/",
 					"container": "/recordings"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/UniFiVideo/",
+					"bind": "/portainer/Config/UniFiVideo/",
 					"container": "/config"
 				}
 			],
@@ -3872,15 +3872,15 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/unmanic/config",
+					"bind": "/portainer/Config/unmanic/config",
 					"container": "/config"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/unmanic/library",
+					"bind": "/portainer/Config/unmanic/library",
 					"container": "/library"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Config/unmanic/tmp",
+					"bind": "/portainer/Config/unmanic/tmp",
 					"container": "/tmp/unmanic"
 				}
 			],
@@ -3905,7 +3905,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/uptime-kuma",
+					"bind": "/portainer/Config/uptime-kuma",
 					"container": "/app/data"
 				}
 			]
@@ -3940,7 +3940,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/urbackup",
+					"bind": "/portainer/Config/urbackup",
 					"container": "/var/urbackup"
 				},
 				{
@@ -3970,7 +3970,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Bitwarden",
+					"bind": "/portainer/Config/Bitwarden",
 					"container": "/data"
 				}
 			]
@@ -4034,7 +4034,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/Whoogle",
+					"bind": "/portainer/Config/Whoogle",
 					"container": "/config"
 				}
 			],
@@ -4085,7 +4085,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/wireguard-easy.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"title": "Wireguard Server",
 			"type": 3,
@@ -4122,7 +4122,7 @@
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/wordpress-stack.yml",
-				"url": "https://github.com/pi-hosted/pi-hosted"
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
 			},
 			"title": "Wordpress",
 			"type": 3
@@ -4173,23 +4173,23 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Files/AppData/Config/YTDLM",
+					"bind": "/portainer/Config/YTDLM",
 					"container": "/app/appdata"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Youtube/Video",
+					"bind": "/portainer/Config/Youtube/Video",
 					"container": "/app/video"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Youtube/Subscriptions",
+					"bind": "/portainer/Config/Youtube/Subscriptions",
 					"container": "/app/subscriptions"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Youtube/Users",
+					"bind": "/portainer/Config/Youtube/Users",
 					"container": "/app/users"
 				},
 				{
-					"bind": "/portainer/Files/AppData/Youtube/Audio",
+					"bind": "/portainer/Config/Youtube/Audio",
 					"container": "/app/audio"
 				}
 			],
