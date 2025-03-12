@@ -9757,7 +9757,7 @@
 					"default": "latest",
 					"label" : "ZITI_VERSION",
 					"name" : "ZITI_VERSION"
-				}
+				},
 				{
 					"default": "ziti-edge-controller",
 					"label": "ZITI_CTRL_EDGE_ADVERTISED_ADDRESS",
