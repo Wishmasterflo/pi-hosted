@@ -9736,6 +9736,62 @@
 				}
 			],
 			"note": "<b>Template created by Wishmasterflo</b>"
+		},
+		{
+			"categories": [
+				"Other",
+				"Tools"
+			],
+			"description": "OpenZiti is a free and open source project focused on bringing zero trust networking principles directly into any application.",
+			"image": "openziti/quickstart",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/openziti.png",
+			"name": "openziti",
+			"platform": "linux",
+			"env": [
+				{
+					"default": "openziti/quickstart",
+					"label": "ZITI_IMAGE",
+					"name": "ZITI_IMAGE"
+				},
+				{
+					"default": "latest",
+					"label" : "ZITI_VERSION",
+					"name" : "ZITI_VERSION"
+				}
+				{
+					"default": "ziti-edge-controller",
+					"label": "ZITI_CTRL_EDGE_ADVERTISED_ADDRESS",
+					"name": "ZITI_CTRL_EDGE_ADVERTISED_ADDRESS"
+				},
+				{
+					"default": "some.other.name.com",
+					"label": "ZITI_CTRL_EDGE_ADVERTISED_ADDRESS",
+					"name": "ZITI_CTRL_EDGE_ADVERTISED_ADDRESS"
+				},
+				{
+					"default": "1280",
+					"label": "ZITI_CTRL_EDGE_ADVERTISED_PORT",
+					"name": "ZITI_CTRL_EDGE_ADVERTISED_PORT"
+				},
+				{
+					"default": "20.20.20.20",
+					"label": "ZITI_EDGE_CONTROLLER_IP_OVERRIDE",
+					"name": "ZITI_EDGE_CONTROLLER_IP_OVERRIDE"
+			],			
+			"ports": [
+				"8089:80"
+			],
+			"restart_policy": "unless-stopped",
+			"title": "openziti",
+			"id": 225,
+			"type": 1,
+			"volumes": [
+				{
+					"bind": "/portainer/Config/openziti",
+					"container": "/ziti"
+				}
+			],
+			"note": "<b>Template created by Wishmasterflo</b>"
 		}
 	]
 }
