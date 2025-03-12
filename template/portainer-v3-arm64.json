@@ -9777,6 +9777,7 @@
 					"default": "20.20.20.20",
 					"label": "ZITI_EDGE_CONTROLLER_IP_OVERRIDE",
 					"name": "ZITI_EDGE_CONTROLLER_IP_OVERRIDE"
+				}	
 			],			
 			"ports": [
 				"8089:80"
