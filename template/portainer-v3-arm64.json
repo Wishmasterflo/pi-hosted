@@ -9789,6 +9789,10 @@
 				{
 					"bind": "/portainer/Config/openziti",
 					"container": "/ziti"
+				},
+				{
+					"bind": "/portainer/Config/ziti-console",
+					"container": "/ziti-console:ro"
 				}
 			],
 			"note": "<b>Template created by Wishmasterflo</b>"
