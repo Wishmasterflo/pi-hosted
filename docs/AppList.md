@@ -6,7 +6,7 @@ List of all apps included in this project with info related to it.
 
 |App Title|Arm64|Amd64|Type |Official<br>Doc|PiHosted<br>Doc|Install Script|Youtube Video|
 |:--------|:---:|:---:|:---:|:-------------:|:-------------:|:------------:|:-----------:|
-|[Adguardhome](https://adguard.com/en/adguard-home/overview.html)|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/AdguardTeam/AdGuardHome/wiki/Docker) |  |  |  |
+|[Adguardhome](https://adguard.com/en/adguard-home/overview.html)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/AdguardTeam/AdGuardHome/wiki/Docker) |  |  |  |
 |[Adguardhome-sync](https://adguard.com/en/adguard-home/overview.html)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/linuxserver/docker-adguardhome-sync#usage) |  |  |  |
 |[Airsonic Advanced](https://github.com/airsonic-advanced/airsonic-advanced)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/linuxserver/docker-airsonic-advanced) |  |  |  |
 |[Airsonic](https://airsonic.github.io/)|:x:|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://airsonic.github.io/docs/install/docker/) |  |  |  |
