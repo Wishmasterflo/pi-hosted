@@ -9760,8 +9760,8 @@
 				},
 				{
 					"default": "ziti-edge-controller",
-					"label": "ZITI_CTRL_EDGE_ADVERTISED_ADDRESS",
-					"name": "ZITI_CTRL_EDGE_ADVERTISED_ADDRESS"
+					"label": "ZITI_CTRL_NAME",
+					"name": "ZITI_CTRL_NAME"
 				},
 				{
 					"default": "some.other.name.com",
