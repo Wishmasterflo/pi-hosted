@@ -44,7 +44,6 @@ List of all apps included in this project with info related to it.
 |[Davos](https://github.com/linuxserver/davos)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-davos) |  |  |  |
 |[DeeMix](https://deemix.app/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://gitlab.com/Bockiii/deemix-docker) |  |  |  |
 |[Deluge](https://www.deluge-torrent.org/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-deluge) |  |  | [![Route Docker Traffic Through VPN Container](../build/images/yt-badge-novaspirit.png "Route Docker Traffic Through VPN Container")](https://www.youtube.com/watch?v=IWj1-j2QWvo) |
-|[Deluge openvpn [DEPRECATED]](https://www.deluge-torrent.org/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/sgtsquiggs/docker-deluge-openvpn) |  |  |  |
 |[Droid Docker VNC](https://hub.docker.com/r/sickcodes/dock-droid)|:x:|:heavy_check_mark:|Stack| [![](../build/images/blue_doc_icon.png)](https://github.com/sickcodes/dock-droid) |  |  | [![Run Android In Docker with this Container!](../build/images/yt-badge-novaspirit.png "Run Android In Docker with this Container!")](https://www.youtube.com/watch?v=GTtdTksS6L0) |
 |[Domoticz](https://domoticz.com/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-domoticz) |  |  |  |
 |[doublecommander](https://doublecommander.com/)|:heavy_check_mark:|:heavy_check_mark:|Container|  |  |  |  |
@@ -107,7 +106,7 @@ List of all apps included in this project with info related to it.
 |[Kodi Headless](https://kodi.tv/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://hub.docker.com/r/lsioarmhf/kodi-headless-aarch64/) |  |  |  |
 |[Komga](https://github.com/gotson/komga)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://komga.org/) |  |  |  |
 |[LazyLibrarian](https://lazylibrarian.gitlab.io/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-lazylibrarian) |  |  |  |
-|[Let's Encrypt [DEPRECATED]](https://letsencrypt.org/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://hub.docker.com/r/linuxserver/letsencrypt) |  |  |  |
+|[Let's Encrypt](https://letsencrypt.org/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://hub.docker.com/r/linuxserver/letsencrypt) |  |  |  |
 |[libreddit](https://libreddit.silkky.cloud/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/spikecodes/libreddit#2-docker) |  |  |  |
 |[LibreSpeed](https://librespeed.org/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-librespeed) |  |  |  |
 |[lidarr](https://lidarr.audio/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-lidarr) |  |  |  |
