@@ -2,9 +2,8 @@
 
 # Portainer Templates
 appsfolder="${homedir}template/apps"
-ptArm32="${homedir}template/portainer-v2-arm32.json"
-ptArm64="${homedir}template/portainer-v2-arm64.json"
-ptAmd64="${homedir}template/portainer-v2-amd64.json"
+ptArm64="${homedir}template/portainer-v3-arm64.json"
+ptAmd64="${homedir}template/portainer-v3-amd64.json"
 
 # README Files with templates
 README="${homedir}docs/README.md"
