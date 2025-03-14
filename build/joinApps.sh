@@ -1,16 +1,14 @@
 #!/bin/bash
 
 # Blank portainer templates
-json_arm32='{"version":"2","templates":[]}'
 json_arm64='{"version":"2","templates":[]}'
 json_amd64='{"version":"2","templates":[]}'
 
 # File variables
 appinfo='build/info.json'
-Oldtemplate_arm32='pi-hosted_template/template/portainer-v2.json'
-template_arm32='template/portainer-v2-arm32.json'
-template_arm64='template/portainer-v2-arm64.json'
-template_amd64='template/portainer-v2-amd64.json'
+Oldtemplate_arm32='pi-hosted_template/template/portainer-v3.json'
+template_arm64='template/portainer-v3-arm64.json'
+template_amd64='template/portainer-v3-amd64.json'
 
 # App info
 repo='https://github.com/pi-hosted/pi-hosted/blob/master/'
