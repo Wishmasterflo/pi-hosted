@@ -4036,6 +4036,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "LibreSpeed",
+			"id": 93,
 			"type": 1,
 			"volumes": [
 				{
@@ -4072,6 +4073,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "lidarr",
+			"id": 94,
 			"type": 1,
 			"volumes": [
 				{
@@ -4126,6 +4128,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Lingva Translate",
+			"id": 95,
 			"type": 1,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://lingva.ml/\" target=\"_blank\">https://lingva.ml/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/TheDavidDelta/lingva-translate\" target=\"_blank\">https://github.com/TheDavidDelta/lingva-translate</a><br><br><br>"
 		},
@@ -4182,6 +4185,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "linkstack",
+			"id": 96,
 			"type": 1,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://linkstack.org/\" target=\"_blank\">https://linkstack.org/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/linkstackorg/linkstack#readme\" target=\"_blank\">https://github.com/linkstackorg/linkstack#readme</a><br><br><br>"
 		},
@@ -4218,6 +4222,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "LLDAP",
+			"id": 97,
 			"type": 1,
 			"volumes": [
 				{
@@ -4281,6 +4286,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Lychee",
+			"id": 98,
 			"type": 1,
 			"volumes": [
 				{
@@ -4348,6 +4354,7 @@
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Lychee With Mariadb",
+			"id": 99,
 			"type": 3,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://lycheeorg.github.io/\" target=\"_blank\">https://lycheeorg.github.io/</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.linuxserver.io/images/docker-lychee\" target=\"_blank\">https://docs.linuxserver.io/images/docker-lychee</a><br><br><br>"
 		},
@@ -4377,6 +4384,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Maloja",
+			"id": 100,
 			"type": 1,
 			"volumes": [
 				{
@@ -4433,6 +4441,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "MariaDB",
+			"id": 101,
 			"type": 1,
 			"volumes": [
 				{
@@ -4515,6 +4524,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Mealie",
+			"id": 102,
 			"type": 1,
 			"volumes": [
 				{
@@ -4550,6 +4560,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Medusa",
+			"id": 103,
 			"type": 1,
 			"volumes": [
 				{
@@ -4582,6 +4593,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Memos",
+			"id": 104,
 			"type": 1,
 			"volumes": [
 				{
@@ -4617,6 +4629,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "MeTube",
+			"id": 105,
 			"type": 1,
 			"volumes": [
 				{
@@ -4649,6 +4662,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Minecraft Server",
+			"id": 106,
 			"type": 1,
 			"volumes": [
 				{
@@ -4684,6 +4698,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Minetest",
+			"id": 107,
 			"type": 1,
 			"volumes": [
 				{
@@ -4737,6 +4752,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "MinIO",
+			"id": 108,
 			"type": 1,
 			"volumes": [
 				{
@@ -4776,6 +4792,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Minisatip",
+			"id": 109,
 			"type": 1,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/catalinii/minisatip\" target=\"_blank\">https://github.com/catalinii/minisatip</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.linuxserver.io/images/docker-minisatip\" target=\"_blank\">https://docs.linuxserver.io/images/docker-minisatip</a><br><br><br>"
 		},
@@ -4835,6 +4852,7 @@
 				"url": "https://github.com/pi-hosted/pi-hosted"
 			},
 			"title": "Monica",
+			"id": 110,
 			"type": 3,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://www.monicahq.com/\" target=\"_blank\">https://www.monicahq.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/monicahq/docker#use-monica-docker-image\" target=\"_blank\">https://github.com/monicahq/docker#use-monica-docker-image</a><br><br><br>"
 		},
@@ -4865,6 +4883,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Mstream",
+			"id": 111,
 			"type": 1,
 			"volumes": [
 				{
@@ -4912,6 +4931,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Murmur",
+			"id": 112,
 			"type": 1,
 			"volumes": [
 				{
@@ -4966,6 +4986,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "MusicBrainz",
+			"id": 113,
 			"type": 1,
 			"volumes": [
 				{
@@ -5008,6 +5029,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Muximux",
+			"id": 114,
 			"type": 1,
 			"volumes": [
 				{
@@ -5044,6 +5066,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Mylar",
+			"id": 115,
 			"type": 1,
 			"volumes": [
 				{
@@ -5098,6 +5121,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "MySQL",
+			"id": 116,
 			"type": 1,
 			"volumes": [
 				{
@@ -5140,6 +5164,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "n8n",
+			"id": 117,
 			"type": 1,
 			"volumes": [
 				{
@@ -5176,6 +5201,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Netdata",
+			"id": 118,
 			"type": 1,
 			"volumes": [
 				{
@@ -5255,6 +5281,7 @@
 				"url": "https://github.com/pi-hosted/pi-hosted"
 			},
 			"title": "Nextcloud",
+			"id": 119,
 			"type": 3
 		},
 		{
@@ -5285,6 +5312,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Nginx",
+			"id": 120,
 			"type": 1,
 			"volumes": [
 				{
@@ -5356,6 +5384,7 @@
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Nginx Proxy Manager v2 with Sqlite and Goaccess Charts",
+			"id": 121,
 			"type": 3,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://nginxproxymanager.com/\" target=\"_blank\">https://nginxproxymanager.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://nginxproxymanager.com/setup/#running-the-app\" target=\"_blank\">https://nginxproxymanager.com/setup/#running-the-app</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/nginx_proxy_manager.md\" target=\"_blank\">nginx_proxy_manager.md</a></h3><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=yl2Laxbqvo8&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=10 target=\"_blank\">Novaspirit Tech - Installing Nginx Proxy Manager on Docker</a><br><br>"
 		},
@@ -5393,6 +5422,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Nginx Proxy Manager v2 with Sqllite",
+			"id": 122,
 			"type": 1,
 			"volumes": [
 				{
@@ -5440,6 +5470,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Nginx Proxy Manager v3 [DEVEL] NOT READY FOR USE",
+			"id": 123,
 			"type": 1,
 			"volumes": [
 				{
@@ -5465,6 +5496,7 @@
 			"platform": "linux",
 			"restart_policy": "unless-stopped",
 			"title": "Nitter",
+			"id": 124,
 			"type": 3,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://nitter.net/\" target=\"_blank\">https://nitter.net/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/zedeus/nitter\" target=\"_blank\">https://github.com/zedeus/nitter</a><br><br><br>"
 		},
@@ -5499,6 +5531,7 @@
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Node Red",
+			"id": 125,
 			"type": 3,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://nodered.org/\" target=\"_blank\">https://nodered.org/</a><br><b>Official Docker Documentation: </b><a href=\"https://nodered.org/docs/getting-started/docker\" target=\"_blank\">https://nodered.org/docs/getting-started/docker</a><br><br><br>"
 		},
@@ -5563,6 +5596,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "nord-vpn",
+			"id": 126,
 			"type": 1,
 			"privileged": true,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/azinchen/nordvpn\" target=\"_blank\">https://github.com/azinchen/nordvpn</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/azinchen/nordvpn\" target=\"_blank\">https://hub.docker.com/r/azinchen/nordvpn</a><br><br><br>"
@@ -5619,6 +5653,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "NUT Server",
+			"id": 127,
 			"type": 1,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://networkupstools.org\" target=\"_blank\">https://networkupstools.org</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/instantlinux/nut-upsd\" target=\"_blank\">https://hub.docker.com/r/instantlinux/nut-upsd</a><br><br><br>"
 		},
@@ -5648,6 +5683,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "NZBGet",
+			"id": 128,
 			"type": 1,
 			"volumes": [
 				{
@@ -5689,6 +5725,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "NZBHydra 2",
+			"id": 129,
 			"type": 1,
 			"volumes": [
 				{
@@ -5730,6 +5767,7 @@
 			"privileged": true,
 			"restart_policy": "unless-stopped",
 			"title": "OctoPrint",
+			"id": 130,
 			"type": 1,
 			"volumes": [
 				{
@@ -5777,6 +5815,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Omada EAP Controller",
+			"id": 131,
 			"type": 1,
 			"volumes": [
 				{
@@ -5815,6 +5854,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Ombi",
+			"id": 132,
 			"type": 1,
 			"volumes": [
 				{
@@ -5850,6 +5890,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "OpenSpeedTest",
+			"id": 133,
 			"type": 1,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://hub.docker.com/r/openspeedtest/latest\" target=\"_blank\">https://hub.docker.com/r/openspeedtest/latest</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/openspeedtest/Speed-Test\" target=\"_blank\">https://github.com/openspeedtest/Speed-Test</a><br><br><br>"
 		},
@@ -5880,6 +5921,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Organizr v2",
+			"id": 134,
 			"type": 1,
 			"volumes": [
 				{
@@ -5916,6 +5958,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "OScam",
+			"id": 135,
 			"type": 1,
 			"volumes": [
 				{
@@ -5958,6 +6001,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Overseerr",
+			"id": 136,
 			"type": 1,
 			"volumes": [
 				{
@@ -6033,6 +6077,7 @@
 			"platform": "linux",
 			"restart_policy": "unless-stopped",
 			"title": "Paperless NGX",
+			"id": 137,
 			"type": 3,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/paperless-ngx/paperless-ngx\" target=\"_blank\">https://github.com/paperless-ngx/paperless-ngx</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/paperless-ngx/paperless-ngx\" target=\"_blank\">https://github.com/paperless-ngx/paperless-ngx</a><br><br><br>"
 		},
@@ -6149,6 +6194,7 @@
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Passbolt",
+			"id": 138,
 			"type": 3,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/passbolt.md\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted/blob/master/docs/passbolt.md</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/passbolt.md\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted/blob/master/docs/passbolt.md</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/passbolt.md\" target=\"_blank\">passbolt.md</a></h3><br><br><br>"
 		},
@@ -6194,6 +6240,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "pgAdmin",
+			"id": 139,
 			"type": 1,
 			"volumes": [
 				{
@@ -6289,6 +6336,7 @@
 				"url": "https://github.com/pi-hosted/pi-hosted"
 			},
 			"title": "PhotoPrism",
+			"id": 140,
 			"type": 3
 		},
 		{
@@ -6317,6 +6365,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "PhotoShow",
+			"id": 141,
 			"type": 1,
 			"volumes": [
 				{
@@ -6354,6 +6403,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Pi-Hole",
+			"id": 142,
 			"type": 1,
 			"volumes": [
 				{
@@ -6386,6 +6436,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Pi-Hole DoH/DoT",
+			"id": 143,
 			"type": 1,
 			"volumes": [
 				{
@@ -6457,6 +6508,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Pi-Hole-Unbound",
+			"id": 144,
 			"type": 1,
 			"volumes": [
 				{
@@ -6485,6 +6537,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "pi-weather-station",
+			"id": 145,
 			"type": 1,
 			"volumes": [
 				{
@@ -6519,6 +6572,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Piwigo",
+			"id": 146,
 			"type": 1,
 			"volumes": [
 				{
@@ -6542,6 +6596,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Pixel-server",
+			"id": 147,
 			"type": 1,
 			"volumes": [
 				{
@@ -6594,6 +6649,7 @@
 			"platform": "linux",
 			"restart_policy": "unless-stopped",
 			"title": "Plex",
+			"id": 148,
 			"type": 1,
 			"volumes": [
 				{
@@ -6637,6 +6693,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "PlexRipper",
+			"id": 149,
 			"type": 1,
 			"volumes": [
 				{
@@ -6695,6 +6752,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "PostgreSQL",
+			"id": 150,
 			"type": 1,
 			"volumes": [
 				{
@@ -6742,6 +6800,7 @@
 				"url": "https://github.com/pi-hosted/pi-hosted"
 			},
 			"title": "Pritunl",
+			"id": 151,
 			"type": 3
 		},
 		{
@@ -6774,6 +6833,7 @@
 			"privileged": true,
 			"restart_policy": "unless-stopped",
 			"title": "PrivateBin",
+			"id": 152,
 			"type": 1,
 			"volumes": [
 				{
@@ -6816,6 +6876,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "ProjectSend",
+			"id": 153,
 			"type": 1,
 			"volumes": [
 				{
@@ -6848,6 +6909,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "ProtonMail Bridge",
+			"id": 154,
 			"type": 1,
 			"volumes": [
 				{
@@ -6887,6 +6949,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "prowlarr",
+			"id": 155,
 			"type": 1,
 			"volumes": [
 				{
@@ -6933,6 +6996,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Pwndrop",
+			"id": 156,
 			"type": 1,
 			"volumes": [
 				{
@@ -6969,6 +7033,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Pydio",
+			"id": 157,
 			"type": 1,
 			"volumes": [
 				{
@@ -7010,6 +7075,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "qBittorrent",
+			"id": 158,
 			"type": 1,
 			"volumes": [
 				{
@@ -7066,6 +7132,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "qFlood",
+			"id": 159,
 			"type": 1,
 			"volumes": [
 				{
@@ -7105,6 +7172,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "QuakeJs",
+			"id": 160,
 			"type": 1,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://registry.hub.docker.com/r/chrisscottthomas/quakejs/\" target=\"_blank\">https://registry.hub.docker.com/r/chrisscottthomas/quakejs/</a><br><br><br>"
 		},
@@ -7134,6 +7202,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Quassel IRC",
+			"id": 161,
 			"type": 1,
 			"volumes": [
 				{
@@ -7170,6 +7239,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Radarr",
+			"id": 162,
 			"type": 1,
 			"volumes": [
 				{
@@ -7212,6 +7282,7 @@
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Raspberry Pi Docker Monitor",
+			"id": 163,
 			"type": 3,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/rpi_docker_monitor.md\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted/blob/master/docs/rpi_docker_monitor.md</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/rpi_docker_monitor.md\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted/blob/master/docs/rpi_docker_monitor.md</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/rpi_docker_monitor.md\" target=\"_blank\">rpi_docker_monitor.md</a></h3><br><br><h3><b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/tools/rpi_docker_monitor.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/tools/rpi_docker_monitor.sh | bash</h3><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=IoD3vFuep64&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=8 target=\"_blank\">Novaspirit Tech - Raspberry Pi Docker Monitoring</a><br><br>"
 		},
@@ -7246,6 +7317,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "RDesktop",
+			"id": 164,
 			"type": 1,
 			"volumes": [
 				{
@@ -7337,6 +7409,7 @@
 				"url": "https://github.com/pi-hosted/pi-hosted"
 			},
 			"title": "Reactive-Resume",
+			"id": 165,
 			"type": 3,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://rxresu.me/\" target=\"_blank\">https://rxresu.me/</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/martadinata666/reactive-resume\" target=\"_blank\">https://hub.docker.com/r/martadinata666/reactive-resume</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/reactive-resume_installation.md\" target=\"_blank\">reactive-resume_installation.md</a></h3><br><br><h3><b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/tools/install_reactive-resume.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/tools/install_reactive-resume.sh | bash</h3><br><br>"
 		},
@@ -7372,6 +7445,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "readarr",
+			"id": 166,
 			"type": 1,
 			"volumes": [
 				{
@@ -7451,6 +7525,7 @@
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Redmine",
+			"id": 167,
 			"type": 3
 		},
 		{
@@ -7483,6 +7558,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Resilio Sync",
+			"id": 168,
 			"type": 1,
 			"volumes": [
 				{
@@ -7534,6 +7610,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "RustDesk",
+			"id": 169,
 			"type": 1,
 			"volumes": [
 				{
@@ -7593,6 +7670,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "ruTorrent",
+			"id": 170,
 			"type": 1,
 			"volumes": [
 				{
@@ -7636,6 +7714,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "SABnzbd",
+			"id": 171,
 			"type": 1,
 			"volumes": [
 				{
@@ -7708,6 +7787,7 @@
 			"privileged": true,
 			"restart_policy": "unless-stopped",
 			"title": "Samba",
+			"id": 172,
 			"type": 1,
 			"volumes": [
 				{
@@ -7733,6 +7813,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "scrutiny",
+			"id": 173,
 			"type": 1,
 			"volumes": [
 				{
@@ -7776,6 +7857,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "SearXNG",
+			"id": 174,
 			"type": 1,
 			"volumes": [
 				{
@@ -7800,6 +7882,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Shiori",
+			"id": 175,
 			"type": 1,
 			"volumes": [
 				{
@@ -7836,6 +7919,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "SickChill",
+			"id": 176,
 			"type": 1,
 			"volumes": [
 				{
@@ -7880,6 +7964,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "SickGear",
+			"id": 177,
 			"type": 1,
 			"volumes": [
 				{
@@ -7912,6 +7997,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Slash",
+			"id": 178,
 			"type": 1,
 			"volumes": [
 				{
@@ -7947,6 +8033,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "SmokePing",
+			"id": 178,
 			"type": 1,
 			"volumes": [
 				{
@@ -7976,6 +8063,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Snippet-box",
+			"id": 179,
 			"type": 1,
 			"volumes": [
 				{
@@ -8011,6 +8099,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Sonarr",
+			"id": 180,
 			"type": 1,
 			"volumes": [
 				{
@@ -8055,6 +8144,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Speedtest Tracker",
+			"id": 181,
 			"type": 1,
 			"volumes": [
 				{
@@ -8079,6 +8169,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Sshwifty",
+			"id": 182,
 			"type": 1,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://sshwifty.herokuapp.com/\" target=\"_blank\">https://sshwifty.herokuapp.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/nirui/sshwifty#docker-image\" target=\"_blank\">https://github.com/nirui/sshwifty#docker-image</a><br><br><br>"
 		},
@@ -8116,6 +8207,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "SurrealDB",
+			"id": 183,
 			"type": 1,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://surrealdb.com/\" target=\"_blank\">https://surrealdb.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/surrealdb/surrealdb\" target=\"_blank\">https://hub.docker.com/r/surrealdb/surrealdb</a><br><br><br>"
 		},
@@ -8150,6 +8242,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "SyncThing",
+			"id": 184,
 			"type": 1,
 			"volumes": [
 				{
@@ -8187,6 +8280,7 @@
 			"platform": "linux",
 			"restart_policy": "unless-stopped",
 			"title": "System Stats OLED display",
+			"id": 185,
 			"type": 1,
 			"volumes": [
 				{
@@ -8222,6 +8316,7 @@
 			"platform": "linux",
 			"restart_policy": "unless-stopped",
 			"title": "Tailscale",
+			"id": 186,
 			"type": 1,
 			"volumes": [
 				{
@@ -8262,6 +8357,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Tautulli",
+			"id": 187,
 			"type": 1,
 			"volumes": [
 				{
@@ -8301,6 +8397,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Teeworlds",
+			"id": 188,
 			"type": 1,
 			"volumes": [
 				{
@@ -8335,6 +8432,7 @@
 			"platform": "linux",
 			"restart_policy": "never",
 			"title": "Thanos",
+			"id": 189,
 			"type": 1,
 			"volumes": [
 				{
@@ -8374,6 +8472,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "TheLounge",
+			"id": 190,
 			"type": 1,
 			"volumes": [
 				{
@@ -8398,6 +8497,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "TiddlyWiki",
+			"id": 191,
 			"type": 1,
 			"volumes": [
 				{
@@ -8426,6 +8526,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Traefik",
+			"id": 192,
 			"type": 1,
 			"volumes": [
 				{
@@ -8473,6 +8574,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Transmission",
+			"id": 193,
 			"type": 1,
 			"volumes": [
 				{
@@ -8551,6 +8653,7 @@
 			"privileged": true,
 			"restart_policy": "unless-stopped",
 			"title": "Transmission OpenVPN Latest",
+			"id": 194,
 			"type": 1,
 			"volumes": [
 				{
@@ -8629,6 +8732,7 @@
 			"privileged": true,
 			"restart_policy": "unless-stopped",
 			"title": "Transmission OpenVPN v3",
+			"id": 195,
 			"type": 1,
 			"volumes": [
 				{
@@ -8673,6 +8777,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Tvheadend",
+			"id": 196,
 			"type": 1,
 			"volumes": [
 				{
@@ -8718,6 +8823,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Ubooquity",
+			"id": 197,
 			"type": 1,
 			"volumes": [
 				{
@@ -8766,6 +8872,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "UniFi Controller",
+			"id": 198,
 			"type": 1,
 			"volumes": [
 				{
@@ -8819,6 +8926,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "UniFi Video",
+			"id": 199,
 			"type": 1,
 			"volumes": [
 				{
@@ -8858,6 +8966,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Unmanic",
+			"id": 200,
 			"type": 1,
 			"volumes": [
 				{
@@ -8893,6 +9002,7 @@
 			},
 			"restart_policy": "unless-stopped",
 			"title": "UnPoller Monitor",
+			"id": 201,
 			"type": 3,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://unpoller.com/\" target=\"_blank\">https://unpoller.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/novaspirit/pi-hosted/blob/master/docs/UnPoller-Monitor.md\" target=\"_blank\">https://github.com/novaspirit/pi-hosted/blob/master/docs/UnPoller-Monitor.md</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/UnPoller-Monitor.md\" target=\"_blank\">UnPoller-Monitor.md</a></h3><br><br><h3><b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/tools/unpoller-install.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/tools/unpoller-install.sh | bash</h3><br><br>"
 		},
@@ -8912,6 +9022,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Uptime Kuma",
+			"id": 202,
 			"type": 1,
 			"volumes": [
 				{
@@ -8947,6 +9058,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "UrBackup",
+			"id": 203,
 			"type": 1,
 			"volumes": [
 				{
@@ -8977,6 +9089,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Vaultwarden",
+			"id": 204,
 			"type": 1,
 			"volumes": [
 				{
@@ -9039,6 +9152,7 @@
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Vikunja With Frontend",
+			"id": 205,
 			"type": 3,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://vikunja.io/\" target=\"_blank\">https://vikunja.io/</a><br><b>Official Docker Documentation: </b><a href=\"https://vikunja.io/docs/full-docker-example/#example-with-nginx-as-proxy\" target=\"_blank\">https://vikunja.io/docs/full-docker-example/#example-with-nginx-as-proxy</a><br><br><h3><b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/tools/install_vikunja.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/tools/install_vikunja.sh | bash</h3><br><br>"
 		},
@@ -9057,6 +9171,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Vlmcsd - KMS",
+			"id": 206,
 			"type": 1,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://hub.docker.com/r/mikolatero/vlmcsd\" target=\"_blank\">https://hub.docker.com/r/mikolatero/vlmcsd</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/mikolatero/docker-vlmcsd\" target=\"_blank\">https://github.com/mikolatero/docker-vlmcsd</a><br><br><br>"
 		},
@@ -9081,6 +9196,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Wallos",
+			"id": 207,
 			"type": 1,
 			"volumes": [
 				{
@@ -9109,6 +9225,7 @@
 			"command": "--cleanup",
 			"restart_policy": "unless-stopped",
 			"title": "Watchtower",
+			"id": 208,
 			"type": 1,
 			"volumes": [
 				{
@@ -9140,6 +9257,7 @@
 			"platform": "linux",
 			"restart_policy": "unless-stopped",
 			"title": "WebGrab+Plus",
+			"id": 209,
 			"type": 1,
 			"volumes": [
 				{
@@ -9191,6 +9309,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Whisparr",
+			"id": 210,
 			"type": 1,
 			"volumes": [
 				{
@@ -9223,6 +9342,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Whoogle",
+			"id": 211,
 			"type": 1,
 			"volumes": [
 				{
@@ -9247,6 +9367,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Wikijs",
+			"id": 212,
 			"type": 1,
 			"volumes": [
 				{
@@ -9278,6 +9399,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Windows 2000",
+			"id": 213,
 			"type": 1,
 			"volumes": [
 				{
@@ -9334,6 +9456,7 @@
 				"url": "https://github.com/pi-hosted/pi-hosted"
 			},
 			"title": "Wireguard Server",
+			"id": 214,
 			"type": 3,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/WeeJeWel/wg-easy/\" target=\"_blank\">https://github.com/WeeJeWel/wg-easy/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/WeeJeWel/wg-easy/#1-install-docker\" target=\"_blank\">https://github.com/WeeJeWel/wg-easy/#1-install-docker</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/wireguard-install.md\" target=\"_blank\">wireguard-install.md</a></h3><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=yB_jAumIxOg target=\"_blank\">Novaspirit Tech - Beginners Guide to WireGuard Docker and Installing Pi-OS 64bit</a><br><br>"
 		},
@@ -9371,6 +9494,7 @@
 				"url": "https://github.com/pi-hosted/pi-hosted"
 			},
 			"title": "Wordpress",
+			"id": 215,
 			"type": 3
 		},
 		{
@@ -9388,6 +9512,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Yacht",
+			"id": 216,
 			"type": 1,
 			"volumes": [
 				{
@@ -9454,6 +9579,7 @@
 				"url": "https://github.com/pi-hosted/pi-hosted"
 			},
 			"title": "your-spotify",
+			"id": 217,
 			"type": 3
 		},
 		{
@@ -9525,6 +9651,7 @@
 			},
 			"restart_policy": "unless-stopped",
 			"title": "Yourls",
+			"id": 218,
 			"type": 3,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://yourls.org/\" target=\"_blank\">https://yourls.org/</a><br><b>Official Docker Documentation: </b><a href=\"https://yourls.org/#Install\" target=\"_blank\">https://yourls.org/#Install</a><br><br><h3><b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/tools/install_yourls.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/tools/install_yourls.sh | bash</h3><br><br>"
 		},
@@ -9543,6 +9670,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "YouTubeDL-Material",
+			"id": 219,
 			"type": 1,
 			"volumes": [
 				{
@@ -9594,6 +9722,7 @@
 			],
 			"restart_policy": "unless-stopped",
 			"title": "ZNC",
+			"id": 220,
 			"type": 1,
 			"volumes": [
 				{
