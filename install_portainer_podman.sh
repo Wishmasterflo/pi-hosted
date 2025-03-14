@@ -35,7 +35,7 @@ systemctl --user daemon-reload
 systemctl --user enable --now container-portainer
 systemctl --user status container-portainer
 systemctl --user enable podman-restart.service
-sudo loginctl enable-linger flo
+sudo loginctl enable-linger $(id -u)
 echo " "
 echo "Portainer Installation done!"
 
