@@ -1,7 +1,6 @@
 #!/bin/bash
 
-t32b='../template/portainer-v2-arm32.json'
-t64b='../template/portainer-v2-arm64.json'
+t64b='../template/portainer-v3-arm64.json'
 appinfo='./appinfo.json'
 appsfolder='../template/apps'
 
