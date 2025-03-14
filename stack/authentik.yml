@@ -28,7 +28,7 @@ services:
     volumes:
       - /portainer/Config/authentik/redis:/data
   server:
-    image: ghcr.io/goauthentik/server:2022.8.2
+    image: ghcr.io/goauthentik/server:latest
     restart: unless-stopped
     command: server
     environment:
