@@ -1,6 +1,6 @@
 # Pi-Hosted Portainer Template V3
 
-This repository is a collection of tutorials for hosting a variety of server applications using Docker or Podman and [Portainer](https://github.com/portainer/portainer).
+This repository is a collection of tutorials for hosting a variety of server applications using Docker or Podman and [Portainer](https://github.com/portainer/portainer) on the Raspberry Pi or any other 64-bit Computer.
 
 ### App Template for Portainer
 ![App Template Image](https://github.com/Wishmasterflo/pi-hosted/blob/master/apptemplate.png?raw=true)
