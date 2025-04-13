@@ -9865,11 +9865,11 @@
           		 "label": "Http Port",
           		 "name": "PORT"
         		 }
-			],
+			   ],
 			  "platform": "linux",
    			  "repository": {
         		  "stackfile": "stack/immich.yml",
         		  "url": "https://github.com/Wishmasterflo/pi-hosted"
-      			}
-	 ]
+      			   }
+			]
 }
