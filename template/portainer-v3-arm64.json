@@ -9803,7 +9803,7 @@
                  "Photos"
 			       ],
       		"description": "Immich is a high performance self-hosted photo and video backup solution.",
-      		"logo": "https://github.com/Wishmasterflo/pi-hosted/master/images/immich.svg",
+      		"logo": "https://github.com/Wishmasterflo/pi-hosted/master/images/immich.png",
 		      "name": "immich",
       		"platform": "linux",
       		"repository": {
