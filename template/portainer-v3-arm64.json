@@ -9753,7 +9753,7 @@
 			],
 			"note": "<b>Template created by Wishmasterflo</b>"
 		},
-		    {
+		{
      		 "categories": [
                  "Photos"
 			       ],
@@ -9768,6 +9768,6 @@
 	       "title": "Immich",
 	       "id": 226,	    
       	       "type": 1
-    		  }
+    	       }
 	]
 }
