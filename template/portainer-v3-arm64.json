@@ -9797,6 +9797,21 @@
 				}
 			],
 			"note": "<b>Template created by Wishmasterflo</b>"
-		}
+		},
+		    {
+     		 "categories": [
+                 "Photos"
+			       ],
+      		"description": "Immich is a high performance self-hosted photo and video backup solution.",
+      		"logo": "https://github.com/Wishmasterflo/pi-hosted/blob/master/images/immich.svg",
+		      "name": "immich",
+      		"platform": "linux",
+      		"repository": {
+        	"stackfile": "stack/immich.yml",
+	        "url": "https://github.com/Wishmasterflo/pi-hosted/"
+      		},
+	       "title": "Immich",
+      	       "type": 1
+    		  }
 	]
 }
