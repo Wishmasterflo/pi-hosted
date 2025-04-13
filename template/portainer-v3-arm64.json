@@ -9780,7 +9780,7 @@
 				}	
 			],			
 			"ports": [
-				"8089:80"
+				"8089:80/tcp"
 			],
 			"restart_policy": "unless-stopped",
 			"title": "openziti",
