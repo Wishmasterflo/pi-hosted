@@ -9867,8 +9867,11 @@
         		 }
 			   ],
 			  "platform": "linux",
+			  "logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/immich.svg",
+ 			  "name": "immich",
    			  "repository": {
         		  "stackfile": "stack/immich.yml",
-        		  "url": "https://github.com/Wishmasterflo/pi-hosted"
-      			   }
+        		  "url": "https://github.com/Wishmasterflo/pi-hosted/"
+      		          }
+		]
 }
