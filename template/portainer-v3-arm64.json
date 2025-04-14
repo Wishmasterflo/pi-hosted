@@ -1907,6 +1907,7 @@
 					"container": "/config/settings.json"
 				}
 			],
+			"note": "<b>Template created by Pi-Hosted Series</b><br>"
 		},
 		{
 			"categories": [
@@ -9771,4 +9772,3 @@
     	       }
 	]
 }
-
