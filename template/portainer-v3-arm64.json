@@ -9694,67 +9694,61 @@
 			"note": "<b>Template created by Wishmasterflo</b>"
 		},
 		{
-			"categories": [
-				"Other",
-				"Tools"
+		"categories": [
+			"VPN"
 			],
 			"description": "OpenZiti is a free and open source project focused on bringing zero trust networking principles directly into any application.",
-			"image": "openziti/quickstart",
-			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/openziti.png",
-			"name": "openziti",
-			"platform": "linux",
 			"env": [
 				{
-					"default": "openziti/quickstart",
-					"label": "ZITI_IMAGE",
-					"name": "ZITI_IMAGE"
+					"default": "mypass",
+					"label": "ZITI_PWD",
+					"name": "ZITI_PWD"
 				},
 				{
-					"default": "latest",
-					"label" : "ZITI_VERSION",
-					"name" : "ZITI_VERSION"
+					"default": "ctrl.127.21.71.0.sslip.io",
+					"label": "ZITI_CTRL_ADVERTISED_ADDRESS",
+					"name": "ZITI_CTRL_ADVERTISED_ADDRESS"
 				},
 				{
-					"default": "ziti-edge-controller",
-					"label": "ZITI_CTRL_NAME",
-					"name": "ZITI_CTRL_NAME"
+					"default": "YOUR_POSTGRE_PASSWORD",
+					"label": "POSTGRES_PASSWORD",
+					"name": "POSTGRES_PASSWORD"
 				},
 				{
-					"default": "some.other.name.com",
-					"label": "ZITI_CTRL_EDGE_ADVERTISED_ADDRESS",
-					"name": "ZITI_CTRL_EDGE_ADVERTISED_ADDRESS"
+					"default": "YOUR_AUTHENTIK_SECRET_KEY",
+					"label": "AUTHENTIK_SECRET_KEY",
+					"name": "AUTHENTIK_SECRET_KEY"
 				},
 				{
-					"default": "1280",
-					"label": "ZITI_CTRL_EDGE_ADVERTISED_PORT",
-					"name": "ZITI_CTRL_EDGE_ADVERTISED_PORT"
+					"default": "GeoLite2-City",
+					"label": "GEOIPUPDATE_EDITION_IDS",
+					"name": "GEOIPUPDATE_EDITION_IDS"
 				},
 				{
-					"default": "20.20.20.20",
-					"label": "ZITI_EDGE_CONTROLLER_IP_OVERRIDE",
-					"name": "ZITI_EDGE_CONTROLLER_IP_OVERRIDE"
-				}	
-			],			
-			"ports": [
-				"8089:80/tcp"
-			],
-			"restart_policy": "unless-stopped",
-			"title": "openziti",
-			"id": 225,
-			"type": 1,
-			"volumes": [
-				{
-					"bind": "/portainer/Config/openziti",
-					"container": "/ziti"
+					"default": "Your GEOIP ID",
+					"label": "GEOIPUPDATE_ACCOUNT_ID",
+					"name": "GEOIPUPDATE_ACCOUNT_ID"
 				},
 				{
-					"bind": "/portainer/Config/ziti-console",
-					"container": "/ziti-console:ro"
+					"default": "Your GEOIP License Key",
+					"label": "GEOIPUPDATE_LICENSE_KEY",
+					"name": "GEOIPUPDATE_LICENSE_KEY"
 				}
 			],
-			"note": "<b>Template created by Wishmasterflo</b>"
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/openziti.png",
+			"name": "openziti",
+			"note": "<b>Template created by Wishmasterflo</b><br>",
+			"platform": "linux",
+			"repository": {
+				"stackfile": "stack/openziti.yml",
+				"url": "https://github.com/Wishmasterflo/pi-hosted/"
+			},
+			"restart_policy": "unless-stopped",
+			"title": "Openziti",
+			"id": 225,
+			"type": 3
 		},
-	    {
+	  	{
       "type": 3,
       "id": 226,
       "title": "Immich",
