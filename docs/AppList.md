@@ -66,6 +66,7 @@ List of all apps included in this project with info related to it.
 |[FoldingAtHome](https://foldingathome.org/?lng=en)|:heavy_check_mark:|:heavy_check_mark:|Container|  |  |  |  |
 |[FoundryVTT Server](https://foundryvtt.com/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://hub.docker.com/r/felddy/foundryvtt) |  |  |  |
 |[FreshRSS](https://www.freshrss.org/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/FreshRSS/FreshRSS/tree/edge/Docker) |  |  |  |
+|[Friendica](https://friendi.ca/)|:heavy_check_mark:|:heavy_check_mark:|Stack| [![](../build/images/blue_doc_icon.png)](https://hub.docker.com/_/friendica) |  |  |  |
 |[Gazee](https://github.com/hubbcaps/gazee)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://hub.docker.com/r/linuxserver/gazee) |  |  |  |
 |[Ghostfolio](https://ghostfol.io/)|:heavy_check_mark:|:heavy_check_mark:|Stack| [![](../build/images/blue_doc_icon.png)](https://github.com/ghostfolio/ghostfolio#self-hosting) |  |  |  |
 |[Ghost](https://github.com/docker-library/docs/tree/master/ghost)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://hub.docker.com/_/ghost) |  |  |  |
