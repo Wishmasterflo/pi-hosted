@@ -9708,31 +9708,6 @@
 					"default": "ctrl.127.21.71.0.sslip.io",
 					"label": "ZITI_CTRL_ADVERTISED_ADDRESS",
 					"name": "ZITI_CTRL_ADVERTISED_ADDRESS"
-				},
-				{
-					"default": "YOUR_POSTGRE_PASSWORD",
-					"label": "POSTGRES_PASSWORD",
-					"name": "POSTGRES_PASSWORD"
-				},
-				{
-					"default": "YOUR_AUTHENTIK_SECRET_KEY",
-					"label": "AUTHENTIK_SECRET_KEY",
-					"name": "AUTHENTIK_SECRET_KEY"
-				},
-				{
-					"default": "GeoLite2-City",
-					"label": "GEOIPUPDATE_EDITION_IDS",
-					"name": "GEOIPUPDATE_EDITION_IDS"
-				},
-				{
-					"default": "Your GEOIP ID",
-					"label": "GEOIPUPDATE_ACCOUNT_ID",
-					"name": "GEOIPUPDATE_ACCOUNT_ID"
-				},
-				{
-					"default": "Your GEOIP License Key",
-					"label": "GEOIPUPDATE_LICENSE_KEY",
-					"name": "GEOIPUPDATE_LICENSE_KEY"
 				}
 			],
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/openziti.png",
