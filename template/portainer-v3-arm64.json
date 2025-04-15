@@ -9823,6 +9823,163 @@
         "url": "https://github.com/wishmasterflo/pi-hosted/"
       },
       "maintainer": "https://github.com/wishmasterflo/pi-hosted"
-    }
+     },
+     {
+      "title": "Friendica",
+      "name": "Friendica",
+      "categories": [
+        "Social"
+      ],
+      "description": "A Decentralized Social Network",
+      "logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/friendica.png",
+      "type": 3,
+      "id": 227,
+      "note": "<a target='_blank' href='https://friendi.ca'>Application documentation \ud83d\uddd7</a>",
+      "env": [
+        {
+          "default": "https://friendica.local/sub/",
+          "label": "FRIENDICA_URL",
+          "name": "FRIENDICA_URL"
+        },
+        {
+          "label": "FRIENDICA_TZ",
+          "name": "FRIENDICA_TZ",
+          "default": "Europe/Amsterdam",
+          "description": "Set your preferred Timezone"
+        },
+        {
+          "label": "FRIENDICA_LANG",
+          "name": "FRIENDICA_LANG",
+          "default": "",
+          "description": "Set your prefered Language"
+        },
+        {
+          "label": "FRIENDICA_SITENAME",
+          "name": "FRIENDICA_SITENAME",
+          "default": "",
+	  "description": "The Sitename of the Friendica server"
+        },
+        {
+          "label": "FRIENDICA_NO_VALIDATION",
+          "name": "FRIENDICA_NO_VALIDATION",
+          "default": "false",
+          "description": "If set to true, the URL and E-Mail validation will be disabled"
+        },
+        {
+          "label": "FRIENDICA_DATA",
+          "name": "FRIENDICA_DATA",
+          "default": "",
+	  "description": "Set the name of the storage provider (e.g Filesystem to use filesystem), default ist the DB backend"
+        },
+        {
+          "label": "FRIENDICA_DATA_DIR",
+          "name": "FRIENDICA_DATA_DIR",
+          "default": "/var/www/data",
+          "description": "The data directory of the Friendica server"
+        },
+        {
+          "label": "FRIENDICA_UPGRADE",
+          "name": "FRIENDICA_UPGRADE",
+          "default": "false",
+          "description": "Force starting the Friendica update even it's the same version"
+        },
+        {
+          "label": "MYSQL_USER",
+          "name": "MYSQL_USER",
+          "default": "",
+          "description": "Username for the database user using mysql/mariadb"
+        },
+        {
+	  "label": "MYSQL_PASSWORD",
+          "name": "MYSQL_PASSWORD",
+          "default": "",
+          "description": "Password for the database user using mysql / mariadb"
+        },
+	{
+	  "label": "MYSQL_DATABASE",
+          "name": "MYSQL_DATABASE",
+          "default": "",
+          "description": "Name of the database using mysql / mariadb"
+        },
+	{
+	  "label": "MYSQL_HOST",
+          "name": "MYSQL_HOST",
+          "default": "",
+          "description": "Hostname of the database server using mysql / mariadb"
+        },
+	{
+	  "label": "MYSQL_PORT",
+          "name": "MYSQL_PORT",
+          "default": "3306",
+          "description": "Port of the database server using mysql / mariadb"
+        },
+	{
+	  "label": "MAILNAME",
+          "name": "MAILNAME",
+          "default": "user@example.com",
+          "description": "Because Friendica links the administrator account to a specific mail address, you have to set a valid address"
+        },
+	{
+	  "label": "SMTP",
+          "name": "SMTP",
+          "default": "",
+          "description": "Address of the SMTP Mail-Gateway"
+        },
+	{
+	  "label": "SMTP_PORT",
+          "name": "SMTP_PORT",
+          "default": "587",
+          "description": "Port of the SMTP Mail-Gateway"
+        },
+	{
+	  "label": "SMTP_DOMAIN",
+          "name": "SMTP_DOMAIN",
+          "default": "friendica.local",
+          "description": "The sender domain"
+        },
+	{
+	  "label": "SMTP_FROM",
+          "name": "SMTP_FROM",
+          "default": "no-reply",
+          "description": "Sender user-part of the address"
+        },
+	{
+	  "label": "SMTP_TLS",
+          "name": "SMTP_TLS",
+          "default": "",
+          "description": "Use TLS for connecting the SMTP Mail-Gateway"
+        },
+	{
+	  "label": "SMTP_STARTTLS",
+          "name": "SMTP_STARTTLS",
+          "default": "On",
+          "description": "Use STARTTLS for connecting the SMTP Mail-Gateway"
+        },
+	{
+	  "label": "SMTP_AUTH",
+          "name": "SMTP_AUTH",
+          "default": "On",
+          "description": "Auth mode for the SMTP Mail-Gateway"
+        },
+	{
+	  "label": "SMTP_AUTH_USER",
+          "name": "SMTP_AUTH_USER",
+          "default": "",
+          "description": "Username for the SMTP Mail-Gateway"
+        },
+	{
+	  "label": "SMTP_AUTH_PASS",
+          "name": "SMTP_AUTH_PASS",
+          "default": "",
+          "description": "Password for the SMTP Mail-Gateway"
+        }	
+      ],
+      "platform": "linux",
+      "repository": {
+        "stackfile": "stack/friendica.yml",
+        "url": "https://github.com/wishmasterflo/pi-hosted/"
+      },
+      "maintainer": "https://github.com/wishmasterflo/pi-hosted"
+    }		
   ]
 }
