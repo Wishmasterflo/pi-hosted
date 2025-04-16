@@ -9708,6 +9708,16 @@
 					"default": "ctrl.127.21.71.0.sslip.io",
 					"label": "ZITI_CTRL_ADVERTISED_ADDRESS",
 					"name": "ZITI_CTRL_ADVERTISED_ADDRESS"
+				},
+				{
+					"default": "1280",
+					"label": "ZITI_CTRL_EDGE_ADVERTISED_PORT",
+					"name": "ZITI_CTRL_EDGE_ADVERTISED_PORT"
+				},
+				{
+					"default": "20.20.20.20",
+					"label": "ZITI_EDGE_CONTROLLER_IP_OVERRIDE",
+					"name": "ZITI_EDGE_CONTROLLER_IP_OVERRIDE"
 				}
 			],
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/openziti.png",
