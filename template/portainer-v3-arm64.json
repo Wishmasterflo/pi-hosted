@@ -9740,7 +9740,7 @@
 			"description": "OpenZiti is a free and open source project focused on bringing zero trust networking principles directly into any application.",
 			"image": "openziti/quickstart:latest",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/openziti.png",
-			"name": "Openziti (Quickstart)",
+			"name": "openziti",
 			"platform": "linux",
 			"env": [
 				{
