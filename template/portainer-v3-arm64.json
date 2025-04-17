@@ -9733,9 +9733,75 @@
 			"id": 225,
 			"type": 3
 		},
+			{
+		"categories": [
+			"VPN"
+			],
+			"description": "MollySocket allows getting signal notifications via UnifiedPush. It works like a linked device, which doesn't have an encryption key, connected to the Signal server. Everytime it receives an encrypted event, it notifies your mobile via UnifiedPush.",
+			"image": "openziti/quickstart:latest",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/openziti.png",
+			"name": "Openziti (Quickstart)",
+			"platform": "linux",
+			"env": [
+				{
+					"default": "admin",
+					"label": "ZITI_USER",
+					"name": "ZITI_USER"
+				},
+				{
+					"default": "",
+					"label": "ZITI_PWD",
+					"name": "ZITI_PWD"
+				},
+				{
+					"default": "0.0.0.0",
+					"label": "ZITI_INTERFACE",
+					"name": "ZITI_INTERFACE"
+				},
+				{									
+					"default": "ziti-controller",
+					"label": "ZITI_CTRL_NAME",
+					"name": "ZITI_CTRL_NAME"
+				},				
+				{
+					"default": "ziti-edge-controller",
+					"label": "ZITI_CTRL_EDGE_ADVERTISED_ADDRESS",
+					"name": "ZITI_CTRL_EDGE_ADVERTISED_ADDRESS"
+				},
+				{
+					"default": "ziti-controller",
+					"label": "ZITI_CTRL_ADVERTISED_ADDRESS",
+					"name": "ZITI_CTRL_ADVERTISED_ADDRESS"
+				},
+				{
+					"default": "10.10.10.10",
+					"label": "ZITI_CTRL_EDGE_IP_OVERRIDE",
+					"name": "ZITI_CTRL_EDGE_IP_OVERRIDE"
+				},
+				{
+					"default": "10080",
+					"label": "ZITI_EDGE_IDENTITY_ENROLLMENT_DURATION",
+					"name": "ZITI_EDGE_IDENTITY_ENROLLMENT_DURATION"
+				},
+				{
+					"default": "10080",
+					"label": "ZITI_ROUTER_ENROLLMENT_DURATION",
+					"name": "ZITI_ROUTER_ENROLLMENT_DURATION"
+				}
+			],			
+			"repository": {
+				"stackfile": "stack/openziti-quickstart.yml",
+				"url": "https://github.com/Wishmasterflo/pi-hosted/"
+			},
+			"restart_policy": "unless-stopped",
+			"title": "Openziti (Quickstart)",
+			"id": 226,
+			"type": 3,
+			"note": "<b>Template created by Wishmasterflo</b>"
+		},
 	  	{
       "type": 3,
-      "id": 226,
+      "id": 227,
       "title": "Immich",
       "name": "immich",
       "categories": [
@@ -9818,7 +9884,7 @@
       "description": "A Decentralized Social Network",
       "logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/friendica.png",
       "type": 3,
-      "id": 227,
+      "id": 228,
       "note": "<a target='_blank' href='https://friendi.ca'>Application documentation \ud83d\uddd7</a>",
       "env": [
         {
