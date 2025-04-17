@@ -9737,7 +9737,7 @@
 		"categories": [
 			"VPN"
 			],
-			"description": "MollySocket allows getting signal notifications via UnifiedPush. It works like a linked device, which doesn't have an encryption key, connected to the Signal server. Everytime it receives an encrypted event, it notifies your mobile via UnifiedPush.",
+			"description": "OpenZiti is a free and open source project focused on bringing zero trust networking principles directly into any application.",
 			"image": "openziti/quickstart:latest",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/openziti.png",
 			"name": "Openziti (Quickstart)",
