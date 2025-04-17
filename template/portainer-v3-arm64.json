@@ -9290,10 +9290,10 @@
 					"name": "WG_HOST"
 				},
 				{
-					"default": "ENTER AN ADMIN PASSWORD",
-					"description": "Leave blank to access WebUI without loggin",
-					"label": "PASSWORD",
-					"name": "PASSWORD"
+					"default": "YOUR_ADMIN_PASSWORD_HASH",
+					"description": "Leave blank to access WebUI without login",
+					"label": "PASSWORD_HASH",
+					"name": "PASSWORD_HASH"
 				},
 				{
 					"default": "51820",
