@@ -2312,7 +2312,7 @@
 					"name": "JWT_SECRET_KEY"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/ghostfolio.png",
+			"logo": "https://raw.githubusercontent.com/wishmasterflo/pi-hosted/master/images/ghostfolio.png",
 			"name": "ghostfolio",
 			"platform": "linux",
 			"repository": {
@@ -6047,7 +6047,7 @@
 					"name": "EMAIL_TLS"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/passbolt.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/passbolt.png",
 			"name": "Passbolt",
 			"platform": "linux",
 			"repository": {
