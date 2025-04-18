@@ -42,7 +42,7 @@ services:
       - ZITI_CTRL_EDGE_ADVERTISED_ADDRESS=${ZITI_CTRL_EDGE_ADVERTISED_ADDRESS:-ziti-edge-controller}
       - ZITI_CTRL_EDGE_ADVERTISED_PORT=${ZITI_CTRL_EDGE_ADVERTISED_PORT:-1280}
     env_file:
-      - /portainer/Config/openziti/.env
+      - "/portainer/Config/openziti/.env"
     networks:
       zitiblue:
         aliases:
@@ -60,7 +60,7 @@ services:
   ziti-edge-router:
     image: "${ZITI_IMAGE}:${ZITI_VERSION}"
     env_file:
-      - /portainer/Config/openziti/.env
+      - "/portainer/Config/openziti/.env"
     depends_on:
       ziti-controller:
         condition: service_healthy
