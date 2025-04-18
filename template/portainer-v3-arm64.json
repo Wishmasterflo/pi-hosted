@@ -7833,7 +7833,7 @@
 			],
 			"description": "Slash is an open source, self-hosted bookmarks and link sharing platform. It allows you to organize your links with tags, and share them with custom shortened URLs. Slash also supports team sharing of link libraries for easy collaboration.",
 			"image": "yourselfhosted/slash:latest",
-			"logo": "https://raw.githubusercontent.com/yourselfhosted/slash/main/frontend/web/public/logo.png",
+			"logo": "https://raw.githubusercontent.com/Wishmaterflo/pi-hosted/master/images/slash.png",
 			"name": "slash",
 			"platform": "linux",
 			"ports": [
