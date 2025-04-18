@@ -10,5 +10,8 @@ sudo mkdir -p /portainer/Config/openziti || error "Failed to create certs direct
 
 echo "Setting permissions..."
 sudo chown -R 1000:1000 /portainer/Config/openziti || error "Failed to set permissions for Openziti!"
+echo "Preparing environment for Openziti installation..."
+cd /portainer/Config/openziti
+curl -so .env https://get.openziti.io/dock/.env
 echo "Done."
 
