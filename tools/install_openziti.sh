@@ -1,6 +1,7 @@
 #!/bin/bash
 
-function error {
+function error 
+{
   echo -e "\\e[91m$1\\e[39m"
   exit 1
 }
@@ -14,4 +15,3 @@ echo "Preparing environment for Openziti installation..."
 cd /portainer/Config/openziti
 curl -so .env https://get.openziti.io/dock/.env
 echo "Done."
-
