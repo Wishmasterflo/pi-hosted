@@ -2312,7 +2312,7 @@
 					"name": "JWT_SECRET_KEY"
 				}
 			],
-			"logo": "https://ghostfol.io/assets/apple-touch-icon.png",
+			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/ghostfolio.png",
 			"name": "ghostfolio",
 			"platform": "linux",
 			"repository": {
