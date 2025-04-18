@@ -7,7 +7,7 @@ services:
       timeout: 3s
       retries: 30
     env_file:
-      - ./.env
+      - /portainer/Config/openziti/.env
     ports:
       - ${ZITI_INTERFACE:-0.0.0.0}:${ZITI_CTRL_EDGE_ADVERTISED_PORT:-1280}:${ZITI_CTRL_EDGE_ADVERTISED_PORT:-1280}
       - ${ZITI_INTERFACE:-0.0.0.0}:${ZITI_CTRL_ADVERTISED_PORT:-6262}:${ZITI_CTRL_ADVERTISED_PORT:-6262}
@@ -42,7 +42,7 @@ services:
       - ZITI_CTRL_EDGE_ADVERTISED_ADDRESS=${ZITI_CTRL_EDGE_ADVERTISED_ADDRESS:-ziti-edge-controller}
       - ZITI_CTRL_EDGE_ADVERTISED_PORT=${ZITI_CTRL_EDGE_ADVERTISED_PORT:-1280}
     env_file:
-      - ./.env
+      - /portainer/Config/openziti/.env
     networks:
       zitiblue:
         aliases:
@@ -60,7 +60,7 @@ services:
   ziti-edge-router:
     image: "${ZITI_IMAGE}:${ZITI_VERSION}"
     env_file:
-      - ./.env
+      - /portainer/Config/openziti/.env
     depends_on:
       ziti-controller:
         condition: service_healthy
@@ -88,7 +88,7 @@ services:
   ziti-edge-router-wss:
     image: "${ZITI_IMAGE}:${ZITI_VERSION}"
     env_file:
-      - ./.env
+      - /portainer/Config/openziti/.env
     depends_on:
       ziti-controller:
         condition: service_healthy
@@ -118,7 +118,7 @@ services:
   ziti-fabric-router-br:
     image: "${ZITI_IMAGE}:${ZITI_VERSION}"
     env_file:
-      - ./.env
+      - /portainer/Config/openziti/.env
     depends_on:
       ziti-controller:
         condition: service_healthy
@@ -141,7 +141,7 @@ services:
   ziti-private-red:
     image: "${ZITI_IMAGE}:${ZITI_VERSION}"
     env_file:
-      - ./.env
+      - /portainer/Config/openziti/.env
     depends_on:
       ziti-controller:
         condition: service_healthy
@@ -163,7 +163,7 @@ services:
   ziti-private-blue:
     image: "${ZITI_IMAGE}:${ZITI_VERSION}"
     env_file:
-      - ./.env
+      - /portainer/Config/openziti/.env
     depends_on:
       ziti-controller:
         condition: service_healthy
