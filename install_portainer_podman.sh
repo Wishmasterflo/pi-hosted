@@ -21,7 +21,7 @@ echo "Installing Portainer..."
 systemctl --user enable --now podman.socket
 sudo mkdir -p /portainer/Config/portainer || error "Failed to create the Portainer Config Folder"
 chown flo:flo /portainer/Config/portainer
-podman run -d -p 9443:9443 --pid=host --privileged --name portainer --restart=unless-stopped -v /run/user/$UID/podman/podman.sock:/var/run/docker.sock:Z -v /portainer/Config/portainer:/data docker.io/portainer/portainer-ce:latest
+podman run -d -p 9443:9443 --pid=host --privileged --name portainer --restart=always -v /run/user/$UID/podman/podman.sock:/var/run/docker.sock:Z -v /portainer/Config/portainer:/data docker.io/portainer/portainer-ce:latest
 export DOCKER_HOST=unix:///run/user/$UID/podman/podman.sock
 systemctl --user start --now podman.socket
 systemctl --user status --now podman.socket
@@ -35,7 +35,7 @@ systemctl --user daemon-reload
 systemctl --user enable --now container-portainer
 systemctl --user status container-portainer
 systemctl --user enable podman-restart.service
-sudo loginctl enable-linger $USER
+sudo loginctl enable-linger flo
 echo " "
 echo "Portainer Installation done!"
 
