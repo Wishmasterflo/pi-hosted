@@ -7404,7 +7404,7 @@
 				}
 			],
 			"image": "bossman7309/rss-dl:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/rss-dl.png",
+			"logo": "https://raw.githubusercontent.com/Wishmaterflo/pi-hosted/master/images/rss.png",
 			"name": "rss-dl",
 			"platform": "linux",
 			"restart_policy": "unless-stopped",
