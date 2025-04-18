@@ -8024,7 +8024,7 @@
 			],
 			"description": "SurrealDB is an end-to-end cloud native database for web, mobile, serverless, jamstack, backend, and traditional applications.",
 			"image": "surrealdb/surrealdb:latest",
-			"logo": "",
+			"logo": "https://raw.githubusercontent.com/Wishmaterflo/pi-hosted/master/images/surrealdb.png",
 			"name": "SurrealDB",
 			"env": [
 				{
