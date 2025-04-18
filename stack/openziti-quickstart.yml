@@ -32,7 +32,7 @@ services:
       - "/var/openziti/scripts/run-controller.sh"
 
   ziti-controller-init-container:
-    image: "${ZITI_IMAGE}:${ZITI_VERSION}"
+    image: openziti/quickstart:latest
     depends_on:
       ziti-controller:
         condition: service_healthy
@@ -54,7 +54,7 @@ services:
       - "/var/openziti/scripts/access-control.sh"
 
   ziti-edge-router:
-    image: "${ZITI_IMAGE}:${ZITI_VERSION}"
+    image: openziti/quickstart:latest
     depends_on:
       ziti-controller:
         condition: service_healthy
@@ -80,7 +80,7 @@ services:
     command: "/var/openziti/scripts/run-router.sh edge"
 
   ziti-edge-router-wss:
-    image: "${ZITI_IMAGE}:${ZITI_VERSION}"
+    image: openziti/quickstart:latest
     depends_on:
       ziti-controller:
         condition: service_healthy
@@ -108,7 +108,7 @@ services:
     command: "/var/openziti/scripts/run-router.sh wss"
 
   ziti-fabric-router-br:
-    image: "${ZITI_IMAGE}:${ZITI_VERSION}"
+    image: openziti/quickstart:latest
     depends_on:
       ziti-controller:
         condition: service_healthy
@@ -129,7 +129,7 @@ services:
     command: "/var/openziti/scripts/run-router.sh fabric"
 
   ziti-private-red:
-    image: "${ZITI_IMAGE}:${ZITI_VERSION}"
+    image: openziti/quickstart:latest
     depends_on:
       ziti-controller:
         condition: service_healthy
@@ -149,7 +149,7 @@ services:
     command: "/var/openziti/scripts/run-router.sh private"
 
   ziti-private-blue:
-    image: "${ZITI_IMAGE}:${ZITI_VERSION}"
+    image: openziti/quickstart:latest
     depends_on:
       ziti-controller:
         condition: service_healthy
