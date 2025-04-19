@@ -12,6 +12,12 @@ See the list of apps included in this template [here](https://github.com/Wishmas
 ### Installation
 As Base you can just install RaspberryPiOS lite (64-bit) and do a system update once to be on the latest PiOS Version.
 Then run the script below for Docker or Podman to continue with the installation.
+Also it is recommended to get the EEPROM Firmware updated once before going on.
+```
+sudo rpi-eeprom-update -d -a
+sudo rpi-update
+```
+
 ```
 sudo apt update && sudo apt upgrade -y 
 ```
