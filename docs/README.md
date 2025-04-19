@@ -63,7 +63,7 @@ wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/update_portainer_pod
 
 ### Login to Portainer to update the App Template.
 
-Goto pi-ip:9000 (or pi-ip:9443) and then login
+Goto pi-ip:9443 and then login
 
 Click Settings, in the bottom-left corner, and paste the Portainer v3 json file link from below into the "App Templates" box.
 
