@@ -9680,12 +9680,22 @@
 				{
 					"default": "ziti-edge-controller",
 					"label": "ZITI_CTRL_EDGE_ADVERTISED_ADDRESS",
-					"name": "ZITI_CTRL_EDGE_ADVERTISED_ADDRESS"
+					"name": "ZITI_CTRL_EDGE_ADVERTISED_ADDRESS"	
+				},
+				{
+					"default": "8441",
+					"label": "ZITI_CTRL_EDGE_ADVERTISED_PORT",
+					"name": "ZITI_CTRL_EDGE_ADVERTISED_PORT"
 				},
 				{
 					"default": "ziti-controller",
 					"label": "ZITI_CTRL_ADVERTISED_ADDRESS",
 					"name": "ZITI_CTRL_ADVERTISED_ADDRESS"
+				},
+							{
+					"default": "8440",
+					"label": "ZITI_CTRL_ADVERTISED_PORT",
+					"name": "ZITI_CTRL_ADVERTISED_PORT"
 				},
 				{
 					"default": "10.10.10.10",
