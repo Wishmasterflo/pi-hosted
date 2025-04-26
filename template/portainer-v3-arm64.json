@@ -9609,7 +9609,7 @@
 		},
 		{
 		"categories": [
-			"VPN"
+			"Zero Trust Networking"
 			],
 			"description": "OpenZiti is a free and open source project focused on bringing zero trust networking principles directly into any application.",
 			"env": [
@@ -9649,7 +9649,7 @@
 		},
 			{
 		"categories": [
-			"VPN"
+			"Zero Trust Networking"
 			],
 			"description": "OpenZiti is a free and open source project focused on bringing zero trust networking principles directly into any application.",
 			"image": "openziti/quickstart:latest",
