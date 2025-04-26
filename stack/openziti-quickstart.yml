@@ -171,7 +171,7 @@ services:
   web-test-blue:
     image: openziti/hello-world
     ports:
-      - ${ZITI_INTERFACE:-0.0.0.0}:80:8000
+      - ${ZITI_INTERFACE:-0.0.0.0}:85:8000
     networks:
       zitiblue:
         aliases:
