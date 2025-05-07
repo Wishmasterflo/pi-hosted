@@ -153,6 +153,7 @@ List of all apps included in this project with info related to it.
 |[Omada EAP Controller](https://www.tp-link.com/us/business-networking/omada-sdn-controller/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://hub.docker.com/r/mbentley/omada-controller) |  |  |  |
 |[Ombi](https://ombi.io/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-ombi) |  |  |  |
 |[OpenSpeedTest](https://hub.docker.com/r/openspeedtest/latest)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/openspeedtest/Speed-Test) |  |  |  |
+|[Open-WebUI](https://docs.openwebui.com/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.openwebui.com/) |  |  |  |
 |[Openziti](https://openziti.io/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/openziti) |  |  |  |
 |[Organizr v2](https://organizr.app/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://hub.docker.com/r/organizr/organizr) |  |  |  |
 |[OScam](https://trac.streamboard.tv/oscam/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-oscam) |  |  |  |
