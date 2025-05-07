@@ -9800,6 +9800,42 @@
       "maintainer": "https://github.com/wishmasterflo/pi-hosted"
      },
      {
+     "categories": [
+     "AI",
+     "WebUI"
+     ],
+     "description": "User-friendly AI Interface with Ollama",
+     "image": "ghcr.io/open-webui/open-webui:ollama:latest",
+     "logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/open-webui.png",
+     "name": "open-webui",
+     "platform": "linux",
+     "env": [
+      		{
+		"default": "Europe/Amsterdam",
+		"label": "TZ",
+		"name": "TZ"
+		}
+		],			
+		"ports": [
+		"3000:8080"
+		],
+		"restart_policy": "unless-stopped",
+		"title": "open-webui",
+		"id": 228,
+		"type": 1,
+		"volumes": [
+		{
+		"bind": "/portainer/Config/ollama",
+		"container": "/root/.ollama"
+		},
+		{
+		"bind": "/portainer/Config/open-webui",
+		"container": "/app/backend/data"
+		}
+		],
+		"note": "<b>Template created by Wishmasterflo</b>"
+       },
+      {
       "title": "Friendica",
       "name": "friendica",
       "categories": [
@@ -9808,7 +9844,7 @@
       "description": "A Decentralized Social Network",
       "logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/friendica.png",
       "type": 3,
-      "id": 228,
+      "id": 229,
       "note": "<a target='_blank' href='https://friendi.ca'>Application documentation \ud83d\uddd7</a>",
       "env": [
         {
