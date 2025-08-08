@@ -2735,7 +2735,7 @@
 					"container": "/var/run/docker.sock"
 				},
 				{
-					"bind": "/portainer/Config/Homarr/appdata",
+					"bind": "/portainer/Config/homarr/appdata",
 					"container": "/appdata"
 				}
 			]
