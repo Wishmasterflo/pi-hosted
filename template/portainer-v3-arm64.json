@@ -2700,7 +2700,7 @@
 				"Other"
 			],
 			"description": "Homarr is a simple and lightweight homepage for your server, that helps you easily access all of your services in one place.",
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://homarr.vercel.app/\" target=\"_blank\">https://homarr.vercel.app/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/ajnart/homarr\" target=\"_blank\">https://github.com/ajnart/homarr</a><br><br><br>This version is not secured and should only be used if you want Docker integration and you don't worry about users on your network.",
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://homarr.vercel.app/\" target=\"_blank\">https://homarr.vercel.app/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/ajnart/homarr\" target=\"_blank\">https://github.com/ajnart/homarr</a><br><br><br>You can generate the secret encryption key with this command: openssl rand -hex 32",
 			"env": [
 				{
 					"default": "1000",
@@ -2711,7 +2711,12 @@
 					"default": "1000",
 					"label": "PGID",
 					"name": "PGID"
-				}
+				},
+				{
+			        "default": "",
+                    "label": "SECRET_ENCRYPTION_KEY",
+                    "name": "SECRET_ENCRYPTION_KEY"
+     			}
 			],
 			"image": "ghcr.io/ajnart/homarr:latest",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/homarr.png",
@@ -2730,12 +2735,8 @@
 					"container": "/var/run/docker.sock"
 				},
 				{
-					"bind": "/portainer/Config/Homarr/configs",
-					"container": "/app/data/configs"
-				},
-				{
-					"bind": "/portainer/Config/Homarr/icons",
-					"container": "/app/public/icons"
+					"bind": "/portainer/Config/Homarr/appdata",
+					"container": "/appdata"
 				}
 			]
 		},
