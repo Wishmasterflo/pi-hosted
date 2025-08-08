@@ -9808,7 +9808,7 @@
 		}
 		],			
 		"ports": [
-		"3000:8080"
+		"3000:8080/tcp"
 		],
 		"restart_policy": "unless-stopped",
 		"title": "open-webui",
