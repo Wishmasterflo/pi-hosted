@@ -9796,7 +9796,7 @@
      "WebUI"
      ],
      "description": "User-friendly AI Interface with Ollama",
-     "image": "ghcr.io/open-webui/open-webui:ollama:latest",
+     "image": "ghcr.io/open-webui/open-webui:ollama",
      "logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/open-webui.png",
      "name": "open-webui",
      "platform": "linux",
