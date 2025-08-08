@@ -2731,7 +2731,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/var/run/podman.sock",
+					"bind": "/var/run/docker.sock",
 					"container": "/var/run/docker.sock"
 				},
 				{
