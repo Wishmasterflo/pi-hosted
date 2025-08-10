@@ -25,5 +25,5 @@ sudo docker stop $portainer_pid || error "Failed to stop portainer!"
 sudo docker rm $portainer_pid || error "Failed to remove portainer container!"
 sudo docker rmi $portainer_name || error "Failed to remove/untag images from the container!"
 sudo mkdir -p /portainer/Config/portainer || error "Failed to create the Portainer Config Folder"
-sudo docker run -d -p 9443:9443 --name=portainer --restart=unless-stopped -v /var/run/docker.sock:/var/run/docker.sock -v /portainer/Config/portainer:/data portainer/portainer-ce:latest --logo "https://pi-hosted.com/pi-hosted-logo.png" || error "Failed to run Portainer docker image!"
+sudo docker run -d -p 9443:9443 --name=portainer --restart=unless-stopped -v /var/run/docker.sock:/var/run/docker.sock -v /portainer/Config/portainer:/data portainer/portainer-ce:latest --logo "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/pi-hosted-logo.png" || error "Failed to run Portainer docker image!"
 
