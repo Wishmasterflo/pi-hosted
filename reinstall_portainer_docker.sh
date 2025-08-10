@@ -38,4 +38,4 @@ sudo rm -rf /portainer/Config/portainer
 sudo mkdir -p /portainer/Config/portainer || error "Failed to create the Portainer Config Folder"
 
 echo now doing a fresh install of portainer
-sudo docker run -d -p 9443:9443 --name=portainer --restart=unless-stopped -v /var/run/docker.sock:/var/run/docker.sock -v /portainer/Config/portainer:/data portainer/portainer-ce:latest --logo "https://pi-hosted.com/pi-hosted-logo.png" || error "Failed to run Portainer docker image!"
+sudo docker run -d -p 9443:9443 --name=portainer --restart=unless-stopped -v /var/run/docker.sock:/var/run/docker.sock -v /portainer/Config/portainer:/data portainer/portainer-ce:latest --logo "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/pi-hosted-logo.png" || error "Failed to run Portainer docker image!"
