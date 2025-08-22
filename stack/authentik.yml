@@ -38,13 +38,11 @@ services:
       AUTHENTIK_POSTGRESQL__NAME: ${POSTGRES_DB}
       AUTHENTIK_POSTGRESQL__PASSWORD: ${POSTGRES_PASSWORD}
       AUTHENTIK_SECRET_KEY: ${AUTHENTIK_SECRET_KEY}
-      AUTHENTIK_AUTHENTIK__GEOIP: /geoip/GeoLite2-City.mmdb
       AUTHENTIK_ERROR_REPORTING__ENABLED: "true"
       # WORKERS: 2
     volumes:
       - /portainer/Config/authentik/media:/media
       - /portainer/Config/authentik/custom-templates:/templates
-      - /portainer/Config/authentik/geoip:/geoip
     ports:
       - "9191:9000"
       - "7443:9443"
@@ -59,7 +57,7 @@ services:
       AUTHENTIK_POSTGRESQL__NAME: ${POSTGRES_DB}
       AUTHENTIK_POSTGRESQL__PASSWORD: ${POSTGRES_PASSWORD}
       AUTHENTIK_SECRET_KEY: ${AUTHENTIK_SECRET_KEY}
-      AUTHENTIK_AUTHENTIK__GEOIP: /geoip/GeoLite2-City.mmdb
+      #AUTHENTIK_AUTHENTIK__GEOIP: /geoip/GeoLite2-City.mmdb
       #AUTHENTIK_ERROR_REPORTING__ENABLED: "true" #Optional
       #AUTHENTIK_EMAIL__HOST: localhost #Optional
       #AUTHENTIK_EMAIL__PORT: 25 #Optional
@@ -75,13 +73,4 @@ services:
       - /portainer/Config/authentik/certs:/certs
       - /var/run/docker.sock:/var/run/docker.sock
       - /portainer/Config/authentik/custom-templates:/templates
-      - /portainer/Config/authentik/geoip:/geoip
-  geoipupdate:
-    image: "maxmindinc/geoipupdate:latest"
-    volumes:
-      - /portainer/Config/authentik/geoip:/usr/share/GeoIP
-    environment:
-      GEOIPUPDATE_EDITION_IDS: ${GEOIPUPDATE_EDITION_IDS}
-      GEOIPUPDATE_ACCOUNT_ID: ${GEOIPUPDATE_ACCOUNT_ID}
-      GEOIPUPDATE_LICENSE_KEY: ${GEOIPUPDATE_LICENSE_KEY}
-      GEOIPUPDATE_FREQUENCY: "8" #Optional
+      
