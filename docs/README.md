@@ -19,7 +19,8 @@ sudo rpi-update
 ```
 
 ```
-sudo apt update && sudo apt upgrade -y 
+sudo apt update && sudo apt upgrade -y
+sudo apt install git
 ```
 Run `install_docker.sh`, to install docker, and add the current user to the docker usergroup.
 or
@@ -27,11 +28,15 @@ Run `install_podman.sh`, to install Podman.
 
 For Docker:
 ```
-wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/install_docker.sh | bash
+git clone https://github.com/Wishmasterflo/pi-hosted
+cd pi-hosted
+./install_docker.sh
 ```
 For Podman:
 ```
-wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/install_podman.sh | bash
+git clone https://github.com/Wishmasterflo/pi-hosted
+cd pi-hosted
+./install_podman.sh
 ```
 You need to reboot/logout for changes to take effect
 
@@ -45,20 +50,24 @@ run `install_portainer_podman.sh`, to install Portainer using Podman.
 
 For Docker:
 ```
-wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/install_portainer_docker.sh | bash
+cd pi-hosted
+./install_portainer_docker.sh 
 ```
 For Podman:
 ```
-wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/install_portainer_podman.sh | bash
+cd pi-hosted
+./install_portainer_podman.sh
 ```
 
 ### To update portainer using Docker, run this command:
 ```
-wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/update_portainer_docker.sh | bash
+cd pi-hosted
+./update_portainer_docker.sh
 ```
 ### To update portainer using Podman, run this command:
 ```
-wget -qO- https://github.com/Wishmasterflo/pi-hosted/master/update_portainer_podman.sh | bash
+cd pi-hosted
+./update_portainer_podman.sh
 ```
 
 ### Login to Portainer to update the App Template.
