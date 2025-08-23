@@ -26,5 +26,5 @@ openssl rand -base64 36
 echo " "
 echo "Generating random secret key..."
 openssl rand -base64 60
-echo" "
+echo " "
 echo "Done You are ready to goto next step in the install document"
