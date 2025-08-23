@@ -20,4 +20,11 @@ sudo chown -R 1000:1000 /portainer/Config/authentik/media || error "Failed to se
 sudo chown -R 1000:1000 /portainer/Config/authentik/geoip || error "Failed to set permissions for Authentik geoip!"
 sudo chown -R 999:999 /portainer/Config/authentik/redis || error "Failed to set permissions for Authentik redis!"
 sudo chown -R 70:70 /portainer/Config/authentik/postgre || error "Failed to set permissions for Authentik postgre!"
+echo " "
+echo "Generating random Postgres db password..."
+openssl rand -base64 36
+echo " "
+echo "Generating random secret key..."
+openssl rand -base64 60
+echo" "
 echo "Done You are ready to goto next step in the install document"
