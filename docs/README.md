@@ -59,16 +59,23 @@ cd pi-hosted
 ./install_portainer_podman.sh
 ```
 
-### To update portainer using Docker, run this command:
+### To update Portainer using Docker, run this command:
 ```
 cd pi-hosted
 ./update_portainer_docker.sh
 ```
-### To update portainer using Podman, run this command:
+### To update Portainer using Podman, run this command:
 ```
 cd pi-hosted
 ./update_portainer_podman.sh
 ```
+
+### To reinstall Portainer, run this command:
+```
+cd pi-hosted
+./reinstall_portainer_docker.sh
+```
+
 
 ### Login to Portainer to update the App Template.
 
