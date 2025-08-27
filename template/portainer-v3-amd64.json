@@ -190,7 +190,7 @@
 				"Tools"
 			],
 			"description": "Alpine xfce4 novnc",
-			"image": "Wishmasterflo/alpine_xfce4_novnc:latest",
+			"image": "novaspirit/alpine_xfce4_novnc:latest",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/novnc.png",
 			"name": "alpine-xfce4-novnc",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/Wishmasterflo/pi-hosted\" target=\"_blank\">https://github.com/Wishmasterflo/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/Wishmasterflo/Alpine_xfce4_noVNC\" target=\"_blank\">https://github.com/Wishmasterflo/Alpine_xfce4_noVNC</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/Wishmasterflo/Alpine_xfce4_noVNC\" target=\"_blank\">https://github.com/Wishmasterflo/Alpine_xfce4_noVNC</a><br><br><br>Default username/password will be alpine/alpine.",
