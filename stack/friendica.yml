@@ -5,9 +5,9 @@ services:
     volumes:
       - db:/var/lib/mysql
     environment:
-      - MYSQL_USER=friendica
-      - MYSQL_PASSWORD=
-      - MYSQL_DATABASE=friendica
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
       - MYSQL_RANDOM_ROOT_PASSWORD=yes
 
   app:
@@ -18,11 +18,11 @@ services:
     ports:
       - "8080:80"
     environment:
-      - MYSQL_HOST=db
-      - MYSQL_USER=friendica
-      - MYSQL_PASSWORD=
-      - MYSQL_DATABASE=friendica
-      - FRIENDICA_ADMIN_MAIL=root@friendica.local      
+      - MYSQL_HOST=${MYSQL_HOST}
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
+      - FRIENDICA_ADMIN_MAIL=${MAILNAME}
     depends_on:
       - db
 
