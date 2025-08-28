@@ -30,6 +30,10 @@ services:
       - FRIENDICA_ADMIN_MAIL=${MAILNAME}
     depends_on:
       - db
+      
+  redis:
+    image: redis
+    restart: always
 
 volumes:
   db:
