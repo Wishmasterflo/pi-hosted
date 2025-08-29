@@ -15,8 +15,8 @@ services:
     restart: always
     volumes:
       - /portainer/Config/friendica:/var/www/html
-    expose:
-      - "80"
+    ports:
+      - "8080:80"
     environment:
       - FRIENDICA_TZ=${FRIENDICA_TZ}
       - FRIENDICA_LANG=${FRIENDICA_LANG}
