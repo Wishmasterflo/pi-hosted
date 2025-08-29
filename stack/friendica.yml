@@ -29,6 +29,7 @@ services:
       - MYSQL_DATABASE=${MYSQL_DATABASE}
       - FRIENDICA_ADMIN_MAIL=${MAILNAME}
       - FRIENDICA_NO_VALIDATION=${FRIENDICA_NO_VALIDATION}
+      - FRIENDICA_REDIS_HOST=redis
     depends_on:
       - db
       
