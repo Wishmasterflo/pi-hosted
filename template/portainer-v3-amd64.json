@@ -4916,13 +4916,13 @@
 					"name": "PGID"
 				},
 				{
-					"default": "America/New_York",
+					"default": "Europe/Amsterdam",
 					"label": "TZ",
 					"name": "TZ"
 				}
 			],
-			"image": "yhaenggi/murmur:1.3.4",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/Mumble-logo.png",
+			"image": "yhaenggi/murmur:latest",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/Mumble-logo.png",
 			"name": "murmur",
 			"platform": "linux",
 			"ports": [
@@ -4935,7 +4935,7 @@
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/etc/localtime:ro",
+					"bind": "/etc/localtime",
 					"container": "/etc/localtime"
 				},
 				{
@@ -4951,7 +4951,7 @@
 					"container": "/opt/murmur/log"
 				}
 			],
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://www.mumble.info/\" target=\"_blank\">https://www.mumble.info/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/yhaenggi/murmur-docker\" target=\"_blank\">https://github.com/yhaenggi/murmur-docker</a><br><br><br>"
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/Wishmasterflo/pi-hosted\" target=\"_blank\">https://github.com/Wishmasterflo/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://www.mumble.info/\" target=\"_blank\">https://www.mumble.info/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/yhaenggi/murmur-docker\" target=\"_blank\">https://github.com/yhaenggi/murmur-docker</a><br><br><br>"
 		},
 		{
 			"categories": [
