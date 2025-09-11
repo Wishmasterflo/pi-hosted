@@ -4921,7 +4921,7 @@
 					"name": "TZ"
 				}
 			],
-			"image": "yhaenggi/murmur:latest",
+			"image": "yhaenggi/murmur:1.5.634",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/Mumble-logo.png",
 			"name": "murmur",
 			"platform": "linux",
