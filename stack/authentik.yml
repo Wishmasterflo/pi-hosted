@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   postgresql:
-    image: postgres:13-alpine
+    image: postgres:14-alpine
     restart: unless-stopped
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -d ${POSTGRES_DB} -U ${POSTGRES_USER}"]
@@ -28,7 +28,7 @@ services:
     volumes:
       - /portainer/Config/authentik/redis:/data
   server:
-    image: ghcr.io/goauthentik/server:2025.8.2
+    image: ghcr.io/goauthentik/server:2025.10
     restart: unless-stopped
     command: server
     environment:
@@ -47,7 +47,7 @@ services:
       - "9191:9000"
       - "7443:9443"
   worker:
-    image: ghcr.io/goauthentik/server:2025.8.2
+    image: ghcr.io/goauthentik/server:2025.10
     restart: unless-stopped
     command: worker
     environment:
