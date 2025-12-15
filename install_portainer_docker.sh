@@ -21,3 +21,10 @@ sudo mkdir -p /portainer/Config/portainer || error "Failed to create the Portain
 
 sudo docker pull portainer/portainer-ce:latest || error "Failed to pull latest Portainer docker image!"
 sudo docker run -d -p 9443:9443 --name=portainer --restart=unless-stopped -v /var/run/docker.sock:/var/run/docker.sock -v /portainer/Config/portainer:/data portainer/portainer-ce:latest --logo "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/pi-hosted-logo.png" || error "Failed to run Portainer docker image!"
+
+echo "Setting DOCKER_MIN_API_VERSION..."
+sudo mkdir /etc/systemd/system/docker.service.d
+cat > /etc/systemd/system/docker.service.d/override.conf<< EOF
+[Service]
+Environment=DOCKER_MIN_API_VERSION=1.24
+EOF
