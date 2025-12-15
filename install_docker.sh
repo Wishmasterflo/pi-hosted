@@ -19,11 +19,4 @@ check_internet
 
 curl -sSL https://get.docker.com | sh || error "Failed to install Docker."
 sudo usermod -aG docker $USER || error "Failed to add user to the Docker usergroup."
-echo "Setting DOCKER_MIN_API_VERSION..."
-sudo mkdir /etc/systemd/system/docker.service.d
-cat > /etc/systemd/system/docker.service.d/override.conf<< EOF
-[Service]
-Environment=DOCKER_MIN_API_VERSION=1.24
-EOF
-
 echo "Remember to logoff/reboot for the changes to take effect."
