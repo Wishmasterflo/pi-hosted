@@ -9967,6 +9967,56 @@
         "url": "https://github.com/wishmasterflo/pi-hosted/"
       },
       "maintainer": "https://github.com/wishmasterflo/pi-hosted"
-    }		
+    },
+	{
+		"categories": [
+		"Tools"
+			],
+			"description": "FMD - Find my Device Server",
+			"image": "registry.gitlab.com/fmd-foss/fmd-server:latest",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/fmd.png",
+			"name": "fmd-server",
+			"platform": "linux",
+			"env": [
+				{
+					"default": "8888",
+					"label": "FMD_PORTINSECURE",
+					"name": "FMD_PORTINSECURE"
+				},
+				{
+					"default": "100",
+					"label": "FMD_MaxSavedLoc",
+					"name": "FMD_MaxSavedLoc"
+				},
+				{
+					"default": "10",
+					"label": "FMD_MaxSavedPic",
+					"name": "FMD_MaxSavedPic"
+				},
+				{
+					"default": "<create a long string here>",
+					"label": "FMD_RegistrationToken",
+					"name": "FMD_RegistrationToken"
+				}
+			       ],
+			"ports": [
+				"8080:8080"
+					],
+			"restart_policy": "unless-stopped",
+			"title": "fmd-server",
+			"id": 230,
+    		"type": 1,
+			"volumes": [
+				{
+					"bind": "/portainer/Config/fmdserver/db",
+					"container": "/var/lib/fmd-server/db"
+				},
+				{
+					"bind": "/portainer/Config/fmdserver/web",
+					"container": "/usr/share/fmd-server/web"
+				}
+			],
+			"note": "<b>Template created by Wishmasterflo</b>"
+		}
   ]
 }
