@@ -9566,6 +9566,11 @@
 					"default": "info",
 					"label": "RUST_LOG",
 					"name": "RUST_LOG"
+				},
+				{
+					"default": "/etc/ms_vapid_key",
+					"label": "MOLLY_VAPID_KEY_FILE",
+					"name": "MOLLY_VAPID_KEY_FILE"
 				}
 			],			
 			"ports": [
