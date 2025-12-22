@@ -9982,28 +9982,6 @@
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/fmd.png",
 			"name": "fmd-server",
 			"platform": "linux",
-			"env": [
-				{
-					"default": "8888",
-					"label": "FMD_PORTINSECURE",
-					"name": "FMD_PORTINSECURE"
-				},
-				{
-					"default": "100",
-					"label": "FMD_MaxSavedLoc",
-					"name": "FMD_MaxSavedLoc"
-				},
-				{
-					"default": "10",
-					"label": "FMD_MaxSavedPic",
-					"name": "FMD_MaxSavedPic"
-				},
-				{
-					"default": "<create a long string here>",
-					"label": "FMD_RegistrationToken",
-					"name": "FMD_RegistrationToken"
-				}
-			       ],
 			"ports": [
 				"8080:8080/tcp"
 					],
