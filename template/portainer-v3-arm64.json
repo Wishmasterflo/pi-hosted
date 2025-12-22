@@ -9984,6 +9984,11 @@
 			"platform": "linux",
 			"env": [
 				{
+					"default": "/usr/share/fmd-server/web/",
+					"label": "FMD_WebDir",
+					"name": "FMD_WebDir"
+				},
+				{
 					"default": "8888",
 					"label": "FMD_PORTINSECURE",
 					"name": "FMD_PORTINSECURE"
