@@ -18,3 +18,4 @@ echo " "
 echo "Copying fmsserver Config file..."
 cp fmdserver_config.yml /portainer/Config/fmdserver/config.yml
 echo "Done!"
+echo "Edit the Config file in /portainer/Config/fmdserver/config.yml and restart the fmd-server afterwards!"
