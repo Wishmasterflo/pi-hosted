@@ -16,8 +16,5 @@ sudo chown -R 1000:1000 /portainer/Config/fmdserver/db || error "Failed to set p
 sudo chown -R 1000:1000 /portainer/Config/fmdserver/web || error "Failed to set permissions for Authentik geoip!"
 echo " "
 echo "Copying fmsserver Config file..."
-cp /pi-hosted/tools/fmdserver_config.yml /portainer/Config/fmdserver/config.yml
+cp fmdserver_config.yml /portainer/Config/fmdserver/config.yml
 echo "Done!"
-
-
-
