@@ -1642,7 +1642,12 @@
 					"default": "",
 					"label": "SETTINGS_ENCRYPTION_KEY",
 					"name": "SETTINGS_ENCRYPTION_KEY"
-			   } 				
+			   },
+			   {
+					"default": "",
+					"label": "DUPLICATI__WEBSERVICE_PASSWORD",
+					"name": "DUPLICATI__WEBSERVICE_PASSWORD"
+			   }
 			],
 			"image": "linuxserver/duplicati:latest",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/duplicati-icon.png",
