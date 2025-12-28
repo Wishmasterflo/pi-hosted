@@ -1637,7 +1637,12 @@
 					"default": "1000",
 					"label": "PGID",
 					"name": "PGID"
-				}
+				},
+			    {
+					"default": "",
+					"label": "SETTINGS_ENCRYPTION_KEY",
+					"name": "SETTINGS_ENCRYPTION_KEY"
+			   } 				
 			],
 			"image": "linuxserver/duplicati:latest",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/duplicati-icon.png",
@@ -1650,13 +1655,6 @@
 			"title": "Duplicati",
 			"id": 38,
 			"type": 1,
-			"env": [
-				{
-					"default": "",
-					"label": "SETTINGS_ENCRYPTION_KEY",
-					"name": "SETTINGS_ENCRYPTION_KEY"
-				}
-			      ]  
 			"volumes": [
 				{
 					"bind": "/portainer/Config/Duplicati",
