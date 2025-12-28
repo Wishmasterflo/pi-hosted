@@ -1650,6 +1650,13 @@
 			"title": "Duplicati",
 			"id": 38,
 			"type": 1,
+			"env": [
+				{
+					"default": "",
+					"label": "SETTINGS_ENCRYPTION_KEY",
+					"name": "SETTINGS_ENCRYPTION_KEY"
+				}
+			      ]  
 			"volumes": [
 				{
 					"bind": "/portainer/Config/Duplicati",
