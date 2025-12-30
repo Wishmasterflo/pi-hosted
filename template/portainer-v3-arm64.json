@@ -8990,7 +8990,6 @@
 			"name": "watchtower",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://containrrr.dev/watchtower/\" target=\"_blank\">https://containrrr.dev/watchtower/</a><br><b>Official Docker Documentation: </b><a href=\"https://containrrr.dev/watchtower/usage-overview/\" target=\"_blank\">https://containrrr.dev/watchtower/usage-overview/</a><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=q3wKqk8qVS8&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=7 target=\"_blank\">Novaspirit Tech - Upgrading Portainer and Updating Containers</a><br><br>It is recommended to manually update your containers but we're including this for those of you that don't care",
 			"platform": "linux",
-			"command": "--cleanup",
 			"restart_policy": "unless-stopped",
 			"title": "Watchtower",
 			"id": 207,
@@ -9017,6 +9016,11 @@
 					"default": "1000",
 					"label": "PGID",
 					"name": "PGID"
+				},
+				{
+					"default": "true",
+					"label": "WATCHTOWER_CLEANUP",
+					"name": "WATCHTOWER_CLEANUP"
 				}
 			],
 			"image": "linuxserver/webgrabplus:latest",
