@@ -10018,6 +10018,30 @@
 				}
 			],
 			"note": "<b>Template created by Wishmasterflo</b>"
+		},
+		{
+		"categories": [
+		"Monitoring"
+			],
+			"description": "Beszel Server Monitoring",
+			"image": "henrygd/beszel:latest",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/beszel.png",
+			"name": "beszel",
+			"platform": "linux",
+			"ports": [
+				"8090:8090/tcp"
+					],
+			"restart_policy": "unless-stopped",
+			"title": "beszel",
+			"id": 231,
+    		"type": 1,
+			"volumes": [
+				{
+					"bind": "/portainer/Config/beszel",
+					"container": "/beszel_data"
+				}
+			],
+			"note": "<b>Template created by Wishmasterflo</b>"
 		}
   ]
 }
