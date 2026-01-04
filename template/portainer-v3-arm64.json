@@ -10026,7 +10026,7 @@
 			"description": "Beszel Server Monitoring",
 			"image": "henrygd/beszel:latest",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/beszel.png",
-			"name": "beszel",
+			"name": "Beszel",
 			"platform": "linux",
 			"ports": [
 				"8090:8090/tcp"
