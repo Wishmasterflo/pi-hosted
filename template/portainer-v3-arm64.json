@@ -5133,73 +5133,7 @@
 				"Proxy",
 				"Tools"
 			],
-			"description": "Nginx Proxy Manager v2 with sqlite and Goaccess Charts enables you to easily forward to your websites running at home or otherwise, including free SSL, without having to know too much about Nginx or Letsencrypt.  Please see the install document at https://github.com/pi-hosted/pi-hosted/tree/master/docs installing the template",
-			"env": [
-				{
-					"default": "1000",
-					"label": "PUID",
-					"name": "PUID"
-				},
-				{
-					"default": "1000",
-					"label": "PGID",
-					"name": "PGID"
-				},
-				{
-					"default": "Europe/Amsterdam",
-					"label": "TZ",
-					"name": "TZ"
-				},
-				{
-					"default": "false",
-					"label": "SKIP_ARCHIVED_LOGS",
-					"name": "SKIP_ARCHIVED_LOGS",
-					"description": "Defaults to false. Set to true to skip archived logs, i.e. proxy-host*.gz"
-				},
-				{
-					"default": "false",
-					"label": "BASIC_AUTH",
-					"name": "BASIC_AUTH",
-					"description": "Defaults to false. Set to true to enable nginx basic authentication. Docker container needs to stopped or restarted each time this flag is modified. This allows for the .htpasswd file to be changed accordingly."
-				},
-				{
-					"default": "user",
-					"label": "BASIC_AUTH_USERNAME Ignore if Basic Auth set to false",
-					"name": "BASIC_AUTH_USERNAME",
-					"description": "(Optional) Requires BASIC_AUTH to bet set to true. Username for basic authentication."
-				},
-				{
-					"default": "Password",
-					"label": "BASIC_AUTH_PASSWORD Ignore if Basic Auth set to false",
-					"name": "BASIC_AUTH_PASSWORD",
-					"description": "(Optional) Requires BASIC_AUTH to bet set to true. Password for basic authentication."
-				}
-			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/proxy_mgr.png",
-			"name": "nginx-proxy-manager-sqllite-goaccess",
-			"platform": "linux",
-			"ports": [
-				"80:80/tcp",
-				"81:81/tcp",
-				"443:443/tcp",
-				"7880:7880/tcp"
-			],
-			"repository": {
-				"stackfile": "stack/nginx-proxy-manager-sqlite-goaccess.yml",
-				"url": "https://github.com/Wishmasterflo/pi-hosted"
-			},
-			"restart_policy": "unless-stopped",
-			"title": "Nginx Proxy Manager v2 with Sqlite and Goaccess Charts",
-			"id": 119,
-			"type": 3,
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://nginxproxymanager.com/\" target=\"_blank\">https://nginxproxymanager.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://nginxproxymanager.com/setup/#running-the-app\" target=\"_blank\">https://nginxproxymanager.com/setup/#running-the-app</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/nginx_proxy_manager.md\" target=\"_blank\">nginx_proxy_manager.md</a></h3><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=yl2Laxbqvo8&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=10 target=\"_blank\">Novaspirit Tech - Installing Nginx Proxy Manager on Docker</a><br><br>"
-		},
-		{
-			"categories": [
-				"Proxy",
-				"Tools"
-			],
-			"description": "Nginx Proxy Manager v2 with Sqlite enables you to easily forward to your websites running at home or otherwise, including free SSL, without having to know too much about Nginx or Letsencrypt.  Please see the install document at https://github.com/pi-hosted/pi-hosted/tree/master/docs installing the template",
+			"description": "Nginx Proxy Manager with Sqlite enables you to easily forward to your websites running at home or otherwise, including free SSL, without having to know too much about Nginx or Letsencrypt.  Please see the install document at https://github.com/pi-hosted/pi-hosted/tree/master/docs installing the template",
 			"env": [
 				{
 					"default": "1000",
@@ -5227,7 +5161,7 @@
 				"443:443/tcp"
 			],
 			"restart_policy": "unless-stopped",
-			"title": "Nginx Proxy Manager v2 with Sqllite",
+			"title": "Nginx Proxy Manager with Sqllite",
 			"id": 120,
 			"type": 1,
 			"volumes": [
