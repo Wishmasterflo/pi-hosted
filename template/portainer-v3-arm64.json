@@ -9976,6 +9976,39 @@
 				}
 			],
 			"note": "<b>Template created by Wishmasterflo</b>"
+		},
+		{
+		"categories": [
+		"Monitoring"
+			],
+			"description": "Technitium DNS Server",
+			"image": "technitium/dns-server:latest",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/technitium.png",
+			"name": "Technitium",
+			"platform": "linux",
+			"ports": [
+				"5380:5380/tcp",
+				"53:53/tcp",
+				"53:53/udp"
+					],
+			"env": [
+        	{
+          "default": "domain.example.com",
+          "label": "DNS_SERVER_DOMAIN",
+          "name": "DNS_SERVER_DOMAIN"
+        	}
+				],	
+			"restart_policy": "unless-stopped",
+			"title": "technitium",
+			"id": 232,
+    		"type": 1,
+			"volumes": [
+				{
+					"bind": "/portainer/Config/technitium",
+					"container": "/etc/dns"
+				}
+			],
+			"note": "<b>Template created by Wishmasterflo</b>"
 		}
   ]
 }
