@@ -9930,6 +9930,13 @@
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/fmd.png",
 			"name": "fmd-server",
 			"platform": "linux",
+		    "env": [
+				{
+					"default": "<create a 32-char long string here>",
+					"label": "FMD_RegistrationToken",
+					"name": "FMD_RegistrationToken"
+				}
+			       ],
 			"ports": [
 				"8080:8080/tcp"
 					],
