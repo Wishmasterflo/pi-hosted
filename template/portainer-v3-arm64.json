@@ -9462,6 +9462,7 @@
 			"title": "ntfy",
 			"id": 218,
 			"type": 1,
+			"command": "serve",
 			"volumes": [
 				{
 					"bind": "/portainer/Config/ntfy",
