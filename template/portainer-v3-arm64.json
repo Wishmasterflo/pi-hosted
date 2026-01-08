@@ -9456,7 +9456,7 @@
 				}
 			],			
 			"ports": [
-				"8089:80"
+				"8089:80/tcp"
 			],
 			"restart_policy": "unless-stopped",
 			"title": "ntfy",
@@ -9522,7 +9522,7 @@
 				}
 			],			
 			"ports": [
-				"8020:8020"
+				"8020:8020/tcp"
 			],
 			"restart_policy": "unless-stopped",
 			"title": "Mollysocket",
