@@ -1,4 +1,4 @@
-{
+murm{
 	"version": "3",
 	"templates": [
 		{
@@ -4726,7 +4726,7 @@
 					"name": "TZ"
 				}
 			],
-			"image": "yhaenggi/murmur:1.5.634",
+			"image": "yhaenggi/murmur:1.5.857",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/Mumble-logo.png",
 			"name": "murmur",
 			"platform": "linux",
