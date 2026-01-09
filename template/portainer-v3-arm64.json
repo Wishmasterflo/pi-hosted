@@ -9481,7 +9481,7 @@
 				"Tools"
 			],
 			"description": "MollySocket allows getting signal notifications via UnifiedPush. It works like a linked device, which doesn't have an encryption key, connected to the Signal server. Everytime it receives an encrypted event, it notifies your mobile via UnifiedPush.",
-			"image": "mollyim/mollysocket:latest",
+			"image": "ghcr.io/mollyim/mollysocket:latest",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/mollysocket.png",
 			"name": "Mollysocket",
 			"platform": "linux",
