@@ -2463,7 +2463,7 @@
 					"name": "GOTIFY_DEFAULTUSER_PASS"
 				}
 			],
-			"image": "gotify/server-arm64:latest",
+			"image": "gotify/server:latest",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/gotify.png",
 			"name": "gotify",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://gotify.net/\" target=\"_blank\">https://gotify.net/</a><br><b>Official Docker Documentation: </b><a href=\"https://gotify.net/docs/install\" target=\"_blank\">https://gotify.net/docs/install</a><br><br><br>ARM7 Image. Documentation is Available <a href='https://gotify.net/docs/index'>here</a>.",
@@ -4082,7 +4082,7 @@
 					"name": "DB_PORT"
 				}
 			],
-			"image": "linuxserver/lychee:arm64v8-latest",
+			"image": "linuxserver/lychee:latest",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/lychee-icon.png",
 			"name": "lychee",
 			"platform": "linux",
@@ -4237,7 +4237,7 @@
 					"name": "MYSQL_ROOT_PASSWORD"
 				}
 			],
-			"image": "linuxserver/mariadb:arm64v8-latest",
+			"image": "linuxserver/mariadb:latest",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/mariadb-icon.png",
 			"name": "mariadb",
 			"platform": "linux",
@@ -6956,7 +6956,7 @@
 					"name": "TZ"
 				}
 			],
-			"image": "linuxserver/rdesktop:arm64v8-latest",
+			"image": "linuxserver/rdesktop:latest",
 			"logo": "https://raw.githubusercontent.com/novaspirit/pi-hosted/master/images/rdesktop.png",
 			"name": "rdesktop",
 			"platform": "linux",
@@ -7731,7 +7731,7 @@
 				"Tools"
 			],
 			"description": "Snippet Box is a simple self-hosted app for organizing your code snippets.",
-			"image": "pawelmalak/snippet-box:arm",
+			"image": "pawelmalak/snippet-box:latest",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/snibox.png",
 			"name": "Snippet-box",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/pawelmalak/snippet-box\" target=\"_blank\">https://github.com/pawelmalak/snippet-box</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/pawelmalak/snippet-box#with-docker\" target=\"_blank\">https://github.com/pawelmalak/snippet-box#with-docker</a><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=v-jUyB3fvAo target=\"_blank\">Novaspirit Tech - My Most used container! Snippet Box</a><br><br>Label-oriented interface with search. Supports various programming languages, markdown, plain text.",
@@ -7813,7 +7813,7 @@
 					"name": "OOKLA_EULA_GDPR"
 				}
 			],
-			"image": "henrywhitaker3/speedtest-tracker:dev-arm",
+			"image": "henrywhitaker3/speedtest-tracker:latest",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/speedtest-tracker.png",
 			"name": "speedtest-tracker",
 			"platform": "linux",
@@ -8104,7 +8104,7 @@
 				}
 			],
 			"description": "[Thanos](https://github.com/aternosorg/thanos) is a tool that allows you to shrink your minecraft worlds by deleting unused chuncks.",
-			"image": "cristianeduardmihai/thanos:arm64",
+			"image": "cristianeduardmihai/thanos:latest",
 			"logo": "https://github.com/Wishmasterflo/pi-hosted/blob/master/images/aternos-thanos.png",
 			"name": "Thanos",
 			"platform": "linux",
