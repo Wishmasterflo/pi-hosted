@@ -9529,6 +9529,7 @@
 			"title": "Mollysocket",
 			"id": 219,
 			"type": 1,
+			"command": "server",
 			"volumes": [
 				{
 					"bind": "/portainer/Config/mollysocket/data",
