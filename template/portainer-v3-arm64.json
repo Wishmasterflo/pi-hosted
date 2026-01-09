@@ -9512,14 +9512,9 @@
 					"name": "MOLLY_PORT"	
 				},
 				{
-					"default": "info",
-					"label": "RUST_LOG",
-					"name": "RUST_LOG"
-				},
-				{
-					"default": "/etc/ms_vapid_key",
-					"label": "MOLLY_VAPID_KEY_FILE",
-					"name": "MOLLY_VAPID_KEY_FILE"
+					"default": "<put created privkey here>",
+					"label": "MOLLY_VAPID_PRIVKEY",
+					"name": "MOLLY_VAPID_PRIVKEY"
 				}
 			],			
 			"ports": [
