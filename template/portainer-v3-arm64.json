@@ -8919,7 +8919,7 @@
 				"Maintenance"
 			],
 			"description": "With watchtower you can update the running version of your containerized app simply by pushing a new image to the Docker Hub or your own image registry. Watchtower will pull down your new image, gracefully shut down your existing container and restart it with the same options that were used when it was deployed initially.",
-			"image": "containrrr/watchtower:latest",
+			"image": "nickfedor/watchtower:latest",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/watchtower.png",
 			"name": "watchtower",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://containrrr.dev/watchtower/\" target=\"_blank\">https://containrrr.dev/watchtower/</a><br><b>Official Docker Documentation: </b><a href=\"https://containrrr.dev/watchtower/usage-overview/\" target=\"_blank\">https://containrrr.dev/watchtower/usage-overview/</a><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=q3wKqk8qVS8&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=7 target=\"_blank\">Novaspirit Tech - Upgrading Portainer and Updating Containers</a><br><br>It is recommended to manually update your containers but we're including this for those of you that don't care",
