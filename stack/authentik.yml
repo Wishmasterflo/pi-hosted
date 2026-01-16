@@ -28,7 +28,7 @@ services:
     volumes:
       - /portainer/Config/authentik/redis:/data
   server:
-    image: ghcr.io/goauthentik/server:2025.10.3
+    image: ghcr.io/goauthentik/server:2025.12.1
     restart: unless-stopped
     command: server
     environment:
@@ -47,7 +47,7 @@ services:
       - "9191:9000"
       - "7443:9443"
   worker:
-    image: ghcr.io/goauthentik/server:2025.10.3
+    image: ghcr.io/goauthentik/server:2025.12.1
     restart: unless-stopped
     command: worker
     environment:
