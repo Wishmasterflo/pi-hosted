@@ -89,5 +89,5 @@ You're done! Now just click App Templates and deploy applications!
 
 | Architecture | Tested OS's | URL |
 | ------------ | ----------- | --- |
-| Arm64/Amd64 | Pi OS, Ubuntu, Debian | https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/template/portainer-v3-arm64.json|
+| Arm64/Amd64 | Pi OS, Ubuntu, Debian | https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/template/portainer-v3.json|
 
