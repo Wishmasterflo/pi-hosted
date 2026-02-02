@@ -20,7 +20,7 @@ services:
        MYSQL_PASSWORD: ${MYSQL_PASSWORD}
        MYSQL_USER: ${MYSQL_USER}
    GUAC_HOSTNAME: ${IP_ADDRESS}
-	   
+   
       depends_on:
      - guacamole_sql
      - guacd
