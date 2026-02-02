@@ -21,8 +21,8 @@ services:
          MYSQL_USER: ${MYSQL_USER}
          GUACD_HOSTNAME: ${IP_ADDRESS}
       depends_on:
-		guacamole-sql
-		guacd
+	  -	guacamole-sql
+	  -	guacd
 		
       networks:
          guac-net:
@@ -34,7 +34,7 @@ services:
       environment:
          MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       volumes:
-		dbdata:/var/lib/mysql
+	  -	dbdata:/var/lib/mysql
       networks:
          guac-net:
             ipv4_address: ${SQL_HOST_IP}
