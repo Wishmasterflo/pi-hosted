@@ -11,7 +11,7 @@ services:
 
   guacweb:
     container_name: guac_web
-    image: guacamole/guacamole:latest
+    image: guacamole/guacamole:1.6.0
     restart: unless-stopped
     ports:
       - "${PORT}"
