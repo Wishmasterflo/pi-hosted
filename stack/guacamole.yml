@@ -3,7 +3,7 @@ version: "3"
 services:
   guacd:
     container_name: guacd
-    image: guacamole/guacd:latest-arm64
+    image: guacamole/guacd:1.6.0
     restart: unless-stopped
     networks:
       guac-net:
@@ -11,7 +11,7 @@ services:
 
   guacweb:
     container_name: guac_web
-    image: guacamole/guacamole:latest-arm64
+    image: guacamole/guacamole:latest
     restart: unless-stopped
     ports:
       - "${PORT}"
@@ -29,7 +29,7 @@ services:
 
   guacamole_sql:
     container_name: guac_sql
-    image: mysql:latest-arm64
+    image: mysql:latest
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
