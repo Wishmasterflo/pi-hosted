@@ -13,8 +13,7 @@ services:
       container_name: guac_web
       image: guacamole/guacamole
       restart: unless-stopped
-      ports:
-      	${PORT}
+      ports: ${PORT}
       environment:
          MYSQL_DATABASE: guacamole_db
          MYSQL_HOSTNAME: ${SQL_HOST_IP}
