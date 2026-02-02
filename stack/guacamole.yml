@@ -6,7 +6,7 @@ services:
          image: guacamole/guacd
          restart: unless-stopped
          networks:
-            guac-net:
+           - guac-net:
                ipv4_address: ${IP_ADDRESS}
             
    guacweb:
@@ -21,7 +21,7 @@ services:
        MYSQL_USER: ${MYSQL_USER}
    GUAC_HOSTNAME: ${IP_ADDRESS}
       networks:
-       guac-net:
+       - guac-net:
          
    guacamole_sql:
       container_name: guac_sql
@@ -33,7 +33,7 @@ services:
 	  - dbdata:/var/lib/mysql
 	  
       networks:
-         guac-net:
+        - guac-net:
             ipv4_address: ${SQL_HOST_IP}
             
 	depends_on:
