@@ -2591,20 +2591,53 @@
 			"name": "guacamole",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://guacamole.apache.org/\" target=\"_blank\">https://guacamole.apache.org/</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/oznu/guacamole\" target=\"_blank\">https://hub.docker.com/r/oznu/guacamole</a><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=cKAhnf8X1lo&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=3 target=\"_blank\">Novaspirit Tech - Manually Installing Guacamole on Portainer</a><br><br>The default login will be guacadmin/guacadmin. It is common practice to add a new admin user and remove the default user for Guacamole.",
 			"platform": "linux",
-			"ports": [
-				"8080:8080/tcp"
-			],
 			"restart_policy": "unless-stopped",
 			"title": "Guacamole",
 			"id": 63,
 			"type": 1,
-			"volumes": [
-				{
-					"bind": "/portainer/Config/Guacamole",
-					"container": "/config"
-				}
-			]
-		},
+			"env": [
+       	   {
+          "label": "IP_ADDRESS",
+          "name": "IP_ADDRESS",
+ 	  	  "default": "172.30.0.2"
+           },
+          {
+          "label": "SUBNET",
+          "name": "SUBNET",
+          "default": "172.30.0.0/16"
+          },
+          {
+          "label": "PORT",
+          "name": "PORT",
+          "default": "8080:8080/tcp"
+          },
+          {
+          "label": "SQL_HOST_IP",
+          "name": "SQL_HOST_IP",
+          "default": "172.30.0.3"
+          },
+          {
+          "label": "MYSQL_USER",
+          "name": "MYSQL_USER",
+          "default": "guacamole_user"
+          },
+          {
+          "label": "MYSQL_PASSWORD",
+          "name": "MYSQL_PASSWORD",
+          "default": "123456"
+          },
+	      {
+          "label": "MYSQL_ROOT_PASSWORD",
+          "name": "MYSQL_ROOT_PASSWORD",
+          "default": "root"
+          }
+        ],
+      "repository": {
+        "stackfile": "stack/guacamole.yml",
+        "url": "https://github.com/wishmasterflo/pi-hosted/"
+       },
+      "maintainer": "https://github.com/wishmasterflo/pi-hosted"
+	    },
 		{
 			"categories": [
 				"Music"
