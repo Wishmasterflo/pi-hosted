@@ -21,14 +21,14 @@ services:
          MYSQL_USER: ${MYSQL_USER}
          GUACD_HOSTNAME: ${IP_ADDRESS}
       depends_on:
-	  -	guacamole-sql
-	  -	guacd
+	  -	guacamole_sql
+	  - guacd
 		
       networks:
          guac-net:
          
-   guacamole-sql:
-      container_name: guac-sql
+   guacamole_sql:
+      container_name: guac_sql
       image: mysql
       restart: unless-stopped
       environment:
