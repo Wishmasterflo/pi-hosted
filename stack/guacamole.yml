@@ -35,7 +35,8 @@ services:
       environment:
          MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       volumes:
-   -	dbdata:/var/lib/mysql
+	  - dbdata:/var/lib/mysql
+	  
       networks:
          guac-net:
             ipv4_address: ${SQL_HOST_IP}
