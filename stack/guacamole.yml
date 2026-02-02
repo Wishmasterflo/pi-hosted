@@ -20,8 +20,8 @@ services:
        MYSQL_PASSWORD: ${MYSQL_PASSWORD}
        MYSQL_USER: ${MYSQL_USER}
    GUAC_HOSTNAME: ${IP_ADDRESS}
-     networks:
-        guac-net:
+      networks:
+       guac-net:
          
    guacamole_sql:
       container_name: guac_sql
