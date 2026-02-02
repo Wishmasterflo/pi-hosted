@@ -21,10 +21,6 @@ services:
        MYSQL_USER: ${MYSQL_USER}
    GUAC_HOSTNAME: ${IP_ADDRESS}
    
-      depends_on:
-     - guacamole_sql
-     - guacd
-
       networks:
          guac-net:
          
@@ -41,6 +37,10 @@ services:
          guac-net:
             ipv4_address: ${SQL_HOST_IP}
             
+	depends_on:
+     - guacamole_sql
+     - guacd     
+	 
 volumes:
    dbdata:
     
