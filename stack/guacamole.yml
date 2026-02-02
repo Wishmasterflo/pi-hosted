@@ -15,11 +15,11 @@ services:
       restart: unless-stopped
       ports: ${PORT}
       environment:
-	  MYSQL_DATABASE: guacamole_db
-	  MYSQL_HOSTNAME: ${SQL_HOST_IP}
-	  MYSQL_PASSWORD: ${MYSQL_PASSWORD}
-	  MYSQL_USER: ${MYSQL_USER}
-	  GUACD_HOSTNAME: ${IP_ADDRESS}
+	     MYSQL_DATABASE: guacamole_db
+	     MYSQL_HOSTNAME: ${SQL_HOST_IP}
+	     MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+	     MYSQL_USER: ${MYSQL_USER}
+	     GUACD_HOSTNAME: ${IP_ADDRESS}
 		 
       depends_on:
 	    - guacamole_sql
