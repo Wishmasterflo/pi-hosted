@@ -2593,7 +2593,7 @@
 			"restart_policy": "unless-stopped",
 			"title": "Guacamole",
 			"id": 63,
-			"type": 1,
+			"type": 3,
 			"env": [
        	   {
           "label": "IP_ADDRESS",
