@@ -48,6 +48,5 @@ networks:
     ipam:
       driver: default
       config:
-	   - subnet: ${SUBNET}
-
-		
+       - subnet: ${SUBNET}
+	   
