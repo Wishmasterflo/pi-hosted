@@ -14,17 +14,17 @@ services:
       image: guacamole/guacamole
       restart: unless-stopped
       ports: ${PORT}
-      environment: 
-	  MYSQL_DATABASE: guacamole_db
-      MYSQL_HOSTNAME: ${SQL_HOST_IP}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
-      MYSQL_USER: ${MYSQL_USER}
-      GUACD_HOSTNAME: ${IP_ADDRESS}
-		 
+      environment:
+	MYSQL_DATABASE: guacamole_db
+     MYSQL_HOSTNAME: ${SQL_HOST_IP}
+     MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+     MYSQL_USER: ${MYSQL_USER}
+     GUACD_HOSTNAME: ${IP_ADDRESS}
+ 
       depends_on:
-	  - guacamole_sql
-	  - guacd
-		
+     - guacamole_sql
+     - guacd
+
       networks:
          guac-net:
          
@@ -35,7 +35,7 @@ services:
       environment:
          MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       volumes:
-	  -	dbdata:/var/lib/mysql
+   -	dbdata:/var/lib/mysql
       networks:
          guac-net:
             ipv4_address: ${SQL_HOST_IP}
@@ -49,4 +49,5 @@ networks:
       ipam:
          driver: default
          config:
-	subnet: ${SUBNET}
+   subnet: ${SUBNET}
+   
