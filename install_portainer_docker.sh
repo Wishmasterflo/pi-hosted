@@ -24,7 +24,7 @@ sudo docker run -d -p 9443:9443 --name=portainer --restart=unless-stopped -v /va
 
 echo "Setting DOCKER_MIN_API_VERSION..."
 sudo mkdir /etc/systemd/system/docker.service.d
-cat > /etc/systemd/system/docker.service.d/override.conf<< EOF
+sudo cat > /etc/systemd/system/docker.service.d/override.conf<< EOF
 [Service]
 Environment=DOCKER_MIN_API_VERSION=1.24
 EOF
