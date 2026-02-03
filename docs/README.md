@@ -79,7 +79,7 @@ cd pi-hosted
 
 ### Login to Portainer to update the App Template.
 
-Goto http://pi-ip:9443 and login
+Goto https://pi-ip:9443 and create a new Username/password to login.
 
 Click Settings, in the bottom-left corner, and paste the Portainer v3 json file link from below into the "App Templates" URL field and click on "save application settings"
 
