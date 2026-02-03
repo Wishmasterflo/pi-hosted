@@ -17,6 +17,12 @@ function check_internet() {
 
 check_internet
 
+echo "Setting execution permission for needed scripts..."
+chmod +x install_podman.sh
+chmod +x install_portainer_docker.sh
+chmod +x update_portainer_docker.sh
+chmod +x update_portainer_podman.sh
+echo " "
 echo "Installing Podman..."
 sudo apt install podman -y
 echo " "
@@ -25,4 +31,3 @@ sudo apt install podman-compose -y
 echo " "
 echo "Installation done. Please reboot the system!"
 podman --version
-
