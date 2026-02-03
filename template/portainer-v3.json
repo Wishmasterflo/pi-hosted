@@ -2596,11 +2596,16 @@
 			"type": 3,
 			"env": [
        	   {
+          "label": "HOST_IP_ADDRESS",
+          "name": "HOST_IP_ADDRESS",
+ 	  	  "default": "192.168.0.x"
+           },
+		   {
           "label": "IP_ADDRESS",
           "name": "IP_ADDRESS",
  	  	  "default": "172.30.0.2"
            },
-          {
+           {
           "label": "SUBNET",
           "name": "SUBNET",
           "default": "172.30.0.0/16"
