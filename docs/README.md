@@ -81,8 +81,9 @@ cd pi-hosted
 
 Goto https://pi-ip:9443 and create a new Username/password to login.
 
-Click Settings, in the bottom-left corner, and paste the Portainer v3 json file link from below into the "App Templates" URL field and click on "save application settings"
-Click and connect to your local Docker environment.
+- Click Settings, in the bottom-left corner, and paste the Portainer v3 json file link from below into the "App Templates" URL field and click on "save application settings"
+- Click and connect to your local Docker environment
+- Environment-Related - Environments - local. Enter the local IP of your RaspberryPI/Server in the Public IP field
 
 You're done! Now just click App Templates and deploy applications!
 
