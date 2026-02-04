@@ -2595,12 +2595,7 @@
 			"id": 63,
 			"type": 3,
 			"env": [
-       	   {
-          "label": "HOST_IP_ADDRESS",
-          "name": "HOST_IP_ADDRESS",
- 	  	  "default": "192.168.0.x"
-           },
-		   {
+      	   {
           "label": "IP_ADDRESS",
           "name": "IP_ADDRESS",
  	  	  "default": "172.30.0.2"
