@@ -10002,7 +10002,7 @@
 				"8090:8090/tcp"
 					],
 			"restart_policy": "unless-stopped",
-			"title": "beszel",
+			"title": "Beszel",
 			"id": 231,
     		"type": 1,
 			"volumes": [
