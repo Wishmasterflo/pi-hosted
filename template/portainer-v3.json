@@ -8965,7 +8965,17 @@
 					"default": "true",
 					"label": "WATCHTOWER_CLEANUP",
 					"name": "WATCHTOWER_CLEANUP"
-			    }
+			     },
+				 {
+					 "default": "false",
+					 "label": "WATCHTOWER_REMOVE_VOLUMES", 
+					 "name": "WATCHTOWER_REMOVE_VOLUMES"
+				 },
+				 {
+					 "default": "86400",
+					 "label": "WATCHTOWER_POLL_INTERVAL",
+					 "name": "WATCHTOWER_POLL_INTERVAL"
+				 }	 
 				   ],
 			"volumes": [
 				{
