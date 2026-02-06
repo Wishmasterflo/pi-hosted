@@ -8960,6 +8960,13 @@
 			"title": "Watchtower",
 			"id": 207,
 			"type": 1,
+			"env": [
+				 {
+					"default": "true",
+					"label": "WATCHTOWER_CLEANUP",
+					"name": "WATCHTOWER_CLEANUP"
+			    }
+				   ],
 			"volumes": [
 				{
 					"bind": "/var/run/docker.sock",
@@ -8982,11 +8989,6 @@
 					"default": "1000",
 					"label": "PGID",
 					"name": "PGID"
-				},
-				{
-					"default": "true",
-					"label": "WATCHTOWER_CLEANUP",
-					"name": "WATCHTOWER_CLEANUP"
 				}
 			],
 			"image": "linuxserver/webgrabplus:latest",
