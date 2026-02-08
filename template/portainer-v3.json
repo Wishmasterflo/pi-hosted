@@ -9967,7 +9967,7 @@
 		"Tools"
 			],
 			"description": "FMD - Find my Device Server",
-			"image": "registry.gitlab.com/fmd-foss/fmd-server:latest",
+			"image": "registry.gitlab.com/fmd-foss/fmd-server:0.14.0",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/fmd.png",
 			"name": "fmd-server",
 			"platform": "linux",
