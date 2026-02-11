@@ -10060,7 +10060,7 @@
 		},
 				{
 		"categories": [
-		"Monitoring"
+		"Bookmarks"
 			],
 			"description": "Karakeep",
 			"image": "ghcr.io/karakeep-app/karakeep:${KARAKEEP_VERSION:-release}",
@@ -10101,18 +10101,22 @@
        		   "label": "BROWSER_WEB_URL",
       		   "name": "BROWSER_WEB_URL"
         	}
-		],	
+			],	
 		"restart_policy": "unless-stopped",
 		"title": "karakeep",
 		"id": 233,
-    		"type": 1,
+    	"type": 3,
 		"volumes": [
 			{
 			"bind": "/portainer/Config/karakeep",
 			"container": "/data"
 			}
 			],
-			"note": "<b>Template created by Wishmasterflo</b>"
+	   "repository": {
+        "stackfile": "stack/karakeep.yml",
+        "url": "https://github.com/wishmasterflo/pi-hosted/"
+    	  },
+		"note": "<b>Template created by Wishmasterflo</b>"
 		}
   ]
 }
