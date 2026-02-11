@@ -10057,6 +10057,62 @@
 				}
 			],
 			"note": "<b>Template created by Wishmasterflo</b>"
+		},
+				{
+		"categories": [
+		"Monitoring"
+			],
+			"description": "Karakeep",
+			"image": "ghcr.io/karakeep-app/karakeep:${KARAKEEP_VERSION:-release}",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/karakeep.png",
+			"name": "karakeep",
+			"platform": "linux",
+			"ports": [
+				"3000:3000/tcp"
+				 ],
+			"env": [
+        	{
+       		   "default": "release",
+       		   "label": "KARAKEEP_VERSION",
+      		   "name": "KARAKEEP_VERSION"
+        	},
+			{
+       		   "default": "<create random string>",
+       		   "label": "NEXTAUTH_SECRET",
+      		   "name": "NEXTAUTH_SECRET"
+        	},
+			{
+     		   "default": "<create another random string>",
+       		   "label": "MEILI_MASTER_KEY",
+      		   "name": "MEILI_MASTER_KEY"
+        	},
+			{	
+       		   "default": "http://localhost:3000",
+       		   "label": "NEXTAUTH_URL",
+      		   "name": "NEXTAUTH_URL"
+        	},
+			{
+       		   "default": "http://meilisearch:7700",
+       		   "label": "MEILI_ADDR",
+      		   "name": "MEILI_ADDR"
+        	},
+			{
+       		   "default": "http://chrome:9222",
+       		   "label": "BROWSER_WEB_URL",
+      		   "name": "BROWSER_WEB_URL"
+        	}
+		],	
+		"restart_policy": "unless-stopped",
+		"title": "karakeep",
+		"id": 233,
+    		"type": 1,
+		"volumes": [
+			{
+			"bind": "/portainer/Config/karakeep",
+			"container": "/data"
+			}
+			],
+			"note": "<b>Template created by Wishmasterflo</b>"
 		}
   ]
 }
