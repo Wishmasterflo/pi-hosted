@@ -10117,6 +10117,24 @@
         "url": "https://github.com/wishmasterflo/pi-hosted/"
     	  },
 		"note": "<b>Template created by Wishmasterflo</b>"
+		},
+		{
+		"categories": [
+		"PXE Boot"
+			],
+			"description": "iVentoy",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/iventoy.png",
+			"name": "iventoy",
+			"platform": "linux",
+			"restart_policy": "unless-stopped",
+			"title": "iventoy",
+			"id": 234,
+	    	"type": 3,
+	   "repository": {
+        "stackfile": "stack/iventoy.yml",
+        "url": "https://github.com/wishmasterflo/pi-hosted/"
+    	  },
+		"note": "<b>Template created by Wishmasterflo</b>"
 		}
   ]
 }
