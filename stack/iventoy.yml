@@ -12,8 +12,8 @@ services:
       - seccomp=unconfined
       - apparmor=unconfined
     volumes:
-      - portainer/Config/iventoy/iso:/opt/iventoy/iso
-      - portainer/Config/iventoy/data:/opt/iventoy/data
+      - /portainer/Config/iventoy/iso:/opt/iventoy/iso
+      - /portainer/Config/iventoy/data:/opt/iventoy/data
     restart: unless-stopped
 
 volumes:
