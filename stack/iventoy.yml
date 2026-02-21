@@ -1,0 +1,21 @@
+services:
+  iventoy:
+    image: n1ghtm4r3x/iventoy
+    container_name: iventoy
+    network_mode: host
+    cap_drop:
+      - ALL
+    cap_add:
+      - SYS_ADMIN
+      - NET_BIND_SERVICE
+    security_opt:
+      - seccomp=unconfined
+      - apparmor=unconfined
+    volumes:
+      - portainer/Config/iventoy/iso:/opt/iventoy/iso
+      - portainer/Config/iventoy/data:/opt/iventoy/data
+    restart: unless-stopped
+
+volumes:
+  data:
+  
