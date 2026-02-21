@@ -1,6 +1,6 @@
 services:
   iventoy:
-    image: n1ghtm4r3x/iventoy
+    image: fentanest/iventoy
     container_name: iventoy
     network_mode: host
     cap_drop:
