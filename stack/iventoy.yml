@@ -1,21 +1,26 @@
+version: '3.9'
 services:
   iventoy:
-    image: fentanest/iventoy
+    image: ziggyds/iventoy:latest
     container_name: iventoy
-    network_mode: host
-    cap_drop:
-      - ALL
-    cap_add:
-      - SYS_ADMIN
-      - NET_BIND_SERVICE
-    security_opt:
-      - seccomp=unconfined
-      - apparmor=unconfined
+    restart: always
+    privileged: true #must be true
+    ports:
+      - 26000:26000
+      - 16000:16000
+      - 10809:10809
+      - 67:67/udp
+      - 69:69/udp
     volumes:
-      - /portainer/Config/iventoy/iso:/opt/iventoy/iso
-      - /portainer/Config/iventoy/data:/opt/iventoy/data
-    restart: unless-stopped
+      - /portainer/Config/iventoy/iso:/app/iso
+      - /portainer/Config/iventoy/data:/app/data
+      - /portainer/Config/iventoy/logs:/app/logs
+    environment:
+      - AUTO_START_PXE=true # optional, true by default
 
 volumes:
-  data:
-  
+  isos:
+    external: true
+  config:
+    external: true
+    
