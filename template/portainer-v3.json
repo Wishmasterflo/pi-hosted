@@ -10135,6 +10135,48 @@
         "url": "https://github.com/wishmasterflo/pi-hosted/"
     	  },
 		"note": "<b>Template created by Wishmasterflo</b>"
+		},
+		{
+		"categories": [
+		"Boot"
+			],
+			"description": "Netboot.xyz",
+			"image": "ghcr.io/netbootxyz/netbootxyz:latest",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/netboot.png",
+			"name": "netbootxyz",
+			"platform": "linux",
+			 "env": [
+				{
+				"default": "80",
+				"label": "NGINX_PORT",
+				"name": "NGINX_PORT"
+				},
+				{
+				"default": "3000",
+				"label": "WEB_APP_PORT",
+				"name": "WEB_APP_PORT"
+				}
+				],
+			"ports": [
+				"3000:3000/tcp",
+				"69:69/udp",
+				"8080:80/tcp"
+				],				
+			"restart_policy": "unless-stopped",
+			"title": "Netbootxyz",
+			"id": 235,
+    			"type": 1,
+			"volumes": [
+				{
+				"bind": "/portainer/Config/netboot/config",
+				"container": "/config"
+				},
+				{
+				"bind": "/portainer/Config/netboot/assets",
+				"container": "/assets"
+				}
+			],
+			"note": "<b>Template created by Wishmasterflo</b>"
 		}
   ]
 }
