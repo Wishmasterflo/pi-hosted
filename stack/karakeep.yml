@@ -8,7 +8,6 @@ services:
       - "${PORTS}"
     environment:
       MEILI_ADDR: $MEILI_ADDR
-      BROWSER_WEB_URL: $BROWSER_WEB_URL
       DATA_DIR: /data # DON'T CHANGE THIS
       
   meilisearch:
