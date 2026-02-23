@@ -5,7 +5,7 @@ services:
     volumes:
       - /portainer/Config/karakeep:/data
     ports:
-      - "${PORTS}"
+      - 3008:3000
     environment:
       MEILI_ADDR: $MEILI_ADDR
       DATA_DIR: /data # DON'T CHANGE THIS
