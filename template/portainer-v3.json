@@ -10068,7 +10068,7 @@
 			"name": "karakeep",
 			"platform": "linux",
 			"ports": [
-				"3000:3000/tcp"
+				"3006:3000/tcp"
 				 ],
 			"env": [
         	{
