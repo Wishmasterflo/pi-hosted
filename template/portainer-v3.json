@@ -10095,11 +10095,6 @@
        		   "default": "http://meilisearch:7700",
        		   "label": "MEILI_ADDR",
       		   "name": "MEILI_ADDR"
-        	},
-			{
-       		   "default": "http://chrome:9222",
-       		   "label": "BROWSER_WEB_URL",
-      		   "name": "BROWSER_WEB_URL"
         	}
 			],	
 		"restart_policy": "unless-stopped",
