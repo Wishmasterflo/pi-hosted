@@ -3,7 +3,7 @@ services:
     image: mariadb
     restart: always
     volumes:
-      - db:/var/lib/mysql
+      - /portainer/Config/friendica/db:/var/lib/mysql
     environment:
       - MYSQL_USER=${MYSQL_USER}
       - MYSQL_PASSWORD=${MYSQL_PASSWORD}
@@ -18,17 +18,12 @@ services:
     ports:
       - "8080:80"
     environment:
-      - FRIENDICA_TZ=${FRIENDICA_TZ}
-      - FRIENDICA_LANG=${FRIENDICA_LANG}
-      - FRIENDICA_URL=${FRIENDICA_URL}
-      - FRIENDICA_SITENAME=${FRIENDICA_SITENAME}
       - SMTP=${SMTP}
       - MYSQL_HOST=${MYSQL_HOST}
       - MYSQL_USER=${MYSQL_USER}
       - MYSQL_PASSWORD=${MYSQL_PASSWORD}
       - MYSQL_DATABASE=${MYSQL_DATABASE}
-      - FRIENDICA_ADMIN_MAIL=${MAILNAME}
-      - FRIENDICA_NO_VALIDATION=${FRIENDICA_NO_VALIDATION}
+      - FRIENDICA_ADMIN_MAIL=${MAILNAME} 
       - FRIENDICA_REDIS_HOST=redis
     depends_on:
       - db
