@@ -9820,7 +9820,7 @@
        {
           "label": "MYSQL_USER",
           "name": "MYSQL_USER",
-          "default": "",
+          "default": "friendica",
           "description": "Username for the database user using mysql/mariadb"
         },
         {
@@ -9832,37 +9832,25 @@
 	{
 	  "label": "MYSQL_DATABASE",
           "name": "MYSQL_DATABASE",
-          "default": "",
+          "default": "friendica_db",
           "description": "Name of the database using mysql / mariadb"
         },
 	{
 	  "label": "MYSQL_HOST",
           "name": "MYSQL_HOST",
-          "default": "",
+          "default": "db",
           "description": "Hostname of the database server using mysql / mariadb"
-        },
-	{
-	  "label": "MAILNAME",
-          "name": "MAILNAME",
-          "default": "user@example.com",
-          "description": "Because Friendica links the administrator account to a specific mail address, you have to set a valid address"
-        },
-	{
-	  "label": "SMTP",
-          "name": "SMTP",
-          "default": "",
-          "description": "Address of the SMTP Mail-Gateway"
         },
 	{
 	  "label": "SMTP_PORT",
           "name": "SMTP_PORT",
-          "default": "587",
+          "default": "465",
           "description": "Port of the SMTP Mail-Gateway"
         },
 	{
 	  "label": "SMTP_DOMAIN",
           "name": "SMTP_DOMAIN",
-          "default": "friendica.local",
+          "default": "mydomain.com",
           "description": "The sender domain"
         },
 	{
@@ -9874,19 +9862,19 @@
 	{
 	  "label": "SMTP_TLS",
           "name": "SMTP_TLS",
-          "default": "",
+          "default": "on",
           "description": "Use TLS for connecting the SMTP Mail-Gateway"
         },
 	{
 	  "label": "SMTP_STARTTLS",
           "name": "SMTP_STARTTLS",
-          "default": "On",
+          "default": "off",
           "description": "Use STARTTLS for connecting the SMTP Mail-Gateway"
         },
 	{
 	  "label": "SMTP_AUTH",
           "name": "SMTP_AUTH",
-          "default": "On",
+          "default": "on",
           "description": "Auth mode for the SMTP Mail-Gateway"
         },
 	{
