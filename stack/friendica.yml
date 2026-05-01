@@ -18,7 +18,7 @@ services:
     ports:
       - "8080:80"
     environment:
-      - SMTP=${SMTP}
+      - SMTP=true
       - SMTP_PORT=${SMTP_PORT}
       - SMTP_DOMAIN=${SMTP_DOMAIN}
       - SMTP_FROM=${SMTP_FROM}
@@ -26,7 +26,7 @@ services:
       - SMTP_STARTTLS=${SMTP_STARTTLS}
       - SMTP_AUTH=${SMTP_AUTH} 
       - SMTP_AUTH_USER=${SMTP_AUTH_USER}
-      - SMTP_AuTH_PAss=${SMTP_AUTH_PASS}
+      - SMTP_AuTH_PASS=${SMTP_AUTH_PASS}
       - MYSQL_HOST=${MYSQL_HOST}
       - MYSQL_USER=${MYSQL_USER}
       - MYSQL_PASSWORD=${MYSQL_PASSWORD}
