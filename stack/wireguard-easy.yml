@@ -17,6 +17,7 @@ services:
     container_name: wg-easy
     volumes:
       - /portainer/Config/wireguard:/etc/wireguard
+      - /lib/modules:/lib/modules:ro 
     ports:
       - "${WG_PORT}:51820/udp"
       - "51821:51821/tcp"
