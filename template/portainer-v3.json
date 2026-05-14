@@ -9172,30 +9172,19 @@
 					"name": "WG_HOST"
 				},
 				{
-					"default": "YOUR_ADMIN_PASSWORD_HASH",
-					"description": "Leave blank to access WebUI without login",
-					"label": "PASSWORD_HASH",
-					"name": "PASSWORD_HASH"
-				},
-				{
 					"default": "51820",
 					"label": "WG_PORT",
 					"name": "WG_PORT"
 				},
 				{
-					"default": "1.1.1.1",
-					"label": "WG_DEFAULT_DNS",
-					"name": "WG_DEFAULT_DNS"
+					"default": "10.42.42.42",
+					"label": "WG_IP",
+					"name": "WG_IP"
 				},
 				{
-					"default": "10.8.0.x",
-					"label": "WG_DEFAULT_ADDRESS",
-					"name": "WG_DEFAULT_ADDRESS"
-				},
-				{
-					"default": "0.0.0.0/0, ::/0",
-					"label": "WG_ALLOWED_IPS",
-					"name": "WG_ALLOWED_IPS"
+					"default": "10.42.42.0/24",
+					"label": "WG_SUBNET",
+					"name": "WG_SUBNET"
 				}
 			],
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/wireguard.png",
