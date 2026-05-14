@@ -1,4 +1,3 @@
-version: "3.8"
 services:
   wg-easy:
     environment:
@@ -12,7 +11,7 @@ services:
     container_name: wg-easy
     networks:
       wg:
-        ipv4_address: 10.42.42.42
+        ipv4_address: ${WG_IP}
     volumes:
       - /portainer/Config/wireguard:/etc/wireguard
       - /lib/modules:/lib/modules:ro 
@@ -37,5 +36,6 @@ networks:
     ipam:
       driver: default
       config:
-        - subnet: 10.42.42.0/24
+        - subnet: ${WG_SUBNET}
+        
         
