@@ -9486,6 +9486,11 @@
 					"default": "Europe/Amsterdam",
 					"label": "TZ",
 					"name": "TZ"
+				},
+				{
+					"default": "true",
+					"label": "NTFY_BEHIND_PROXY",
+					"name": "NTFY_BEHIND_PROXY"
 				}
 			],			
 			"ports": [
