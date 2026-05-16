@@ -10142,6 +10142,41 @@
 				}
 			],
 			"note": "<b>Create an admin account on https://<your-app-url>/setup</b>"
-		}
+		},
+		{
+		"categories": [
+		"File Shareing"
+			],
+			"description": "Quickshare",
+			"image": "ghcr.io/hexxa/quickshare:latest",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/quickshare.png",
+			"name": "quickshare",
+			"platform": "linux",
+			 "env": [
+				{
+				"default": "qs",
+				"label": "DEFAULTADMIN",
+				"name": "DEFAULTADMIN"
+				},
+				{
+				"default": "1234",
+				"label": "DEFAULTADMINPWD",
+				"name": "DEFAULTADMINPWD"
+				} 
+				],
+			"ports": [
+				"8686:8686/tcp"
+				],				
+			"restart_policy": "unless-stopped",
+			"title": "Quickshare",
+			"id": 237,
+    			"type": 1,
+			"volumes": [
+				{
+				"bind": "/portainer/Config/quickshare/root",
+				"container": "/quickshare/root"
+				}
+			],
+			"note": "<b>Visit http://127.0.0.1:8686 and log in with user name qs and password 1234</b>"
   ]
 }
