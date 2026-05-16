@@ -10141,7 +10141,7 @@
 				"container": "/app/data"
 				}
 			],
-			"note": "<b>Template created by Wishmasterflo</b>"
+			"note": "<b>Create an admin account on https://<your-app-url>/setup</b>"
 		}
   ]
 }
