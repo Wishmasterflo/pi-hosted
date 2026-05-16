@@ -10178,6 +10178,49 @@
 				}
 			],
 			"note": "<b>Visit http://127.0.0.1:8686 and log in with user name qs and password 1234</b>"
+	   },
+	   {
+		"categories": [
+		"Audiobooks"
+			],
+			"description": "Audiobookshelf",
+			"image": "ghcr.io/advplyr/audiobookshelf:latest",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/audiobookshelf.png",
+			"name": "audiobookshelf",
+			"platform": "linux",
+			 "env": [
+				{
+				"default": "Europe/Stockholm",
+				"label": "TZ",
+				"name": "TZ"
+				} 
+				],
+			"ports": [
+				"13378:80/tcp"
+				],				
+			"restart_policy": "unless-stopped",
+			"title": "Audiobookshelf",
+			"id": 238,
+    		"type": 1,
+			"volumes": [
+				{
+				"bind": "/portainer/Config/audiobookshelf/audiobooks",
+				"container": "/audiobooks"
+				},
+				{
+				"bind": "/portainer/Config/audiobookshelf/podcasts",
+				"container": "/podcasts"
+				},
+				{
+				"bind": "/portainer/Config/audiobookshelf/config",
+				"container": "/config"
+				},
+				{
+				"bind": "/portainer/Config/audiobookshelf/metadata",
+				"container": "/metadata"
+				}
+			],
+			"note": "<b>Template created by Wishmasterflo</b>"
 	   }	
   ]
 }
