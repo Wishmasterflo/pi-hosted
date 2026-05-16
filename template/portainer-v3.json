@@ -10126,6 +10126,11 @@
 				"default": "true",
 				"label": "TRUST_PROXY",
 				"name": "TRUST_PROXY"
+				},
+				{
+				"default": "true",
+				"label": "ANALYTICS_DISABLED",
+				"name": "ANALYTICS_DISABLED"
 				} 
 				],
 			"ports": [
