@@ -10101,6 +10101,47 @@
 				}
 			],
 			"note": "<b>Template created by Wishmasterflo</b>"
+		},
+		{
+		"categories": [
+		"OIDC Provider"
+			],
+			"description": "PocketID",
+			"image": "ghcr.io/pocket-id/pocket-id:latest",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/pocketid.png",
+			"name": "pocketid",
+			"platform": "linux",
+			 "env": [
+				{
+				"default": "https://your-pocket-id-domain.com",
+				"label": "APP_URL",
+				"name": "APP_URL"
+				},
+				{
+				"default": "<Put a base64 key here>",
+				"label": "ENCRYPTION_KEY",
+				"name": "ENCRYPTION_KEY"
+				},
+				{
+				"default": "true",
+				"label": "TRUST_PROXY",
+				"name": "TRUST_PROXY"
+				} 
+				],
+			"ports": [
+				"1411:1411/tcp"
+				],				
+			"restart_policy": "unless-stopped",
+			"title": "PocketID",
+			"id": 236,
+    			"type": 1,
+			"volumes": [
+				{
+				"bind": "/portainer/Config/pocketid/data",
+				"container": "/app/data"
+				}
+			],
+			"note": "<b>Template created by Wishmasterflo</b>"
 		}
   ]
 }
