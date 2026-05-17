@@ -10108,6 +10108,16 @@
 				},
 				{
 				"default": "true",
+				"label": "TRUSTED_PLATFORM",
+				"name": "TRUSTED_PLATFORM"
+				},
+				{
+				"default": "",
+				"label": "MAXMIND_LICENSE_KEY",
+				"name": "MAXMIND_LICENSE_KEY"
+				},
+				{
+				"default": "true",
 				"label": "ANALYTICS_DISABLED",
 				"name": "ANALYTICS_DISABLED"
 				} 
