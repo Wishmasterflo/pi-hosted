@@ -10085,7 +10085,7 @@
 		"categories": [
 		"OIDC Provider"
 			],
-			"description": "PocketID",
+			"description": "PocketID - Simple OIDC self-Hosted Provider with Passkeys",
 			"image": "ghcr.io/pocket-id/pocket-id:latest",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/pocketid.png",
 			"name": "pocketid",
@@ -10125,7 +10125,7 @@
 				"container": "/app/data"
 				}
 			],
-			"note": "<b>Create an admin account on https://<your-app-url>/setup</b>"
+			"note": "<b>Create an admin account on https://your-app-url/setup</b>"
 		},
 		{
 		"categories": [
