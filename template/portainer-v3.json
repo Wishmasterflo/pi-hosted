@@ -10215,6 +10215,41 @@
 				}
 			],
 			"note": "<b>Template created by Wishmasterflo</b>"
+	  		},
+			{
+			"categories": [
+			"Music, Karaoke"
+			],
+			"description": "Karaoke Eternal",
+			"image": "ghcr.io/radrootllc/karaoke-eternal:latest",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/karaoke_eternal.png",
+			"name": "karaoke_eternal",
+			"platform": "linux",
+			 "env": [
+				{
+				"default": "Europe/Stockholm",
+				"label": "TZ",
+				"name": "TZ"
+				} 
+				],
+			"ports": [
+				"8080:8080/tcp"
+				],				
+			"restart_policy": "unless-stopped",
+			"title": "Karaoke Eternal",
+			"id": 239,
+    		"type": 1,
+			"volumes": [
+				{
+				"bind": "/portainer/Config/karaoke",
+				"container": "/config"
+				},
+				{
+				"bind": "<PATH TO MEDIA>",
+				"container": "/mnt/karaoke"
+				}
+			],
+			"note": "<b>Template created by Wishmasterflo</b>"
 	   }	
   ]
 }
