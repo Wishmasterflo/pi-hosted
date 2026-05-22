@@ -40,7 +40,7 @@ services:
     image: redis
     restart: always
     volumes:
-      - /portainer/Config/redis:/data
+      - /portainer/Config/friendica/redis:/data
       
 volumes:
   db:
