@@ -7543,8 +7543,8 @@
 			"platform": "linux",
 			"env": [
 				{
-					"default": "<Put a base64 key here>"
-					"label": "SEARXNG_SECRET"
+					"default": "<Put a base64 key here>",
+					"label": "SEARXNG_SECRET",
 					"name": "SEARXNG_SECRET"
 				}
 			],	
