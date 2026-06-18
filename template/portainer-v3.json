@@ -7541,6 +7541,13 @@
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/searx.png",
 			"name": "SearXNG",
 			"platform": "linux",
+			"env": [
+				{
+					"default": "<Put a base64 key here>"
+					"label": "SEARXNG_SECRET"
+					"name": "SEARXNG_SECRET"
+				}
+			],	
 			"ports": [
 				"9017:8080/tcp"
 			],
