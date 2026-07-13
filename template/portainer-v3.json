@@ -10262,6 +10262,48 @@
 				}
 			],
 			"note": "<b>Template created by Wishmasterflo</b>"
-	   }	
+	   		},
+			{
+			"categories": [
+			"git, Repository"
+			],
+			"description": "forgejo",
+			"image": "codeberg.org/forgejo/forgejo:15",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/forgejo.png",
+			"name": "forgejo",
+			"platform": "linux",
+			 "env": [
+				{
+				"default": "1000",
+				"label": "USER_UID",
+				"name": "USER_UID"
+				},
+				{
+				"default": "1000",
+				"label": "USER_GID",
+				"name": "USER_GID"
+				],
+			"ports": [
+				"3000:3000/tcp"
+				],
+				[
+				"222:22/tcp"
+				],
+			"restart_policy": "unless-stopped",
+			"title": "forgejo",
+			"id": 240,
+    		"type": 1,
+			"volumes": [
+				{
+				"bind": "/portainer/Config/forgejo",
+				"container": "/data"
+				},
+				{
+				"bind": "/etc/localtime",
+				"container": "/etc/localtime:ro"
+				}
+			],
+			"note": "<b>Template created by Wishmasterflo</b>"	
+	}
   ]
 }
