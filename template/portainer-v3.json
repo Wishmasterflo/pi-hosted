@@ -10119,6 +10119,11 @@
 				"name": "TRUSTED_PLATFORM"
 				},
 				{
+				"default": "true",
+				"label": "ALLOW_INSECURE_CALLBACK_URLS",
+				"name": "ALLOW_INSECURE_CALLBACK_URLS"
+				},
+				{
 				"default": "",
 				"label": "MAXMIND_LICENSE_KEY",
 				"name": "MAXMIND_LICENSE_KEY"
