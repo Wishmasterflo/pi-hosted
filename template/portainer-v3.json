@@ -10154,7 +10154,7 @@
 		"categories": [
 		"File Shareing"
 			],
-			"description": "Quickshare",
+			"description": "Quick and simple file sharing between different devices",
 			"image": "ghcr.io/hexxa/quickshare:latest",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/quickshare.png",
 			"name": "quickshare",
