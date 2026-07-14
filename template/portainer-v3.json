@@ -10155,7 +10155,7 @@
 		"File Shareing"
 			],
 			"description": "Quick and simple file sharing between different devices",
-			"image": "ghcr.io/hexxa/quickshare:latest",
+			"image": "hexxa/quickshare:latest",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/quickshare.png",
 			"name": "quickshare",
 			"platform": "linux",
@@ -10184,7 +10184,7 @@
 				"container": "/quickshare/root"
 				}
 			],
-			"note": "<b>Visit http://127.0.0.1:8686 and log in with user name qs and password 1234</b>"
+			"note": "<b>Visit http://127.0.0.1:8686 and log in with the created Username and Password</b>"
 	   },
 	   {
 		"categories": [
