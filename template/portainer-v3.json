@@ -1716,7 +1716,7 @@
 				"Other",
 				"Tools"
 			],
-			"description": "Zigbee2MQTT",
+			"description": "Zigbee2MQTT Bridge",
 			"image": "koenkk/zigbee2mqtt:latest",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/zigbee2mqtt.png",
 			"name": "Zigbee2MQTT",
@@ -7927,6 +7927,7 @@
 					"name": "PGID"
 				}
 			],
+			"description": "File synchronization Program",
 			"image": "linuxserver/syncthing:latest",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/syncthing-icon.png",
 			"name": "syncthing",
@@ -8121,7 +8122,7 @@
 					"description": "Specify a timezone to use for example Europe/Amsterdam"
 				}
 			],
-			"description": "[Thanos](https://github.com/aternosorg/thanos) is a tool that allows you to shrink your minecraft worlds by deleting unused chuncks.",
+			"description": "A tool that allows you to shrink your minecraft worlds by deleting unused chuncks.",
 			"image": "cristianeduardmihai/thanos:latest",
 			"logo": "https://github.com/Wishmasterflo/pi-hosted/blob/master/images/aternos-thanos.png",
 			"name": "Thanos",
@@ -8451,7 +8452,7 @@
 				"VPN",
 				"Tools"
 			],
-			"description": "Twingate. Secure Network Tunnel.",
+			"description": "Secure Network Tunnel.",
 			"image": "twingate/connector:latest",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/twingate.png",
 			"name": "Twingate",
@@ -8563,7 +8564,7 @@
 				"Management",
 				"Tools"
 			],
-			"description": null,
+			"description": "Controller for Unifi Devices",
 			"env": [
 				{
 					"default": "1000",
@@ -9791,7 +9792,7 @@
       "categories": [
         "Social"
       ],
-      "description": "A Decentralized Social Network",
+      "description": "A Decentralized Social Network in the Fediverse",
       "logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/friendica.png",
       "type": 3,
       "id": 229,
@@ -9881,7 +9882,7 @@
 		"categories": [
 		"Tools"
 			],
-			"description": "FMD - Find my Device Server",
+			"description": "Find My Device Server for Android devices",
 			"image": "registry.gitlab.com/fmd-foss/fmd-server:0.16.0",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/fmd.png",
 			"name": "fmd-server",
@@ -9977,7 +9978,7 @@
 		"categories": [
 		"Bookmarks"
 			],
-			"description": "Karakeep",
+			"description": "The Bookmark everything app",
 			"image": "ghcr.io/karakeep-app/karakeep:${KARAKEEP_VERSION:-release}",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/karakeep.png",
 			"name": "karakeep",
@@ -10032,7 +10033,7 @@
 		"categories": [
 		"PXE Boot"
 			],
-			"description": "iVentoy",
+			"description": "A new Netboot solution",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/iventoy.png",
 			"name": "iventoy",
 			"platform": "linux",
@@ -10050,7 +10051,7 @@
 		"categories": [
 		"Boot"
 			],
-			"description": "Netboot.xyz",
+			"description": "iPXE Netboot solution",
 			"image": "ghcr.io/netbootxyz/netbootxyz:latest",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/netboot.png",
 			"name": "netbootxyz",
@@ -10092,7 +10093,7 @@
 		"categories": [
 		"OIDC Provider"
 			],
-			"description": "PocketID - Simple OIDC self-Hosted Provider with Passkeys",
+			"description": "Simple OIDC self-Hosted Provider with Passkeys",
 			"image": "ghcr.io/pocket-id/pocket-id:latest",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/pocketid.png",
 			"name": "pocketid",
@@ -10189,7 +10190,7 @@
 		"categories": [
 		"Audiobooks"
 			],
-			"description": "Audiobookshelf",
+			"description": "Selfhosted audiobook and podcast server",
 			"image": "ghcr.io/advplyr/audiobookshelf:latest",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/audiobookshelf.png",
 			"name": "audiobookshelf",
@@ -10232,7 +10233,7 @@
 			"categories": [
 			"Music, Karaoke"
 			],
-			"description": "Karaoke Eternal",
+			"description": "Selfhosted Open Karaoke Party System",
 			"image": "ghcr.io/radrootllc/karaoke-eternal:latest",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/karaoke_eternal.png",
 			"name": "karaoke_eternal",
@@ -10267,7 +10268,7 @@
 			"categories": [
 			"git, Repository"
 			],
-			"description": "forgejo - A self-hosted git Service",
+			"description": "A selfhosted git Service",
 			"image": "codeberg.org/forgejo/forgejo:15",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/forgejo.png",
 			"name": "forgejo",
