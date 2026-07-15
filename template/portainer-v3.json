@@ -10304,6 +10304,71 @@
 				}
 			],
 			"note": "<b>Template created by Wishmasterflo</b>"	
+			{
+
+			"categories": [
+				"Backup"
+			],
+			"description": "Self-hosted database backup automation with encryption, compression, and smart retention",
+			"env": [
+				{
+					"default": "1000",
+					"label": "PUID",
+					"name": "PUID"
+				},
+				{
+					"default": "1000",
+					"label": "PGID",
+					"name": "PGID"
+				},
+				{
+					"default": "Europe/Amsterdam",
+					"label": "TZ",
+					"name": "TZ"
+				},
+				{
+					"default": "https://home-server:3000",
+					"label": "BETTER_AUTH_URL",
+					"name": "BETTER_AUTH_URL"
+				},
+				{
+					"default": "<put a random key here>",
+					"label": "ENCRYPTION_KEY",
+					"name": "ENCRYPTION_KEY"
+				},
+				{				{
+					"default": "<put a random secret here>",
+					"label": "BETTER_AUTH_SECRET",
+					"name": "BETTER_AUTH_SECRET"
+				},
+				{
+					"default": "false",
+					"label": "DISABLE_HTTPS",
+					"name": "DISABLE_HTTPS"
+				}
+			],
+			"image": "skyfay/dbackup:latest",
+			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/dbackup.png",
+			"name": "dbackup",
+			"platform": "linux",
+			"ports": [
+				"3000:3000/tcp"
+			],
+			"restart_policy": "unless-stopped",
+			"title": "DBackup",
+			"id": 241,
+			"type": 1,
+			"volumes": [
+				{
+					"bind": "/portainer/Config/dbackup",
+					"container": "/data"
+				},
+				{
+					"bind": "/portainer/Backups",
+					"container": "/backups"
+				}
+			],
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/airsonic-advanced/airsonic-advanced\" target=\"_blank\">https://github.com/airsonic-advanced/airsonic-advanced</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/linuxserver/docker-airsonic-advanced\" target=\"_blank\">https://github.com/linuxserver/docker-airsonic-advanced</a><br><br><br>"		
 	}
   ]
 }
