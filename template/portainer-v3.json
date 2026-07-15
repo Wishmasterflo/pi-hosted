@@ -10307,6 +10307,76 @@
 			},
 			{
 			"categories": [
+				"Login",
+				"Fail2Ban"
+					],
+			"description": "Ban Hosts that cause multiple authentication errors",
+			"env": [
+				{
+					"default": "Europe/Amsterdam",
+					"label": "TZ",
+					"name": "TZ"
+				},
+				{
+					"default": "7d",
+					"label": "DB_PURGE_AGE",
+					"name": "DB_PURGE_AGE"
+				},
+				{
+					"default": "email@example.com",
+					"label": "DEST_EMAIL",
+					"name": "DEST_EMAIL"
+				},
+				{
+					"default": "sender e-mail from",
+					"label": "SENDER",
+					"name": "SENDER"
+				},
+				{
+					"default": "",
+					"label": "SMTP_HOST",
+					"name": "SMTP_HOST"
+				},
+				{
+					"default": "465",
+					"label": "SMTP_PORT",
+					"name": "SMTP_PORT"
+				},
+				{
+					"default": "fail2ban",
+					"label": "SMTP_HOSTNAME",
+					"name": "SMTP_HOSTNAME"
+				},
+				{
+					"default": "loginuser@example.com",
+					"label": "SMTP_USER",
+					"name": "SMTP_USER"
+				},
+				{
+					"default": "",
+					"label": "SMTP_PASSWORD",
+					"name": "SMTP_PASSWORD"
+				},
+				{
+					"default": "YES",
+					"label": "TLS",
+					"name": "TLS"
+				}
+			],
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/fail2ban.png",
+			"name": "fail2ban",
+			"platform": "linux",
+			"repository": {
+				"stackfile": "stack/fail2ban.yml",
+				"url": "https://github.com/Wishmasterflo/pi-hosted"
+			},
+			"title": "Fail2Ban",
+			"id": 241,
+			"type": 3,
+			"note": "<b>Template created by Pi-Hosted Series</b>"
+			},
+			{
+			"categories": [
 				"Backup"
 			],
 			"description": "Self-hosted database backup automation with encryption, compression, and smart retention",
@@ -10356,7 +10426,7 @@
 					 ],
 			"restart_policy": "unless-stopped",
 			"title": "DBackup",
-			"id": 241,
+			"id": 242,
 			"type": 1,
 			"volumes": [
 				{
