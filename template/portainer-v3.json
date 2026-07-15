@@ -127,7 +127,7 @@
 				}
 			],
 			"image": "linuxserver/airsonic-advanced:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/airsonic-logo.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/airsonic-logo.png",
 			"name": "airsonic-advanced",
 			"platform": "linux",
 			"ports": [
@@ -230,7 +230,7 @@
 				}
 			],
 			"image": "httpd:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/apache-httpd.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/apache-httpd.png",
 			"name": "apache-httpd",
 			"platform": "linux",
 			"ports": [
@@ -329,7 +329,7 @@
 				}
 			],
 			"image": "archivebox/archivebox:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/archivebox.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/archivebox.png",
 			"name": "archivebox",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://archivebox.io/\" target=\"_blank\">https://archivebox.io/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/ArchiveBox/ArchiveBox/wiki/Docker\" target=\"_blank\">https://github.com/ArchiveBox/ArchiveBox/wiki/Docker</a><br><br><br>By default an admin user is not created. You can do so by launching a shell in the container and executing 'archivebox manage createsuperuser'. Documentation is Available <a href='https://github.com/ArchiveBox/ArchiveBox/wiki'>here</a>.",
 			"platform": "linux",
@@ -370,7 +370,7 @@
 				}
 			],
 			"image": "hurlenko/aria2-ariang:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/ariang.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/ariang.png",
 			"name": "AriaNG",
 			"platform": "linux",
 			"ports": [
@@ -407,7 +407,7 @@
 				}
 			],
 			"image": "authelia/authelia:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/authelia.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/authelia.png",
 			"name": "authelia",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://www.authelia.com/\" target=\"_blank\">https://www.authelia.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://www.authelia.com/docs/configuration/\" target=\"_blank\">https://www.authelia.com/docs/configuration/</a><br><br><br>Requires a configuration.yml file in order to work. Documentation is Available <a href='https://www.authelia.com/configuration/prologue/introduction/'>here</a>.",
 			"platform": "linux",
@@ -455,7 +455,7 @@
 					"name": "AUTHENTIK_SECRET_KEY"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/authentik.svg",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/authentik.svg",
 			"name": "authentik",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://goauthentik.io/\" target=\"_blank\">https://goauthentik.io/</a><br><b>Official Docker Documentation: </b><a href=\"https://goauthentik.io/docs/\" target=\"_blank\">https://goauthentik.io/docs/</a><br><br><h3><b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/tools/install_authentik.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/tools/install_authentik.sh | bash</h3><br><br>For this to work properly you will need a GeoIP account.  Go to https://www.maxmind.com/en/geolite2/signup ,once done generate a license key and copy in your user number.  For info on emailing in the system see, https://goauthentik.io/docs/installation/docker-compose#email-configuration-optional-but-recommended",
 			"platform": "linux",
@@ -492,7 +492,7 @@
 				}
 			],
 			"image": "linuxserver/bazarr:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/bazarr.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/bazarr.png",
 			"name": "bazarr",
 			"platform": "linux",
 			"ports": [
@@ -536,7 +536,7 @@
 				}
 			],
 			"image": "linuxserver/beets:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/beets-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/beets-icon.png",
 			"name": "beets",
 			"platform": "linux",
 			"ports": [
@@ -576,7 +576,7 @@
 				}
 			],
 			"image": "ubuntu/bind9:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/bind9.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/bind9.png",
 			"name": "bind9",
 			"platform": "linux",
 			"ports": [
@@ -644,7 +644,7 @@
 					"name": "PORT"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/bookstack2.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/bookstack2.png",
 			"name": "bookstack",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://www.bookstackapp.com/\" target=\"_blank\">https://www.bookstackapp.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://www.bookstackapp.com/docs/admin/installation/#docker\" target=\"_blank\">https://www.bookstackapp.com/docs/admin/installation/#docker</a><br><br><br>Default login is admin@admin.com with a password of password. The database created is called bookstackapp and the database user is called bookstack",
 			"platform": "linux",
@@ -664,7 +664,7 @@
 			],
 			"description": "Caddy - The Ultimate Server with Automatic HTTPS.  Need to run tools/install_caddy.sh before installing the template.",
 			"image": "caddy:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/caddy.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/caddy.png",
 			"name": "caddy",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://caddyserver.com/\" target=\"_blank\">https://caddyserver.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/_/caddy\" target=\"_blank\">https://hub.docker.com/_/caddy</a><br><br><h3><b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/tools/install_caddy.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/tools/install_caddy.sh | bash</h3><br><br>Caddy 2 is a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go",
 			"platform": "linux",
@@ -716,7 +716,7 @@
 				}
 			],
 			"image": "linuxserver/calibre:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/calibre-web-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/calibre-web-icon.png",
 			"name": "calibre",
 			"platform": "linux",
 			"ports": [
@@ -758,7 +758,7 @@
 				}
 			],
 			"image": "linuxserver/calibre-web:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/calibre-web-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/calibre-web-icon.png",
 			"name": "calibre-web",
 			"platform": "linux",
 			"ports": [
@@ -825,7 +825,7 @@
 				}
 			],
 			"image": "nmtan/chevereto:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/Chevereto.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/Chevereto.png",
 			"name": "Chevereto",
 			"platform": "linux",
 			"ports": [
@@ -862,7 +862,7 @@
 				}
 			],
 			"image": "cturra/ntp:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/chrony.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/chrony.png",
 			"name": "chrony-ntp",
 			"platform": "linux",
 			"ports": [
@@ -935,7 +935,7 @@
 				}
 			],
 			"image": "favonia/cloudflare-ddns:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/cloudflare-ddns.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/cloudflare-ddns.png",
 			"name": "cloudflare-ddns",
 			"platform": "linux",
 			"restart_policy": "unless-stopped",
@@ -960,7 +960,7 @@
 				}
 			],
 			"image": "cloudflare/cloudflared:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/cloudflared.svg",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/cloudflared.svg",
 			"name": "cloudflared-tunnel",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://www.cloudflare.com/products/tunnel/\" target=\"_blank\">https://www.cloudflare.com/products/tunnel/</a><br><b>Official Docker Documentation: </b><a href=\"https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/\" target=\"_blank\">https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/</a><br><br><br>Requires a token in order to work. You can find the dashboard <a href='https://dash.teams.cloudflare.com/'>here</a>. Once you logged in, go to Access followed by Tunnels. Create a tunnel. After you gave it a name you'll see in the command section a long string of chacters. This is your token you must copy.",
 			"platform": "linux",
@@ -1007,7 +1007,7 @@
 				}
 			],
 			"image": "linuxserver/code-server:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/code-server.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/code-server.png",
 			"name": "code-server",
 			"platform": "linux",
 			"ports": [
@@ -1030,7 +1030,7 @@
 				"Other",
 				"tools"
 			],
-			"description": "Please see the install document at https://github.com/pi-hosted/pi-hosted/tree/master/docs for instructions on installing the template to work with NextCloud.",
+			"description": "Please see the install document at https://github.com/Wishmasterflo/pi-hosted/tree/master/docs for instructions on installing the template to work with NextCloud.",
 			"env": [
 				{
 					"description": "User name for the admin console.",
@@ -1113,7 +1113,7 @@
 				}
 			],
 			"image": "linuxserver/cops:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/cops-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/cops-icon.png",
 			"name": "cops",
 			"platform": "linux",
 			"ports": [
@@ -1182,7 +1182,7 @@
 			],
 			"description": "Another application bookmark dashboard, with fun features.",
 			"image": "failed2run/dashmachine:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/dashmachine_logo.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/dashmachine_logo.png",
 			"name": "dashmachine",
 			"platform": "linux",
 			"ports": [
@@ -1218,7 +1218,7 @@
 				}
 			],
 			"image": "lissy93/dashy:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/dashy.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/dashy.png",
 			"name": "Dashy",
 			"platform": "linux",
 			"ports": [
@@ -1274,7 +1274,7 @@
 				}
 			],
 			"image": "postgres:13",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/resolve.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/resolve.png",
 			"name": "DaVinci Postgres Server",
 			"platform": "linux",
 			"ports": [
@@ -1290,7 +1290,7 @@
 					"container": "/var/lib/postgresql/data"
 				}
 			],
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/docs/davinci.md\" target=\"_blank\">https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/docs/davinci.md</a><br><b>Official Docker Documentation: </b><a href=\"https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/docs/davinci.md\" target=\"_blank\">https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/docs/davinci.md</a><br><br><br>"
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/docs/davinci.md\" target=\"_blank\">https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/docs/davinci.md</a><br><b>Official Docker Documentation: </b><a href=\"https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/docs/davinci.md\" target=\"_blank\">https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/docs/davinci.md</a><br><br><br>"
 		},
 		{
 			"categories": [
@@ -1312,7 +1312,7 @@
 				}
 			],
 			"image": "linuxserver/davos:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/davos.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/davos.png",
 			"name": "davos",
 			"platform": "linux",
 			"ports": [
@@ -1341,7 +1341,7 @@
 			],
 			"description": "Deemix is a deezer downloader built from the ashes of Deezloader Remix.",
 			"image": "registry.gitlab.com/bockiii/deemix-docker:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/deemix.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/deemix.png",
 			"name": "deemix",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://deemix.app/\" target=\"_blank\">https://deemix.app/</a><br><b>Official Docker Documentation: </b><a href=\"https://gitlab.com/Bockiii/deemix-docker\" target=\"_blank\">https://gitlab.com/Bockiii/deemix-docker</a><br><br><br>Deemix may take a few minutes to install. Be sure to check the logs for details. Refer to <a href='https://notabug.org/RemixDevs/DeezloaderRemix/wiki/Login+via+userToken'>this page</a> for userToken details.",
 			"platform": "linux",
@@ -1386,7 +1386,7 @@
 				}
 			],
 			"image": "linuxserver/deluge:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/deluge-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/deluge-icon.png",
 			"name": "deluge",
 			"platform": "linux",
 			"ports": [
@@ -1473,7 +1473,7 @@
 				}
 			],
 			"image": "lscr.io/linuxserver/doublecommander:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/doublecommander.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/doublecommander.png",
 			"name": "doublecommander",
 			"platform": "linux",
 			"ports": [
@@ -1499,7 +1499,7 @@
 			],
 			"description": "Dozzle is a real-time log viewer for docker containers.",
 			"image": "amir20/dozzle:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/dozzle.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/dozzle.png",
 			"name": "dozzle",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://dozzle.dev/\" target=\"_blank\">https://dozzle.dev/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/amir20/dozzle\" target=\"_blank\">https://github.com/amir20/dozzle</a><br><br><br>View logs for docker containers.",
 			"platform": "linux",
@@ -1562,7 +1562,7 @@
 					"name": "MYSQL_ROOT_PASSWORD"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/drupal.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/drupal.png",
 			"name": "drupal",
 			"platform": "linux",
 			"repository": {
@@ -1609,7 +1609,7 @@
 				}
 			],
 			"image": "linuxserver/duckdns:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/duckdns.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/duckdns.png",
 			"name": "duckdns",
 			"platform": "linux",
 			"restart_policy": "unless-stopped",
@@ -1650,7 +1650,7 @@
 			   }
 			],
 			"image": "linuxserver/duplicati:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/duplicati-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/duplicati-icon.png",
 			"name": "duplicati",
 			"platform": "linux",
 			"ports": [
@@ -1684,7 +1684,7 @@
 			],
 			"description": "Eclipse Mosquitto is an open source message broker that implements the MQTT protocol versions 5.0, 3.1.1 and 3.1. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.\r\nHave a look on https://mosquitto.org/man/mosquitto_passwd-1.html",
 			"image": "eclipse-mosquitto:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/eclipse-mosquitto.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/eclipse-mosquitto.png",
 			"name": "eclipse-mosquitto",
 			"platform": "linux",
 			"ports": [
@@ -1776,7 +1776,7 @@
 				}
 			],
 			"image": "linuxserver/emby:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/emby.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/emby.png",
 			"name": "emby",
 			"platform": "linux",
 			"ports": [
@@ -1810,7 +1810,7 @@
 			],
 			"description": "Embystat is a personal web server that can calculate all kinds of statistics from your (local) Emby server. Just install this on your server and let him calculate all kinds of fun stuff.",
 			"image": "linuxserver/embystat:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/embystat.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/embystat.png",
 			"name": "embystat",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/mregni/EmbyStat\" target=\"_blank\">https://github.com/mregni/EmbyStat</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.linuxserver.io/images/docker-embystat\" target=\"_blank\">https://docs.linuxserver.io/images/docker-embystat</a><br><br><br>Access the ui at your-ip:6555. Follow the setup wizard on initial install. Then configure the required services.",
 			"platform": "linux",
@@ -1877,7 +1877,7 @@
 			],
 			"description": "Web File Browser which can be used as a middleware or standalone app.",
 			"image": "filebrowser/filebrowser:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/filebrowser.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/filebrowser.png",
 			"name": "filebrowser",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://filebrowser.org/\" target=\"_blank\">https://filebrowser.org/</a><br><b>Official Docker Documentation: </b><a href=\"https://filebrowser.org/installation#docker\" target=\"_blank\">https://filebrowser.org/installation#docker</a><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=30MYRgCObu8&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=4 target=\"_blank\">Novaspirit Tech - Installing JDownloader and File Browser On The Pi Docker Server</a><br><br>The default user and password is admin/admin.",
 			"platform": "linux",
@@ -1928,7 +1928,7 @@
 				}
 			],
 			"image": "lscr.io/linuxserver/filezilla:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/filezilla.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/filezilla.png",
 			"name": "Filezilla",
 			"platform": "linux",
 			"ports": [
@@ -1965,7 +1965,7 @@
 				}
 			],
 			"image": "linuxserver/firefox:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/firefox.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/firefox.png",
 			"name": "Firefox",
 			"platform": "linux",
 			"ports": [
@@ -1998,7 +1998,7 @@
 				}
 			],
 			"image": "pawelmalak/flame:multiarch",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/flame.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/flame.png",
 			"name": "Flame",
 			"platform": "linux",
 			"ports": [
@@ -2126,7 +2126,7 @@
 				}
 			],
 			"image": "lscr.io/linuxserver/foldingathome:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/folding-at-home-logo.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/folding-at-home-logo.png",
 			"name": "FoldingAtHome",
 			"platform": "linux",
 			"ports": [
@@ -2178,7 +2178,7 @@
 				}
 			],
 			"image": "felddy/foundryvtt:release",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/foundrylogo.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/foundrylogo.png",
 			"name": "FoundryVTT",
 			"platform": "linux",
 			"ports": [
@@ -2214,7 +2214,7 @@
 				}
 			],
 			"image": "linuxserver/freshrss:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/freshrss-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/freshrss-icon.png",
 			"name": "freshrss",
 			"platform": "linux",
 			"ports": [
@@ -2252,7 +2252,7 @@
 				}
 			],
 			"image": "ghost:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/ghost.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/ghost.png",
 			"name": "ghost",
 			"platform": "linux",
 			"ports": [
@@ -2339,7 +2339,7 @@
 				}
 			],
 			"image": "gitea/gitea:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/gitea.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/gitea.png",
 			"name": "gitea",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://gitea.com/\" target=\"_blank\">https://gitea.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.gitea.io/en-us/install-with-docker/\" target=\"_blank\">https://docs.gitea.io/en-us/install-with-docker/</a><br><br><br>More possible Environment Variables: https://docs.gitea.io/en-us/install-with-docker/#managing-deployments-with-environment-variables",
 			"platform": "linux",
@@ -2409,7 +2409,7 @@
 					"name": "MYSQL_ROOT_PASSWORD"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/gitea.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/gitea.png",
 			"name": "gitea-mysql",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://gitea.com/\" target=\"_blank\">https://gitea.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.gitea.io/en-us/install-with-docker/#mysql-database\" target=\"_blank\">https://docs.gitea.io/en-us/install-with-docker/#mysql-database</a><br><br><br>More possible Environment Variables: https://docs.gitea.io/en-us/install-with-docker/#managing-deployments-with-environment-variables",
 			"platform": "linux",
@@ -2428,7 +2428,7 @@
 			],
 			"description": "Simple socks5 server using go-socks5 with authentication options",
 			"image": "serjs/go-socks5-proxy:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/socks5.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/socks5.png",
 			"name": "socks5-proxy",
 			"platform": "linux",
 			"ports": [
@@ -2464,7 +2464,7 @@
 				}
 			],
 			"image": "gotify/server:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/gotify.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/gotify.png",
 			"name": "gotify",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://gotify.net/\" target=\"_blank\">https://gotify.net/</a><br><b>Official Docker Documentation: </b><a href=\"https://gotify.net/docs/install\" target=\"_blank\">https://gotify.net/docs/install</a><br><br><br>ARM7 Image. Documentation is Available <a href='https://gotify.net/docs/index'>here</a>.",
 			"platform": "linux",
@@ -2535,7 +2535,7 @@
 			"title": "Graylog",
 			"id": 61,
 			"type": 3,
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://www.graylog.org\" target=\"_blank\">https://www.graylog.org</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.graylog.org/docs/docker\" target=\"_blank\">https://docs.graylog.org/docs/docker</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/graylog_install.md\" target=\"_blank\">graylog_install.md</a></h3><br><br><br>"
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://www.graylog.org\" target=\"_blank\">https://www.graylog.org</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.graylog.org/docs/docker\" target=\"_blank\">https://docs.graylog.org/docs/docker</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/graylog_install.md\" target=\"_blank\">graylog_install.md</a></h3><br><br><br>"
 		},
 		{
 			"categories": [
@@ -2562,7 +2562,7 @@
 				}
 			],
 			"image": "linuxserver/grocy:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/grocy_logo.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/grocy_logo.png",
 			"name": "grocy",
 			"platform": "linux",
 			"ports": [
@@ -2586,7 +2586,7 @@
 				"Tools"
 			],
 			"description": "A clientless remote desktop gateway.",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/guacamole.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/guacamole.png",
 			"name": "guacamole",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://guacamole.apache.org/\" target=\"_blank\">https://guacamole.apache.org/</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/oznu/guacamole\" target=\"_blank\">https://hub.docker.com/r/oznu/guacamole</a><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=cKAhnf8X1lo&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=3 target=\"_blank\">Novaspirit Tech - Manually Installing Guacamole on Portainer</a><br><br>The default login will be guacadmin/guacadmin. It is common practice to add a new admin user and remove the default user for Guacamole.",
 			"platform": "linux",
@@ -2655,7 +2655,7 @@
 				}
 			],
 			"image": "linuxserver/headphones:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/headphones-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/headphones-icon.png",
 			"name": "headphones",
 			"platform": "linux",
 			"ports": [
@@ -2701,7 +2701,7 @@
 				}
 			],
 			"image": "linuxserver/heimdall:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/heimdall-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/heimdall-icon.png",
 			"name": "heimdall",
 			"platform": "linux",
 			"ports": [
@@ -2736,7 +2736,7 @@
      			}
 			],
 			"image": "ghcr.io/homarr-labs/homarr:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/homarr.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/homarr.png",
 			"name": "homarr",
 			"platform": "linux",
 			"ports": [
@@ -2760,7 +2760,7 @@
 		{
 			"description": "Home Assistant is a free and open-source software for home automation that is designed to be the central control system for smart home devices with focus on local control and privacy.",
 			"image": "homeassistant/home-assistant:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/homeassistant.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/homeassistant.png",
 			"name": "home-assistant",
 			"platform": "linux",
 			"ports": [
@@ -2811,7 +2811,7 @@
 				}
 			],
 			"image": "homebridge/homebridge:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/homebridge.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/homebridge.png",
 			"name": "homebridge",
 			"network": "host",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://homebridge.io/\" target=\"_blank\">https://homebridge.io/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Docker\" target=\"_blank\">https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Docker</a><br><br><br>Bringing HomeKit support where there is none",
@@ -2861,7 +2861,7 @@
 				}
 			],
 			"image": "homebridge/homebridge:ubuntu",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/homebridge.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/homebridge.png",
 			"name": "homebridge-debian",
 			"network": "host",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://homebridge.io/\" target=\"_blank\">https://homebridge.io/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Docker\" target=\"_blank\">https://github.com/homebridge/homebridge/wiki/Install-Homebridge-on-Docker</a><br><br><br>Bringing HomeKit support where there is none",
@@ -2884,7 +2884,7 @@
 			],
 			"description": "Homepage helps you organize your self-hosted services by making them accessible from a single place",
 			"image": "ghcr.io/gethomepage/homepage:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/homepage.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/homepage.png",
 			"name": "Homepage",
 			"platform": "linux",
 			"ports": [
@@ -2925,7 +2925,7 @@
 				}
 			],
 			"image": "b4bz/homer:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/homer.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/homer.png",
 			"name": "homer",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/bastienwirtz/homer\" target=\"_blank\">https://github.com/bastienwirtz/homer</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md\" target=\"_blank\">https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md</a><br><br><h3><b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/tools/install_homer.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/tools/install_homer.sh | bash</h3><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=_d3J88ootYo&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=2 target=\"_blank\">Novaspirit Tech - Installing and Configuring Homer Dashboard</a><br><br>This container requires a yml file within the config volume. See the documentation here https://github.com/bastienwirtz/homer",
 			"platform": "linux",
@@ -2963,7 +2963,7 @@
 				}
 			],
 			"image": "linuxserver/htpcmanager:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/htpcmanager-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/htpcmanager-icon.png",
 			"name": "htpcmanager",
 			"platform": "linux",
 			"ports": [
@@ -2988,7 +2988,7 @@
 			],
 			"description": "Create agents that monitor and act on your behalf.",
 			"image": "mjysci/huginn:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/huginn.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/huginn.png",
 			"name": "huginn",
 			"platform": "linux",
 			"ports": [
@@ -3270,7 +3270,7 @@
 					]
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/invidious.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/invidious.png",
 			"name": "invidious",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://invidious.io/\" target=\"_blank\">https://invidious.io/</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.invidious.io/installation/#docker\" target=\"_blank\">https://docs.invidious.io/installation/#docker</a><br><br><h3><b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/tools/install_invidious.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/tools/install_invidious.sh | bash</h3><br><br>Your device should have at least <b>4 GB</b> of memory.<br>If you want to customise even further, the easy way is to <b>Copy as Custom</b> and modify the stack file manually. Look at the <a href=\\\"https://github.com/iv-org/invidious/blob/master/config/config.example.yml\\\">official config example</a>.",
 			"platform": "linux",
@@ -3337,7 +3337,7 @@
 				}
 			],
 			"image": "linuxserver/jackett:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/jacket-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/jacket-icon.png",
 			"name": "jackett",
 			"platform": "linux",
 			"ports": [
@@ -3383,7 +3383,7 @@
 				}
 			],
 			"image": "jaymoulin/jdownloader:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/jdownloader.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/jdownloader.png",
 			"name": "JDownloader",
 			"platform": "linux",
 			"ports": [
@@ -3413,7 +3413,7 @@
 			],
 			"description": "Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps.",
 			"image": "linuxserver/jellyfin:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/jellyfin.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/jellyfin.png",
 			"name": "jellyfin",
 			"platform": "linux",
 			"ports": [
@@ -3503,7 +3503,7 @@
 				}
 			],
 			"image": "fallenbagel/jellyseerr:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/jellyseerr.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/jellyseerr.png",
 			"name": "jellyseerr",
 			"platform": "linux",
 			"ports": [
@@ -3561,7 +3561,7 @@
 					"name": "POSTGRES_PASSWORD"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/joplin.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/joplin.png",
 			"name": "joplin-server",
 			"platform": "linux",
 			"repository": {
@@ -3588,7 +3588,7 @@
 				}
 			],
 			"image": "lscr.io/linuxserver/kasm:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/kasm-server.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/kasm-server.png",
 			"name": "Kasm",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://www.kasmweb.com/\" target=\"_blank\">https://www.kasmweb.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/linuxserver/docker-kasm\" target=\"_blank\">https://github.com/linuxserver/docker-kasm</a><br><br><br><b>Important: Check and see if /dev/dri/renderD128 exists on your host if it does please use the one with renderD128 support.</b><br>!!!MAKE SURE YOU USE HTTPS!!!<br>!!!MAKE SURE YOU USE PORT 4011 FIRST THEN INSTALL IT<br>DO NOT INSTALL EVERYTHING AT ONCE(unless you know what you are doing)!!!<br>!!!ALERT!!! MAKE SURE YOU SAVE THE ADMIN USERNAME AND REGULAR USERNAME DO NOT FORGET THIS STEP, IT WOULD BE SOMETHING LIKE THIS admin@kasm.local, user@kasm.local !!!ALERT!!!",
 			"platform": "linux",
@@ -3626,7 +3626,7 @@
 				}
 			],
 			"image": "lscr.io/linuxserver/kasm:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/kasm-server.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/kasm-server.png",
 			"name": "Kasm-renderD128",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://www.kasmweb.com/\" target=\"_blank\">https://www.kasmweb.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/linuxserver/docker-kasm\" target=\"_blank\">https://github.com/linuxserver/docker-kasm</a><br><br><br>!!!MAKE SURE YOU USE HTTPS!!!<br>!!!MAKE SURE YOU USE PORT 4011 FIRST THEN INSTALL IT<br>DO NOT INSTALL EVERYTHING AT ONCE(unless you know what you are doing)!!!<br>!!!ALERT!!! MAKE SURE YOU SAVE THE ADMIN USERNAME AND REGULAR USERNAME DO NOT FORGET THIS STEP, IT WOULD BE SOMETHING LIKE THIS admin@kasm.local, user@kasm.local !!!ALERT!!!",
 			"platform": "linux",
@@ -3712,7 +3712,7 @@
 					"name": "3D_PRINTER_DEVICE"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/drupal.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/drupal.png",
 			"name": "klipper-mainsail-moonraker",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://hub.docker.com/r/mkuf/klipper\" target=\"_blank\">https://hub.docker.com/r/mkuf/klipper</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/mkuf/klipper\" target=\"_blank\">https://hub.docker.com/r/mkuf/klipper</a><br><br><h3><b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/tools/install_klipper.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/tools/install_klipper.sh | bash</h3><br><br>First you will need to download a printer.conf file from https://github.com/Klipper3d/klipper/tree/master/config and copy it to ",
 			"platform": "linux",
@@ -3732,7 +3732,7 @@
 			],
 			"description": "Komga is a free and open source comics/mangas/magazines server.",
 			"image": "gotson/komga:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/komga.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/komga.png",
 			"name": "komga",
 			"platform": "linux",
 			"ports": [
@@ -3777,7 +3777,7 @@
 				}
 			],
 			"image": "linuxserver/lazylibrarian:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/lazylibrarian-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/lazylibrarian-icon.png",
 			"name": "lazylibrarian",
 			"platform": "linux",
 			"ports": [
@@ -3807,7 +3807,7 @@
 			],
 			"description": "An alternative private front-end to Reddit",
 			"image": "libreddit/libreddit:arm",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/libreddit.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/libreddit.png",
 			"name": "libreddit",
 			"platform": "linux",
 			"ports": [
@@ -3844,7 +3844,7 @@
 				}
 			],
 			"image": "linuxserver/librespeed:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/speedtest.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/speedtest.png",
 			"name": "librespeed",
 			"platform": "linux",
 			"ports": [
@@ -3881,7 +3881,7 @@
 				}
 			],
 			"image": "linuxserver/lidarr:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/lidarr.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/lidarr.png",
 			"name": "lidarr",
 			"platform": "linux",
 			"ports": [
@@ -3936,7 +3936,7 @@
 				}
 			],
 			"image": "cinetube/lingva-translate:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/lingva-translate.svg",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/lingva-translate.svg",
 			"name": "lingva-translate",
 			"platform": "linux",
 			"ports": [
@@ -4029,7 +4029,7 @@
 				}
 			],
 			"image": "nitnelave/lldap:stable",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/lldap.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/lldap.png",
 			"name": "LLDAP",
 			"platform": "linux",
 			"ports": [
@@ -4094,7 +4094,7 @@
 				}
 			],
 			"image": "linuxserver/lychee:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/lychee-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/lychee-icon.png",
 			"name": "lychee",
 			"platform": "linux",
 			"ports": [
@@ -4161,7 +4161,7 @@
 					"name": "MYSQL_ROOT_PASSWORD"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/lychee-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/lychee-icon.png",
 			"name": "lychee-mariadb",
 			"platform": "linux",
 			"repository": {
@@ -4192,7 +4192,7 @@
 				}
 			],
 			"image": "krateng/maloja:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/maloja.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/maloja.png",
 			"name": "maloja",
 			"platform": "linux",
 			"ports": [
@@ -4249,7 +4249,7 @@
 				}
 			],
 			"image": "linuxserver/mariadb:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/mariadb-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/mariadb-icon.png",
 			"name": "mariadb",
 			"platform": "linux",
 			"ports": [
@@ -4331,7 +4331,7 @@
 				}
 			],
 			"image": "hkotel/mealie:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/mealie.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/mealie.png",
 			"name": "mealie",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://hay-kot.github.io/mealie/\" target=\"_blank\">https://hay-kot.github.io/mealie/</a><br><b>Official Docker Documentation: </b><a href=\"https://hay-kot.github.io/mealie/documentation/getting-started/install/\" target=\"_blank\">https://hay-kot.github.io/mealie/documentation/getting-started/install/</a><br><br><br>Default Credentials: Username: changeme@email.com Password: MyPassword. Documentation is Available <a href='https://hay-kot.github.io/mealie/documentation/getting-started/install/'>here</a>.",
 			"platform": "linux",
@@ -4368,7 +4368,7 @@
 				}
 			],
 			"image": "linuxserver/medusa:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/medusa-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/medusa-icon.png",
 			"name": "medusa",
 			"platform": "linux",
 			"ports": [
@@ -4437,7 +4437,7 @@
 				}
 			],
 			"image": "alexta69/metube:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/metube.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/metube.png",
 			"name": "MeTube",
 			"platform": "linux",
 			"ports": [
@@ -4470,7 +4470,7 @@
 				}
 			],
 			"image": "itzg/minecraft-server:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/minecraft.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/minecraft.png",
 			"name": "minecraft",
 			"platform": "linux",
 			"ports": [
@@ -4559,7 +4559,7 @@
 				}
 			],
 			"image": "minio/minio:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/minio.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/minio.png",
 			"name": "minio",
 			"platform": "linux",
 			"ports": [
@@ -4598,7 +4598,7 @@
 				}
 			],
 			"image": "linuxserver/minisatip:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/minisatip-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/minisatip-icon.png",
 			"name": "minisatip",
 			"platform": "linux",
 			"ports": [
@@ -4691,7 +4691,7 @@
 				}
 			],
 			"image": "linuxserver/mstream:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/mstream.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/mstream.png",
 			"name": "mstream",
 			"platform": "linux",
 			"ports": [
@@ -4794,7 +4794,7 @@
 				}
 			],
 			"image": "linuxserver/musicbrainz:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/musicbrainz-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/musicbrainz-icon.png",
 			"name": "musicbrainz",
 			"platform": "linux",
 			"ports": [
@@ -4837,7 +4837,7 @@
 				}
 			],
 			"image": "linuxserver/muximux:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/muximux-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/muximux-icon.png",
 			"name": "muximux",
 			"platform": "linux",
 			"ports": [
@@ -4874,7 +4874,7 @@
 				}
 			],
 			"image": "linuxserver/mylar3:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/mylar-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/mylar-icon.png",
 			"name": "mylar",
 			"platform": "linux",
 			"ports": [
@@ -4929,7 +4929,7 @@
 				}
 			],
 			"image": "mysql:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/mysql.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/mysql.png",
 			"name": "mysql",
 			"platform": "linux",
 			"ports": [
@@ -4971,7 +4971,7 @@
 				}
 			],
 			"image": "n8nio/n8n:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/n8n.jpg",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/n8n.jpg",
 			"name": "n8n",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://n8n.io/\" target=\"_blank\">https://n8n.io/</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.n8n.io/getting-started/installation/#docker\" target=\"_blank\">https://docs.n8n.io/getting-started/installation/#docker</a><br><br><br>Documentation is Available <a href='https://docs.n8n.io/'>here</a>",
 			"platform": "linux",
@@ -5008,7 +5008,7 @@
 				}
 			],
 			"image": "netdata/netdata:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/netdata.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/netdata.png",
 			"name": "netdata",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://www.netdata.cloud/\" target=\"_blank\">https://www.netdata.cloud/</a><br><b>Official Docker Documentation: </b><a href=\"https://learn.netdata.cloud/docs/agent/packaging/docker\" target=\"_blank\">https://learn.netdata.cloud/docs/agent/packaging/docker</a><br><br><br>Documentation is Available <a href='https://learn.netdata.cloud/'>here</a>.",
 			"platform": "linux",
@@ -5089,7 +5089,7 @@
 					"name": "PORT"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/nextcloud-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/nextcloud-icon.png",
 			"name": "nextcloud",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://nextcloud.com/\" target=\"_blank\">https://nextcloud.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.linuxserver.io/images/docker-nextcloud\" target=\"_blank\">https://docs.linuxserver.io/images/docker-nextcloud</a><br><br><br>The database user is nextcloud and the database is nextcloud_db. The host of the database will be located at the bottom of the DB conotainer in portainer.",
 			"platform": "linux",
@@ -5120,7 +5120,7 @@
 				}
 			],
 			"image": "linuxserver/nginx:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/nginx-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/nginx-icon.png",
 			"name": "nginx",
 			"platform": "linux",
 			"ports": [
@@ -5144,7 +5144,7 @@
 				"Proxy",
 				"Tools"
 			],
-			"description": "Nginx Proxy Manager with Sqlite enables you to easily forward to your websites running at home or otherwise, including free SSL, without having to know too much about Nginx or Letsencrypt.  Please see the install document at https://github.com/pi-hosted/pi-hosted/tree/master/docs installing the template",
+			"description": "Nginx Proxy Manager with Sqlite enables you to easily forward to your websites running at home or otherwise, including free SSL, without having to know too much about Nginx or Letsencrypt.  Please see the install document at https://github.com/Wishmasterflo/pi-hosted/tree/master/docs installing the template",
 			"env": [
 				{
 					"default": "1000",
@@ -5163,7 +5163,7 @@
 				}
 			],
 			"image": "jc21/nginx-proxy-manager:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/proxy_mgr.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/proxy_mgr.png",
 			"name": "nginx-proxy-manager-sqlite",
 			"platform": "linux",
 			"ports": [
@@ -5185,7 +5185,7 @@
 					"container": "/etc/letsencrypt"
 				}
 			],
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://nginxproxymanager.com/\" target=\"_blank\">https://nginxproxymanager.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://nginxproxymanager.com/setup/\" target=\"_blank\">https://nginxproxymanager.com/setup/</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/nginx_proxy_manager.md\" target=\"_blank\">nginx_proxy_manager.md</a></h3><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=yl2Laxbqvo8&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=10 target=\"_blank\">Novaspirit Tech - Installing Nginx Proxy Manager on Docker</a><br><br>"
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://nginxproxymanager.com/\" target=\"_blank\">https://nginxproxymanager.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://nginxproxymanager.com/setup/\" target=\"_blank\">https://nginxproxymanager.com/setup/</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/nginx_proxy_manager.md\" target=\"_blank\">nginx_proxy_manager.md</a></h3><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=yl2Laxbqvo8&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=10 target=\"_blank\">Novaspirit Tech - Installing Nginx Proxy Manager on Docker</a><br><br>"
 		},
 		{
 			"categories": [
@@ -5194,7 +5194,7 @@
 				"Web"
 			],
 			"description": "A free and open source alternative Twitter front-end focused on privacy and performance.",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/nitter.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/nitter.png",
 			"name": "nitter",
 			"repository": {
 				"stackfile": "stack/nitter.yml",
@@ -5226,7 +5226,7 @@
 					"name": "TZ"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/node-red.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/node-red.png",
 			"name": "node-red",
 			"platform": "linux",
 			"ports": [
@@ -5352,7 +5352,7 @@
 				}
 			],
 			"image": "instantlinux/nut-upsd:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/nut-server.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/nut-server.png",
 			"name": "NUT Server",
 			"platform": "linux",
 			"ports": [
@@ -5382,7 +5382,7 @@
 				}
 			],
 			"image": "linuxserver/nzbget:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/nzbget-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/nzbget-icon.png",
 			"name": "nzbget",
 			"platform": "linux",
 			"ports": [
@@ -5424,7 +5424,7 @@
 				}
 			],
 			"image": "linuxserver/nzbhydra2:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/hydra-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/hydra-icon.png",
 			"name": "nzbhydra2",
 			"platform": "linux",
 			"ports": [
@@ -5465,7 +5465,7 @@
 				}
 			],
 			"image": "octoprint/octoprint:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/octoprint.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/octoprint.png",
 			"name": "octoprint",
 			"platform": "linux",
 			"ports": [
@@ -5507,7 +5507,7 @@
 				}
 			],
 			"image": "mbentley/omada-controller:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/omada.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/omada.png",
 			"name": "omada-controller",
 			"platform": "linux",
 			"ports": [
@@ -5553,7 +5553,7 @@
 				}
 			],
 			"image": "linuxserver/ombi:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/ombi.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/ombi.png",
 			"name": "ombi",
 			"platform": "linux",
 			"ports": [
@@ -5620,7 +5620,7 @@
 				}
 			],
 			"image": "organizr/organizr:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/organizr-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/organizr-icon.png",
 			"name": "organizr-v2",
 			"platform": "linux",
 			"ports": [
@@ -5700,7 +5700,7 @@
 				}
 			],
 			"image": "lscr.io/linuxserver/overseerr:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/overseerr.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/overseerr.png",
 			"name": "overseerr",
 			"platform": "linux",
 			"ports": [
@@ -5775,7 +5775,7 @@
 					"description": "The default language to use for OCR"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/paperless.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/paperless.png",
 			"name": "paperless-ngx",
 			"repository": {
 				"stackfile": "stack/paperless-ngx.yml",
@@ -5903,7 +5903,7 @@
 			"title": "Passbolt",
 			"id": 136,
 			"type": 3,
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/passbolt.md\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted/blob/master/docs/passbolt.md</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/passbolt.md\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted/blob/master/docs/passbolt.md</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/passbolt.md\" target=\"_blank\">passbolt.md</a></h3><br><br><br>"
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/passbolt.md\" target=\"_blank\">https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/passbolt.md</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/passbolt.md\" target=\"_blank\">https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/passbolt.md</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/passbolt.md\" target=\"_blank\">passbolt.md</a></h3><br><br><br>"
 		},
 		{
 			"categories": [
@@ -5939,7 +5939,7 @@
 				}
 			],
 			"image": "dpage/pgadmin4:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/pgadmin.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/pgadmin.png",
 			"name": "pgadmin",
 			"platform": "linux",
 			"ports": [
@@ -6034,9 +6034,9 @@
 					"name": "HOST_MEDIA_PATH"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/photoprism.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/photoprism.png",
 			"name": "PhotoPrism",
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://photoprism.app/\" target=\"_blank\">https://photoprism.app/</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.photoprism.app/getting-started/docker-compose/\" target=\"_blank\">https://docs.photoprism.app/getting-started/docker-compose/</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/photoprism.md\" target=\"_blank\">photoprism.md</a></h3><br><br><h3><b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/tools/install_photoprism.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/tools/install_photoprism.sh | bash</h3><br><br>Your device should have at least <b>4 GB</b> of memory. Running PhotoPrism on a server with less than 4 GB of swap space or setting a memory/swap limit can cause unexpected restarts, especially when the indexer temporarily needs more memory to process large files.<br>It's important to boot your Rapsberry Pi 3/4 with the parameter <b>arm_64bit=1</b> in <b>config.txt</b> to use ARM64 image.<br>If you see Docker errors related to <b>\\\"cgroups\\\"</b>, it may help to add the following to <b>/boot/firmware/cmdline.txt</b>:<br><br><b>cgroup_enable=cpuset cgroup_enable=memory cgroup_memory=1</b><br><br>User pi needs to have access to <b>HOST_MEDIA_PATH</b>, you can force it with:<br><br><b>sudo chown -R pi:pi /path/to/media</b><br><br>Run <b>install_photoprism.sh</b> before deploying this container.",
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://photoprism.app/\" target=\"_blank\">https://photoprism.app/</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.photoprism.app/getting-started/docker-compose/\" target=\"_blank\">https://docs.photoprism.app/getting-started/docker-compose/</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/photoprism.md\" target=\"_blank\">photoprism.md</a></h3><br><br><h3><b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/tools/install_photoprism.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/tools/install_photoprism.sh | bash</h3><br><br>Your device should have at least <b>4 GB</b> of memory. Running PhotoPrism on a server with less than 4 GB of swap space or setting a memory/swap limit can cause unexpected restarts, especially when the indexer temporarily needs more memory to process large files.<br>It's important to boot your Rapsberry Pi 3/4 with the parameter <b>arm_64bit=1</b> in <b>config.txt</b> to use ARM64 image.<br>If you see Docker errors related to <b>\\\"cgroups\\\"</b>, it may help to add the following to <b>/boot/firmware/cmdline.txt</b>:<br><br><b>cgroup_enable=cpuset cgroup_enable=memory cgroup_memory=1</b><br><br>User pi needs to have access to <b>HOST_MEDIA_PATH</b>, you can force it with:<br><br><b>sudo chown -R pi:pi /path/to/media</b><br><br>Run <b>install_photoprism.sh</b> before deploying this container.",
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/photoprism.yml",
@@ -6064,7 +6064,7 @@
 				}
 			],
 			"image": "linuxserver/photoshow:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/photoshow-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/photoshow-icon.png",
 			"name": "photoshow",
 			"platform": "linux",
 			"ports": [
@@ -6097,9 +6097,9 @@
 			],
 			"description": "A Linux network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole.",
 			"image": "pihole/pihole:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/pihole.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/pihole.png",
 			"name": "pihole",
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://pi-hole.net/\" target=\"_blank\">https://pi-hole.net/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/pi-hole/docker-pi-hole/#running-pi-hole-docker\" target=\"_blank\">https://github.com/pi-hole/docker-pi-hole/#running-pi-hole-docker</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/pi-hole.md\" target=\"_blank\">pi-hole.md</a></h3><br><br><br>When the installation is complete, navigate to your.ip.goes.here:1010/admin. Follow the article <a href='https://medium.com/@niktrix/getting-rid-of-systemd-resolved-consuming-port-53-605f0234f32f'>here</a> if you run into issues binding to port 53. If you like to use Pi-Hole's built in DHCP-Server change the Network type to host and open advance options and scroll to Labels and add: NET_ADMIN with the value True. When you do so, specify a port is no more needed, navigate to your.ip.goes.here/admin.",
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://pi-hole.net/\" target=\"_blank\">https://pi-hole.net/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/pi-hole/docker-pi-hole/#running-pi-hole-docker\" target=\"_blank\">https://github.com/pi-hole/docker-pi-hole/#running-pi-hole-docker</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/pi-hole.md\" target=\"_blank\">pi-hole.md</a></h3><br><br><br>When the installation is complete, navigate to your.ip.goes.here:1010/admin. Follow the article <a href='https://medium.com/@niktrix/getting-rid-of-systemd-resolved-consuming-port-53-605f0234f32f'>here</a> if you run into issues binding to port 53. If you like to use Pi-Hole's built in DHCP-Server change the Network type to host and open advance options and scroll to Labels and add: NET_ADMIN with the value True. When you do so, specify a port is no more needed, navigate to your.ip.goes.here/admin.",
 			"platform": "linux",
 			"ports": [
 				"53:53/tcp",
@@ -6130,9 +6130,9 @@
 			],
 			"description": "A Linux network-level advertisement and Internet tracker blocking application which acts as a DNS sinkhole with both DoH (DNS over HTTPS) and DoT (DNS over TLS) clients.",
 			"image": "oijkn/pihole-doh-dot:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/pihole_doh-dot.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/pihole_doh-dot.png",
 			"name": "pihole DoH/DoT",
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://pi-hole.net/\" target=\"_blank\">https://pi-hole.net/</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/oijkn/pihole-doh-dot\" target=\"_blank\">https://hub.docker.com/r/oijkn/pihole-doh-dot</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/pi-hole.md\" target=\"_blank\">pi-hole.md</a></h3><br><br><br>When the installation is complete, navigate to your.ip.goes.here:1010/admin. Follow the article <a href='https://medium.com/@niktrix/getting-rid-of-systemd-resolved-consuming-port-53-605f0234f32f'>here</a> if you run into issues binding to port 53. If you like to use Pi-Hole's built in DHCP-Server change the Network type to host and open advance options and scroll to Labels and add: NET_ADMIN with the value True. When you do so, specify a port is no more needed, navigate to your.ip.goes.here/admin.",
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://pi-hole.net/\" target=\"_blank\">https://pi-hole.net/</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/oijkn/pihole-doh-dot\" target=\"_blank\">https://hub.docker.com/r/oijkn/pihole-doh-dot</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/pi-hole.md\" target=\"_blank\">pi-hole.md</a></h3><br><br><br>When the installation is complete, navigate to your.ip.goes.here:1010/admin. Follow the article <a href='https://medium.com/@niktrix/getting-rid-of-systemd-resolved-consuming-port-53-605f0234f32f'>here</a> if you run into issues binding to port 53. If you like to use Pi-Hole's built in DHCP-Server change the Network type to host and open advance options and scroll to Labels and add: NET_ADMIN with the value True. When you do so, specify a port is no more needed, navigate to your.ip.goes.here/admin.",
 			"platform": "linux",
 			"ports": [
 				"53:53/tcp",
@@ -6203,9 +6203,9 @@
 				}
 			],
 			"image": "cbcrowe/pihole-unbound:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/pihole-unbound.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/pihole-unbound.png",
 			"name": "pihole-unbound",
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://pi-hole.net/\" target=\"_blank\">https://pi-hole.net/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/chriscrowe/docker-pihole-unbound/tree/master/one-container\" target=\"_blank\">https://github.com/chriscrowe/docker-pihole-unbound/tree/master/one-container</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/pi-hole.md\" target=\"_blank\">pi-hole.md</a></h3><br><br><br>When the installation is complete, navigate to your.ip.goes.here:1010/admin. Follow the article <a href='https://medium.com/@niktrix/getting-rid-of-systemd-resolved-consuming-port-53-605f0234f32f'>here</a> if you run into issues binding to port 53. For extra information on this container visit the mainteiner <a href='https://github.com/chriscrowe/docker-pihole-unbound/tree/master/one-container'>GitHub Page</a>. You can add ports: 5335 to access Ubound externally; 22 to enable SSH; 67 to use DHCP Server. Add those ports in Show advanced options. if you run into issues binding to port 53. If you like to use Pi-Hole's built in DHCP-Server change the Network type to host and open advance options and scroll to Labels and add: NET_ADMIN with the value True. When you do so, specify a port is no more needed, navigate to your.ip.goes.here/admin.",
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://pi-hole.net/\" target=\"_blank\">https://pi-hole.net/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/chriscrowe/docker-pihole-unbound/tree/master/one-container\" target=\"_blank\">https://github.com/chriscrowe/docker-pihole-unbound/tree/master/one-container</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/pi-hole.md\" target=\"_blank\">pi-hole.md</a></h3><br><br><br>When the installation is complete, navigate to your.ip.goes.here:1010/admin. Follow the article <a href='https://medium.com/@niktrix/getting-rid-of-systemd-resolved-consuming-port-53-605f0234f32f'>here</a> if you run into issues binding to port 53. For extra information on this container visit the mainteiner <a href='https://github.com/chriscrowe/docker-pihole-unbound/tree/master/one-container'>GitHub Page</a>. You can add ports: 5335 to access Ubound externally; 22 to enable SSH; 67 to use DHCP Server. Add those ports in Show advanced options. if you run into issues binding to port 53. If you like to use Pi-Hole's built in DHCP-Server change the Network type to host and open advance options and scroll to Labels and add: NET_ADMIN with the value True. When you do so, specify a port is no more needed, navigate to your.ip.goes.here/admin.",
 			"platform": "linux",
 			"ports": [
 				"53:53/tcp",
@@ -6271,7 +6271,7 @@
 				}
 			],
 			"image": "linuxserver/piwigo:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/piwigo-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/piwigo-icon.png",
 			"name": "piwigo",
 			"platform": "linux",
 			"ports": [
@@ -6323,7 +6323,7 @@
 				}
 			],
 			"privileged": true,
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"http://www.penguintutor.com/projects/pixel-server\" target=\"_blank\">http://www.penguintutor.com/projects/pixel-server</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/Macleykun/pixel-server\" target=\"_blank\">https://github.com/Macleykun/pixel-server</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/pixel-server_setup.md\" target=\"_blank\">pixel-server_setup.md</a></h3><br><br><h3><b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/tools/install_pixel-server.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/tools/install_pixel-server.sh | bash</h3><br><br>"
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"http://www.penguintutor.com/projects/pixel-server\" target=\"_blank\">http://www.penguintutor.com/projects/pixel-server</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/Macleykun/pixel-server\" target=\"_blank\">https://github.com/Macleykun/pixel-server</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/pixel-server_setup.md\" target=\"_blank\">pixel-server_setup.md</a></h3><br><br><h3><b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/tools/install_pixel-server.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/tools/install_pixel-server.sh | bash</h3><br><br>"
 		},
 		{
 			"categories": [
@@ -6350,7 +6350,7 @@
 				}
 			],
 			"image": "linuxserver/plex:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/plex-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/plex-icon.png",
 			"name": "plex",
 			"network": "host",
 			"platform": "linux",
@@ -6403,7 +6403,7 @@
 				}
 			],
 			"image": "postgres:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/postgresql.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/postgresql.png",
 			"name": "postgresql",
 			"platform": "linux",
 			"ports": [
@@ -6450,7 +6450,7 @@
 					"name": "WIREGUARD"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/pritunl.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/pritunl.png",
 			"name": "pritunl",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://pritunl.com/\" target=\"_blank\">https://pritunl.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/goofball222/pritunl\" target=\"_blank\">https://hub.docker.com/r/goofball222/pritunl</a><br><br><br>Documentation on this containier can be found here: <a href=https://hub.docker.com/r/goofball222/pritunl>https://hub.docker.com/r/goofball222/pritunl</a>",
 			"platform": "linux",
@@ -6483,7 +6483,7 @@
 				}
 			],
 			"image": "privatebin/nginx-fpm-alpine:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/privatebin.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/privatebin.png",
 			"name": "privatebin",
 			"platform": "linux",
 			"ports": [
@@ -6527,7 +6527,7 @@
 				}
 			],
 			"image": "linuxserver/projectsend:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/projectsend-logo.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/projectsend-logo.png",
 			"name": "projectsend",
 			"platform": "linux",
 			"ports": [
@@ -6558,7 +6558,7 @@
 			],
 			"description": "This is an unofficial Docker container of the ProtonMail Bridge. Some of the scripts are based on Hendrik Meyer's work.",
 			"image": "shenxn/protonmail-bridge:build",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/protonmail-bridge.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/protonmail-bridge.png",
 			"name": "protonmail-bridge",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://protonmail.com/bridge/\" target=\"_blank\">https://protonmail.com/bridge/</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/shenxn/protonmail-bridge\" target=\"_blank\">https://hub.docker.com/r/shenxn/protonmail-bridge</a><br><br><br>Please refer to the documentation <a href='https://hub.docker.com/r/shenxn/protonmail-bridge'/>here</a> to set this up.",
 			"platform": "linux",
@@ -6647,7 +6647,7 @@
 				}
 			],
 			"image": "lscr.io/linuxserver/pwndrop:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/pwndrop.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/pwndrop.png",
 			"name": "Pwndrop",
 			"platform": "linux",
 			"ports": [
@@ -6684,7 +6684,7 @@
 				}
 			],
 			"image": "linuxserver/pydio:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/pydio-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/pydio-icon.png",
 			"name": "pydio",
 			"platform": "linux",
 			"ports": [
@@ -6724,7 +6724,7 @@
 				}
 			],
 			"image": "linuxserver/qbittorrent:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/qbittorrent-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/qbittorrent-icon.png",
 			"name": "qbittorrent",
 			"platform": "linux",
 			"ports": [
@@ -6822,7 +6822,7 @@
 				}
 			],
 			"image": "chrisscottthomas/quakejs:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/QuakeJs.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/QuakeJs.png",
 			"name": "QuakeJs",
 			"platform": "linux",
 			"ports": [
@@ -6853,7 +6853,7 @@
 				}
 			],
 			"image": "linuxserver/quassel-core:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/quassel-core-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/quassel-core-icon.png",
 			"name": "quassel-core",
 			"platform": "linux",
 			"ports": [
@@ -6890,7 +6890,7 @@
 				}
 			],
 			"image": "linuxserver/radarr:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/radarr.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/radarr.png",
 			"name": "radarr",
 			"platform": "linux",
 			"ports": [
@@ -6993,7 +6993,7 @@
 			],
 			"description": "A one-of-a-kind resume builder that's not out to get your data. Completely secure, customizable, portable, open-source and free forever.",
 			"image": "martadinata666/reactive-resume:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/reactiveresume.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/reactiveresume.png",
 			"name": "reactive-resume",
 			"platform": "linux",
 			"env": [
@@ -7070,7 +7070,7 @@
 			"title": "Reactive-Resume",
 			"id": 162,
 			"type": 3,
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://rxresu.me/\" target=\"_blank\">https://rxresu.me/</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/martadinata666/reactive-resume\" target=\"_blank\">https://hub.docker.com/r/martadinata666/reactive-resume</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/reactive-resume_installation.md\" target=\"_blank\">reactive-resume_installation.md</a></h3><br><br><h3><b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/tools/install_reactive-resume.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/tools/install_reactive-resume.sh | bash</h3><br><br>"
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://rxresu.me/\" target=\"_blank\">https://rxresu.me/</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/r/martadinata666/reactive-resume\" target=\"_blank\">https://hub.docker.com/r/martadinata666/reactive-resume</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/reactive-resume_installation.md\" target=\"_blank\">reactive-resume_installation.md</a></h3><br><br><h3><b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/tools/install_reactive-resume.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/tools/install_reactive-resume.sh | bash</h3><br><br>"
 		},
 		{
 			"categories": [
@@ -7096,7 +7096,7 @@
 				}
 			],
 			"image": "lscr.io/linuxserver/readarr:develop",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/Readarr.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/Readarr.png",
 			"name": "readarr",
 			"platform": "linux",
 			"ports": [
@@ -7171,7 +7171,7 @@
 					"name": "REDMINE_SECRET_KEY_BASE"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/redmine.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/redmine.png",
 			"name": "redmine",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://www.redmine.org/\" target=\"_blank\">https://www.redmine.org/</a><br><b>Official Docker Documentation: </b><a href=\"https://hub.docker.com/_/redmine\" target=\"_blank\">https://hub.docker.com/_/redmine</a><br><br><br>Default user and password are admin/admin",
 			"platform": "linux",
@@ -7208,7 +7208,7 @@
 				}
 			],
 			"image": "linuxserver/resilio-sync:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/resilio.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/resilio.png",
 			"name": "resilio-sync",
 			"platform": "linux",
 			"ports": [
@@ -7285,7 +7285,7 @@
 				}
 			],
 			"image": "rustdesk/rustdesk-server-s6:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/rustdesk.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/rustdesk.png",
 			"name": "rustdesk",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://rustdesk.com/\" target=\"_blank\">https://rustdesk.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/rustdesk/rustdesk-server\" target=\"_blank\">https://github.com/rustdesk/rustdesk-server</a><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=PDnqFnnbVHg target=\"_blank\">Novaspirit Tech - Rust Desk Open Source Remote Desktop</a><br><br>Don't forget to open ports 21115 to 21119 in your router.",
 			"platform": "linux",
@@ -7394,7 +7394,7 @@
 				}
 			],
 			"image": "linuxserver/sabnzbd:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/sabnzbd-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/sabnzbd-icon.png",
 			"name": "sabnzbd",
 			"platform": "linux",
 			"ports": [
@@ -7466,7 +7466,7 @@
 				}
 			],
 			"image": "dperson/samba:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/samba.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/samba.png",
 			"name": "Samba",
 			"platform": "linux",
 			"ports": [
@@ -7493,7 +7493,7 @@
 			],
 			"description": "WebUI for smartd S.M.A.R.T monitoring",
 			"image": "ghcr.io/analogj/scrutiny:master-omnibus",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/scrutiny.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/scrutiny.png",
 			"name": "scrutiny",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/AnalogJ/scrutiny\" target=\"_blank\">https://github.com/AnalogJ/scrutiny</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/AnalogJ/scrutiny\" target=\"_blank\">https://github.com/AnalogJ/scrutiny</a><br><br><br>Set your port (default: 8080) and deploy the container. Edit container, enable SYS_RAWIO capability, add device /dev/sda in host and container field, finaly deploy the container again.",
 			"platform": "linux",
@@ -7538,7 +7538,7 @@
 				}
 			],
 			"image": "searxng/searxng:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/searx.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/searx.png",
 			"name": "SearXNG",
 			"platform": "linux",
 			"env": [
@@ -7561,7 +7561,7 @@
 					"container": "/etc/searxng"
 				}
 			],
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://docs.searxng.org/\" target=\"_blank\">https://docs.searxng.org/</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.searxng.org/admin/installation-docker.html\" target=\"_blank\">https://docs.searxng.org/admin/installation-docker.html</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/searxng.md\" target=\"_blank\">searxng.md</a></h3><br><br><br>"
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://docs.searxng.org/\" target=\"_blank\">https://docs.searxng.org/</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.searxng.org/admin/installation-docker.html\" target=\"_blank\">https://docs.searxng.org/admin/installation-docker.html</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/searxng.md\" target=\"_blank\">searxng.md</a></h3><br><br><br>"
 		},
 		{
 			"categories": [
@@ -7570,7 +7570,7 @@
 			],
 			"description": "Shiori is a simple bookmarks manager written in Go language. Intended as a simple clone of Pocket. You can use it as command line application or as web application.",
 			"image": "nicholaswilde/shiori:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/shiori-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/shiori-icon.png",
 			"name": "shiori",
 			"platform": "linux",
 			"ports": [
@@ -7607,7 +7607,7 @@
 				}
 			],
 			"image": "linuxserver/sickchill:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/sickchill-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/sickchill-icon.png",
 			"name": "sickchill",
 			"platform": "linux",
 			"ports": [
@@ -7652,7 +7652,7 @@
 				}
 			],
 			"image": "linuxserver/sickgear:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/sickgear-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/sickgear-icon.png",
 			"name": "sickgear",
 			"platform": "linux",
 			"ports": [
@@ -7721,7 +7721,7 @@
 				}
 			],
 			"image": "linuxserver/smokeping:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/smokeping-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/smokeping-icon.png",
 			"name": "smokeping",
 			"platform": "linux",
 			"ports": [
@@ -7750,7 +7750,7 @@
 			],
 			"description": "Snippet Box is a simple self-hosted app for organizing your code snippets.",
 			"image": "pawelmalak/snippet-box:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/snibox.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/snibox.png",
 			"name": "Snippet-box",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/pawelmalak/snippet-box\" target=\"_blank\">https://github.com/pawelmalak/snippet-box</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/pawelmalak/snippet-box#with-docker\" target=\"_blank\">https://github.com/pawelmalak/snippet-box#with-docker</a><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=v-jUyB3fvAo target=\"_blank\">Novaspirit Tech - My Most used container! Snippet Box</a><br><br>Label-oriented interface with search. Supports various programming languages, markdown, plain text.",
 			"platform": "linux",
@@ -7787,7 +7787,7 @@
 				}
 			],
 			"image": "linuxserver/sonarr:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/sonarr-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/sonarr-icon.png",
 			"name": "sonarr",
 			"platform": "linux",
 			"ports": [
@@ -7832,7 +7832,7 @@
 				}
 			],
 			"image": "henrywhitaker3/speedtest-tracker:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/speedtest-tracker.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/speedtest-tracker.png",
 			"name": "speedtest-tracker",
 			"platform": "linux",
 			"ports": [
@@ -7857,7 +7857,7 @@
 			],
 			"description": "Sshwifty is a SSH and Telnet connector made for the Web. It can be deployed on your computer or server to provide SSH and Telnet access interface for any compatible (standard) web browser.",
 			"image": "niruix/sshwifty:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/sshwifty-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/sshwifty-icon.png",
 			"name": "Sshwifty",
 			"platform": "linux",
 			"ports": [
@@ -7929,7 +7929,7 @@
 			],
 			"description": "File synchronization Program",
 			"image": "linuxserver/syncthing:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/syncthing-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/syncthing-icon.png",
 			"name": "syncthing",
 			"platform": "linux",
 			"ports": [
@@ -8008,7 +8008,7 @@
 				}
 			],
 			"image": "tailscale/tailscale:stable",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/tailscale-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/tailscale-icon.png",
 			"name": "tailscale",
 			"platform": "linux",
 			"restart_policy": "unless-stopped",
@@ -8046,7 +8046,7 @@
 				}
 			],
 			"image": "linuxserver/tautulli:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/tautulli-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/tautulli-icon.png",
 			"name": "tautulli",
 			"platform": "linux",
 			"ports": [
@@ -8086,7 +8086,7 @@
 				}
 			],
 			"image": "r3aper/teeworlds-server:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/Teeworlds.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/Teeworlds.png",
 			"name": "Teeworlds",
 			"platform": "linux",
 			"ports": [
@@ -8186,7 +8186,7 @@
 			],
 			"description": "A unique, non-linear notebook wiki.",
 			"image": "nicolaw/tiddlywiki:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/tiddlywiki.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/tiddlywiki.png",
 			"name": "tiddlywiki",
 			"platform": "linux",
 			"ports": [
@@ -8212,7 +8212,7 @@
 			],
 			"description": "Cloud-Native Networking Stack That Just Works.",
 			"image": "traefik:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/traefik.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/traefik.png",
 			"name": "traefik",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://doc.traefik.io/traefik/\" target=\"_blank\">https://doc.traefik.io/traefik/</a><br><b>Official Docker Documentation: </b><a href=\"https://doc.traefik.io/traefik/getting-started/install-traefik/\" target=\"_blank\">https://doc.traefik.io/traefik/getting-started/install-traefik/</a><br><br><h3><b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/tools/traefik.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/tools/traefik.sh | bash</h3><br><br>A simple and lightweight reverse proxy",
 			"platform": "linux",
@@ -8262,7 +8262,7 @@
 				}
 			],
 			"image": "linuxserver/transmission:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/transmission-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/transmission-icon.png",
 			"name": "transmission",
 			"platform": "linux",
 			"ports": [
@@ -8340,7 +8340,7 @@
 				}
 			],
 			"image": "haugene/transmission-openvpn:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/transmission-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/transmission-icon.png",
 			"name": "transmission-openvpn-latest",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://transmissionbt.com/\" target=\"_blank\">https://transmissionbt.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://haugene.github.io/docker-transmission-openvpn/run-container/\" target=\"_blank\">https://haugene.github.io/docker-transmission-openvpn/run-container/</a><br><br><br>List of supported providers available <a href='https://haugene.github.io/docker-transmission-openvpn/supported-providers'/>here</a>.",
 			"platform": "linux",
@@ -8419,7 +8419,7 @@
 				}
 			],
 			"image": "haugene/transmission-openvpn:3.7.1",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/transmission-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/transmission-icon.png",
 			"name": "transmission-openvpn",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://transmissionbt.com/\" target=\"_blank\">https://transmissionbt.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://haugene.github.io/docker-transmission-openvpn/run-container/\" target=\"_blank\">https://haugene.github.io/docker-transmission-openvpn/run-container/</a><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=tGLVEq913_4&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=5 target=\"_blank\">Novaspirit Tech - Torrent with Docker and OPENVPN with Transmission and PIA</a><br><br>List of supported providers available <a href='https://haugene.github.io/docker-transmission-openvpn/supported-providers'/>here</a>.",
 			"platform": "linux",
@@ -8535,7 +8535,7 @@
 				}
 			],
 			"image": "linuxserver/ubooquity:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/ubooquity-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/ubooquity-icon.png",
 			"name": "ubooquity",
 			"platform": "linux",
 			"ports": [
@@ -8578,7 +8578,7 @@
 				}
 			],
 			"image": "lscr.io/linuxserver/unifi-controller:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/unifi-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/unifi-icon.png",
 			"name": "unifi-controller",
 			"platform": "linux",
 			"ports": [
@@ -8631,7 +8631,7 @@
 				}
 			],
 			"image": "pducharme/unifi-video-controller:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/unifivideo-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/unifivideo-icon.png",
 			"name": "UniFi Video",
 			"platform": "linux",
 			"ports": [
@@ -8711,7 +8711,7 @@
 				"Tools"
 			],
 			"description": "Monitor your Unifi Controller using Grafana developed by oijkn for the Raspberry Pi Monitor.",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/unpoller-logo.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/unpoller-logo.png",
 			"name": "UnPoller Unifi Controller Monitor",
 			"platform": "linux",
 			"ports": [
@@ -8725,7 +8725,7 @@
 			"title": "UnPoller Monitor",
 			"id": 200,
 			"type": 3,
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://unpoller.com/\" target=\"_blank\">https://unpoller.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/novaspirit/pi-hosted/blob/master/docs/UnPoller-Monitor.md\" target=\"_blank\">https://github.com/novaspirit/pi-hosted/blob/master/docs/UnPoller-Monitor.md</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/UnPoller-Monitor.md\" target=\"_blank\">UnPoller-Monitor.md</a></h3><br><br><h3><b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/tools/unpoller-install.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/tools/unpoller-install.sh | bash</h3><br><br>"
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://unpoller.com/\" target=\"_blank\">https://unpoller.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/novaspirit/pi-hosted/blob/master/docs/UnPoller-Monitor.md\" target=\"_blank\">https://github.com/novaspirit/pi-hosted/blob/master/docs/UnPoller-Monitor.md</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/UnPoller-Monitor.md\" target=\"_blank\">UnPoller-Monitor.md</a></h3><br><br><h3><b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/tools/unpoller-install.sh\" target=\"_blank\">Pre-installation script</a> must be RAN before you install: </b>wget -qO- https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/tools/unpoller-install.sh | bash</h3><br><br>"
 		},
 		{
 			"categories": [
@@ -8734,7 +8734,7 @@
 			],
 			"description": "It is a self-hosted monitoring tool like 'Uptime Robot'.",
 			"image": "louislam/uptime-kuma:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/uptime-kuma.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/uptime-kuma.png",
 			"name": "uptime-kuma",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/louislam/uptime-kuma\" target=\"_blank\">https://github.com/louislam/uptime-kuma</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install#-docker\" target=\"_blank\">https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install#-docker</a><br><br><br>A fancy self-hosted monitoring tool.",
 			"platform": "linux",
@@ -8770,7 +8770,7 @@
 				}
 			],
 			"image": "uroni/urbackup-server:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/urbackup.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/urbackup.png",
 			"name": "UrBackup",
 			"platform": "linux",
 			"ports": [
@@ -8800,7 +8800,7 @@
 			],
 			"description": "This is a Bitwarden server API implementation written in Rust compatible with upstream Bitwarden clients*, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal..",
 			"image": "vaultwarden/server:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/bitwarden.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/bitwarden.png",
 			"name": "vaultwarden",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/dani-garcia/vaultwarden\" target=\"_blank\">https://github.com/dani-garcia/vaultwarden</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/dani-garcia/vaultwarden/wiki\" target=\"_blank\">https://github.com/dani-garcia/vaultwarden/wiki</a><br><br><br>Alternative Implementation of the Bitwarden Server API in Rust, including web vault.",
 			"platform": "linux",
@@ -8864,7 +8864,7 @@
 					"name": "MYSQL_ROOT_PASSWORD"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/vikunja.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/vikunja.png",
 			"name": "vikunja",
 			"platform": "linux",
 			"repository": {
@@ -8884,7 +8884,7 @@
 			],
 			"description": "This is a replacement for Microsoft's KMS server.",
 			"image": "mikolatero/vlmcsd:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/vlmcsd.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/vlmcsd.png",
 			"name": "vlmcsd-kms",
 			"platform": "linux",
 			"ports": [
@@ -8939,7 +8939,7 @@
 			],
 			"description": "With watchtower you can update the running version of your containerized app simply by pushing a new image to the Docker Hub or your own image registry. Watchtower will pull down your new image, gracefully shut down your existing container and restart it with the same options that were used when it was deployed initially.",
 			"image": "nickfedor/watchtower:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/watchtower.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/watchtower.png",
 			"name": "watchtower",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://containrrr.dev/watchtower/\" target=\"_blank\">https://containrrr.dev/watchtower/</a><br><b>Official Docker Documentation: </b><a href=\"https://containrrr.dev/watchtower/usage-overview/\" target=\"_blank\">https://containrrr.dev/watchtower/usage-overview/</a><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=q3wKqk8qVS8&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=7 target=\"_blank\">Novaspirit Tech - Upgrading Portainer and Updating Containers</a><br><br>It is recommended to manually update your containers but we're including this for those of you that don't care",
 			"platform": "linux",
@@ -8989,7 +8989,7 @@
 				}
 			],
 			"image": "linuxserver/webgrabplus:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/webgrabplus.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/webgrabplus.png",
 			"name": "webgrabplus",
 			"platform": "linux",
 			"restart_policy": "unless-stopped",
@@ -9038,7 +9038,7 @@
 				}
 			],
 			"image": "ghcr.io/hotio/whisparr:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/whisparr-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/whisparr-icon.png",
 			"name": "whisparr",
 			"platform": "linux",
 			"ports": [
@@ -9071,7 +9071,7 @@
 			],
 			"description": "Self-hosted, ad-free, privacy-respecting Google metasearch engine.",
 			"image": "benbusby/whoogle-search:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/whoogle.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/whoogle.png",
 			"name": "whoogle",
 			"platform": "linux",
 			"ports": [
@@ -9096,7 +9096,7 @@
 			],
 			"description": "Wikijs A modern, lightweight and powerful wiki app built on NodeJS.",
 			"image": "linuxserver/wikijs:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/wikijs.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/wikijs.png",
 			"name": "wikijs",
 			"platform": "linux",
 			"ports": [
@@ -9125,7 +9125,7 @@
 			],
 			"description": "A Docker image for Windows 2000 Advanced Server with SP4.",
 			"image": "hectorm/qemu-win2000:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/win2000.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/win2000.png",
 			"name": "win2000",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/hectorm/docker-qemu-win2000\" target=\"_blank\">https://github.com/hectorm/docker-qemu-win2000</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/hectorm/docker-qemu-win2000#start-an-instance\" target=\"_blank\">https://github.com/hectorm/docker-qemu-win2000#start-an-instance</a><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=57Gnp0424Qc&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=13 target=\"_blank\">Novaspirit Tech - Checking out Windows 2000 Docker</a><br><br>Why? Your scientists were so preoccupied with whether or not they could, that they didn't stop to think if they should. -- Dr. Ian Malcolm",
 			"platform": "linux",
@@ -9174,7 +9174,7 @@
 					"name": "WG_SUBNET"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/wireguard.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/wireguard.png",
 			"name": "wireguard",
 			"platform": "linux",
 			"repository": {
@@ -9184,7 +9184,7 @@
 			"title": "Wireguard Server",
 			"id": 212,
 			"type": 3,
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/WeeJeWel/wg-easy/\" target=\"_blank\">https://github.com/WeeJeWel/wg-easy/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/WeeJeWel/wg-easy/#1-install-docker\" target=\"_blank\">https://github.com/WeeJeWel/wg-easy/#1-install-docker</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/wireguard-install.md\" target=\"_blank\">wireguard-install.md</a></h3><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=yB_jAumIxOg target=\"_blank\">Novaspirit Tech - Beginners Guide to WireGuard Docker and Installing Pi-OS 64bit</a><br><br>"
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/WeeJeWel/wg-easy/\" target=\"_blank\">https://github.com/WeeJeWel/wg-easy/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/WeeJeWel/wg-easy/#1-install-docker\" target=\"_blank\">https://github.com/WeeJeWel/wg-easy/#1-install-docker</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/wireguard-install.md\" target=\"_blank\">wireguard-install.md</a></h3><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=yB_jAumIxOg target=\"_blank\">Novaspirit Tech - Beginners Guide to WireGuard Docker and Installing Pi-OS 64bit</a><br><br>"
 		},
 		{
 			"categories": [
@@ -9212,8 +9212,8 @@
 					"name": "MYSQL_DATABASE_ROOT_PASSWORD"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/wordpress.png",
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://wordpress.com/\" target=\"_blank\">https://wordpress.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/docker-library/docs/tree/master/wordpress#-via-docker-stack-deploy-or-docker-compose\" target=\"_blank\">https://github.com/docker-library/docs/tree/master/wordpress#-via-docker-stack-deploy-or-docker-compose</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/pi-hosted/pi-hosted/blob/master/docs/wordpress_installation.md\" target=\"_blank\">wordpress_installation.md</a></h3><br><br><br>Deploys a Wordpress instance connected to a MySQL database.",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/wordpress.png",
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://wordpress.com/\" target=\"_blank\">https://wordpress.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/docker-library/docs/tree/master/wordpress#-via-docker-stack-deploy-or-docker-compose\" target=\"_blank\">https://github.com/docker-library/docs/tree/master/wordpress#-via-docker-stack-deploy-or-docker-compose</a><br><h3><b>Pi-Hosted dedicated documentation: </b><a href=\"https://github.com/Wishmasterflo/pi-hosted/blob/master/docs/wordpress_installation.md\" target=\"_blank\">wordpress_installation.md</a></h3><br><br><br>Deploys a Wordpress instance connected to a MySQL database.",
 			"platform": "linux",
 			"repository": {
 				"stackfile": "stack/wordpress-stack.yml",
@@ -9297,7 +9297,7 @@
 				}
 			],
 			"name": "Your Spotify",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/your-spotify.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/your-spotify.png",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/Yooooomi/your_spotify\" target=\"_blank\">https://github.com/Yooooomi/your_spotify</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/Yooooomi/your_spotify#readme\" target=\"_blank\">https://github.com/Yooooomi/your_spotify#readme</a><br><br><br>Create a Spotify App here: https://developer.spotify.com/dashboard/applications. Don't forget adding Redirect URL: http://192.168.X.Y:3081/oauth/spotify/callback under edit settings of the dashboard.",
 			"platform": "linux",
 			"repository": {
@@ -9368,7 +9368,7 @@
 					"name": "MYSQL_ROOT_PASSWORD"
 				}
 			],
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/yourls-logo.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/yourls-logo.png",
 			"name": "yourls",
 			"platform": "linux",
 			"repository": {
@@ -9388,7 +9388,7 @@
 			],
 			"description": "YoutubeDL-Material is a Material Design frontend for youtube-dl. It's coded using Angular 9 for the frontend, and Node.js on the backend.",
 			"image": "tzahi12345/youtubedl-material:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/ytdlm.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/ytdlm.png",
 			"name": "youtubedl-material",
 			"platform": "linux",
 			"ports": [
@@ -9440,7 +9440,7 @@
 				}
 			],
 			"image": "linuxserver/znc:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/znc-icon.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/znc-icon.png",
 			"name": "znc",
 			"platform": "linux",
 			"ports": [
