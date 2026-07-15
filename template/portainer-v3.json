@@ -10348,7 +10348,7 @@
 				}
 				],
 			"image": "skyfay/dbackup:latest",
-			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/dbackup.png",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/dbackup.png",
 			"name": "dbackup",
 			"platform": "linux",
 			"ports": [
@@ -10368,7 +10368,7 @@
 					"container": "/backups"
 				}
 			],
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://github.com/airsonic-advanced/airsonic-advanced\" target=\"_blank\">https://github.com/airsonic-advanced/airsonic-advanced</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/linuxserver/docker-airsonic-advanced\" target=\"_blank\">https://github.com/linuxserver/docker-airsonic-advanced</a><br><br><br>"		
+			"note": "<b>Template created by Wishmasterflo</b>"
 	}
   ]
 }
