@@ -10336,7 +10336,7 @@
 					"label": "ENCRYPTION_KEY",
 					"name": "ENCRYPTION_KEY"
 				},
-				{				{
+				{	
 					"default": "<put a random secret here>",
 					"label": "BETTER_AUTH_SECRET",
 					"name": "BETTER_AUTH_SECRET"
@@ -10346,14 +10346,14 @@
 					"label": "DISABLE_HTTPS",
 					"name": "DISABLE_HTTPS"
 				}
-			],
+				],
 			"image": "skyfay/dbackup:latest",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/dbackup.png",
 			"name": "dbackup",
 			"platform": "linux",
 			"ports": [
 				"3000:3000/tcp"
-			],
+					 ],
 			"restart_policy": "unless-stopped",
 			"title": "DBackup",
 			"id": 241,
