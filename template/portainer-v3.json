@@ -1481,7 +1481,7 @@
 				"11502:3001/tcp"
 			],
 			"restart": "unless-stopped",
-			"title": "doublecommander",
+			"title": "Doublecommander",
 			"id": 34,
 			"type": 1,
 			"volumes": [
@@ -2097,7 +2097,7 @@
 				"8715:8080/tcp"
 			],
 			"restart_policy": "unless-stopped",
-			"title": "flatnotes",
+			"title": "Flatnotes",
 			"id": 50,
 			"type": 1,
 			"volumes": [
@@ -3307,7 +3307,7 @@
 				"8081:8081/tcp"
 			],
 			"restart_policy": "unless-stopped",
-			"title": "iobroker",
+			"title": "Iobroker",
 			"id": 77,
 			"type": 1,
 			"volumes": [
@@ -3814,7 +3814,7 @@
 				"8088:8080/tcp"
 			],
 			"restart_policy": "unless-stopped",
-			"title": "libreddit",
+			"title": "Libreddit",
 			"id": 90,
 			"type": 1,
 			"volumes": [
@@ -3888,7 +3888,7 @@
 				"8686:8686/tcp"
 			],
 			"restart_policy": "unless-stopped",
-			"title": "lidarr",
+			"title": "Lidarr",
 			"id": 92,
 			"type": 1,
 			"volumes": [
@@ -3993,14 +3993,14 @@
 			],
 			"image": "linkstackorg/linkstack:latest",
 			"logo": "https://raw.githubusercontent.com/LinkStackOrg/branding/main/logo/png/logo.png",
-			"name": "LinkStack",
+			"name": "linkstack",
 			"platform": "linux",
 			"ports": [
 				"8822:80/tcp",
 				"8844:443/tcp"
 			],
 			"restart_policy": "unless-stopped",
-			"title": "linkstack",
+			"title": "LinkStack",
 			"id": 94,
 			"type": 1,
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://linkstack.org/\" target=\"_blank\">https://linkstack.org/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/linkstackorg/linkstack#readme\" target=\"_blank\">https://github.com/linkstackorg/linkstack#readme</a><br><br><br>"
@@ -5302,7 +5302,7 @@
 				"8080:80/tcp"
 			],
 			"restart_policy": "unless-stopped",
-			"title": "nord-vpn",
+			"title": "Nord-VPN",
 			"id": 124,
 			"type": 1,
 			"privileged": true,
@@ -5946,7 +5946,7 @@
 				"5050:80/tcp"
 			],
 			"restart_policy": "unless-stopped",
-			"title": "pgAdmin",
+			"title": "PgAdmin",
 			"id": 137,
 			"type": 1,
 			"volumes": [
@@ -7103,7 +7103,7 @@
 				"8787:8787/tcp"
 			],
 			"restart_policy": "unless-stopped",
-			"title": "readarr",
+			"title": "Readarr",
 			"id": 163,
 			"type": 1,
 			"volumes": [
@@ -7253,7 +7253,7 @@
 			"name": "rss-dl",
 			"platform": "linux",
 			"restart_policy": "unless-stopped",
-			"title": "rss-dl",
+			"title": "RSS-dl",
 			"id": 166,
 			"type": 1,
 			"volumes": [
@@ -7501,7 +7501,7 @@
 				"8080:8080/tcp"
 			],
 			"restart_policy": "unless-stopped",
-			"title": "scrutiny",
+			"title": "Scrutiny",
 			"id": 171,
 			"type": 1,
 			"volumes": [
@@ -9771,7 +9771,7 @@
 		"3000:8080/tcp"
 		],
 		"restart_policy": "unless-stopped",
-		"title": "open-webui",
+		"title": "Open-webui",
 		"id": 228,
 		"type": 1,
 		"volumes": [
@@ -9898,7 +9898,7 @@
 				"8080:8080/tcp"
 					],
 			"restart_policy": "unless-stopped",
-			"title": "fmd-server",
+			"title": "FMD-Server",
 			"id": 230,
     		"type": 1,
 			"volumes": [
@@ -9948,7 +9948,7 @@
 			"description": "Technitium DNS Server",
 			"image": "technitium/dns-server:latest",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/technitium.png",
-			"name": "Technitium",
+			"name": "technitium",
 			"platform": "linux",
 			"ports": [
 				"5380:5380/tcp",
@@ -9963,7 +9963,7 @@
         	}
 				],	
 			"restart_policy": "unless-stopped",
-			"title": "technitium",
+			"title": "Technitium",
 			"id": 232,
     		"type": 1,
 			"volumes": [
@@ -10014,7 +10014,7 @@
         	}
 			],	
 		"restart_policy": "unless-stopped",
-		"title": "karakeep",
+		"title": "Karakeep",
 		"id": 233,
     	"type": 3,
 		"volumes": [
@@ -10290,7 +10290,7 @@
 				"222:22/tcp"
 				],
 			"restart_policy": "unless-stopped",
-			"title": "forgejo",
+			"title": "Forgejo",
 			"id": 240,
     		"type": 1,
 			"volumes": [
