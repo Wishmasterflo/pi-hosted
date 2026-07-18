@@ -22,7 +22,6 @@ services:
             - /portainer/Config/romm/config:/romm/config # Path where config.yml is stored
         depends_on:
             romm-db:
-                restart: true
 
     romm-db:
         image: mariadb:latest
