@@ -1832,13 +1832,13 @@
       "categories": [
         "Retro Games"
     	  ],
-      "title": "Romm",
-      "name": "romm",
-	  "description": "Selfhosted open-source retro Games ROM Manager",
-      "logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/romm.png",
-      "type": 3,
-      "id": 43,
-      "env": [
+     	"title": "Romm",
+      	"name": "romm",
+	  	"description": "Selfhosted open-source retro Games ROM Manager",
+      	"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/romm.png",
+      	"type": 3,
+      	"id": 43,
+      	"env": [
       	{
           "label": "DB_USER",
           "name": "DB_USER",
