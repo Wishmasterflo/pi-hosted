@@ -1840,7 +1840,7 @@
       "id": 43,
       "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/Wishmasterflo/pi-hosted\" target=\"_blank\">https://github.com/Wishmasterflo/pi-hosted</a></b>"
       "env": [
-       {
+      	{
           "label": "DB_USER",
           "name": "DB_USER",
           "default": "romm-user",
@@ -1858,7 +1858,7 @@
           "default": "",
           "description": "Generate a key with: openssl rand -hex 32"
         }
-      	],
+      		],
       "platform": "linux",
       "ports": [
 		"80:8080/tcp"
@@ -1867,8 +1867,6 @@
         "stackfile": "stack/romm.yml",
         "url": "https://github.com/wishmasterflo/pi-hosted/"
       	},
-      	"maintainer": "https://github.com/wishmasterflo/pi-hosted"
-  	 	},
 		{
 			"categories": [
 				"Other",
