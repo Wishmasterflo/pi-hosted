@@ -1862,7 +1862,7 @@
 	"title": "Romm",
 	"id": 43,
 	"type": 3,
-	"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://ghostfol.io/\" target=\"_blank\">https://ghostfol.io/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/ghostfolio/ghostfolio#self-hosting\" target=\"_blank\">https://github.com/ghostfolio/ghostfolio#self-hosting</a><br><br><br>"
+	"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br>"
 	},
 		{
 			"categories": [
