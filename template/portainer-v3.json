@@ -1846,6 +1846,11 @@
 	},
 	{
 		"default": "",
+		"label": "MARIADB_ROOT_PWD",
+		"name": "MARIADB_ROOT_PWD"
+	},	
+	{
+		"default": "",
 		"label": "ROMM_AUTH_SECRET_KEY",
 		"name": "ROMM_AUTH_SECRET_KEY",
 		"description": "Generate a key with: openssl rand -hex 32"
