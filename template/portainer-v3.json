@@ -1829,16 +1829,15 @@
 			]
 		},
 	 {
-      "title": "Romm",
-      "name": "romm",
       "categories": [
         "Retro Games"
       ],
-      "description": "Selfhosted open-source retro Games ROM Manager",
+      "title": "Romm",
+      "name": "romm",
+	  "description": "Selfhosted open-source retro Games ROM Manager",
       "logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/romm.png",
       "type": 3,
       "id": 43,
-      "note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/Wishmasterflo/pi-hosted\" target=\"_blank\">https://github.com/Wishmasterflo/pi-hosted</a></b>",
       "env": [
       	{
           "label": "DB_USER",
@@ -1866,7 +1865,8 @@
       	"repository": {
       	"stackfile": "stack/romm.yml",
       	"url": "https://github.com/Wishmasterflo/pi-hosted/"
-      	},
+      	"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/Wishmasterflo/pi-hosted\" target=\"_blank\">https://github.com/Wishmasterflo/pi-hosted</a></b>",
+		},
 		{
 			"categories": [
 				"Other",
