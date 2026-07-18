@@ -1828,10 +1828,10 @@
 				}
 			]
 		},
-	 {
+	{
       "categories": [
         "Retro Games"
-      ],
+    	  ],
       "title": "Romm",
       "name": "romm",
 	  "description": "Selfhosted open-source retro Games ROM Manager",
@@ -1857,11 +1857,11 @@
           "default": "",
           "description": "Generate a key with: openssl rand -hex 32"
         }
-      		],
+      	  ],
      	 "platform": "linux",
          "ports": [
-			"80:8080/tcp"
-	  		],			
+		 "80:8080/tcp"
+	  	  ],			
       	"repository": {
       	"stackfile": "stack/romm.yml",
       	"url": "https://github.com/Wishmasterflo/pi-hosted/"
