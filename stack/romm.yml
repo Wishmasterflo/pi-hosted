@@ -20,6 +20,8 @@ services:
             - /portainer/Downloads/ROMS:/romm/library # Your game library. Check https://github.com/rommapp/romm?tab=readme-ov-file#folder-structure for more details.
             - /portainer/Config/romm/assets:/romm/assets # Uploaded saves, states, etc.
             - /portainer/Config/romm/config:/romm/config # Path where config.yml is stored
+          ports:
+            - 86:8080    
 
     romm-db:
         image: mariadb:latest
