@@ -1864,7 +1864,7 @@
 	  	],			
       	"repository": {
       	"stackfile": "stack/romm.yml",
-      	"url": "https://github.com/Wishmasterflo/pi-hosted/"
+      	"url": "https://github.com/Wishmasterflo/pi-hosted/",
       	"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/Wishmasterflo/pi-hosted\" target=\"_blank\">https://github.com/Wishmasterflo/pi-hosted</a></b>",
 		},
 		{
