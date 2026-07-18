@@ -1828,45 +1828,42 @@
 				}
 			]
 		},
+{
+	"categories": [
+	"Retro Games"
+	],
+	"description": "Selfhosted open-source retro Games ROM Manager",
+	"env": [
 	{
-      "categories": [
-        "Retro Games"
-    	  ],
-     	"title": "Romm",
-      	"name": "romm",
-	  	"description": "Selfhosted open-source retro Games ROM Manager",
-      	"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/romm.png",
-      	"type": 3,
-      	"id": 43,
-      	"env": [
-      	{
-          "label": "DB_USER",
-          "name": "DB_USER",
-          "default": "romm-user",
-          "description": "Username for the database user"
-        },
-        {
-	  	  "label": "DB_PASSWD",
-          "name": "DB_PASSWD",
-          "default": "",
-          "description": "Password for the database user"
-        },
-		{
-	  	  "label": "ROMM_AUTH_SECRET_KEY",
-          "name": "ROMM_AUTH_SECRET_KEY",
-          "default": "",
-          "description": "Generate a key with: openssl rand -hex 32"
-        }
-      	  ],
-     	"platform": "linux",
-        "ports": [
-		 "80:8080/tcp"
-	  	],			
-      	"repository": {
-      	"stackfile": "stack/romm.yml",
-      	"url": "https://github.com/Wishmasterflo/pi-hosted/",
-      	"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/Wishmasterflo/pi-hosted\" target=\"_blank\">https://github.com/Wishmasterflo/pi-hosted</a></b>"
+		"default": "romm-user",
+		"label": "DB_USER",
+		"name": "DB_USER"
+	},
+	{
+		"default": "",
+		"label": "DB_PASSWD",
+		"name": "DB_PASSWD"
+	},
+	{
+		"default": "",
+		"label": "ROMM_AUTH_SECRET_KEY",
+		"name": "ROMM_AUTH_SECRET_KEY",
+		"description": "Generate a key with: openssl rand -hex 32"
+	}
+		],
+	"logo": "https://raw.githubusercontent.com/wishmasterflo/pi-hosted/master/images/romm.png",
+	"name": "romm",
+	"platform": "linux",
+	"repository": {
+		"stackfile": "stack/romm.yml",
+		"url": "https://github.com/Wishmasterflo/pi-hosted/"
 		},
+	"restart_policy": "unless-stopped",
+	"title": "Romm",
+	"id": 43,
+	"type": 3,
+	"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://ghostfol.io/\" target=\"_blank\">https://ghostfol.io/</a><br><b>Official Docker Documentation: </b><a href=\"https://github.com/ghostfolio/ghostfolio#self-hosting\" target=\"_blank\">https://github.com/ghostfolio/ghostfolio#self-hosting</a><br><br><br>"
+	},
 		{
 			"categories": [
 				"Other",
