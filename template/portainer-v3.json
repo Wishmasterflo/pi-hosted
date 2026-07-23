@@ -10268,7 +10268,7 @@
 			"git, Repository"
 			],
 			"description": "A selfhosted git Service",
-			"image": "codeberg.org/forgejo/forgejo:15",
+			"image": "codeberg.org/forgejo/forgejo:16",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/forgejo.png",
 			"name": "forgejo",
 			"platform": "linux",
@@ -10282,6 +10282,11 @@
 				"default": "1000",
 				"label": "USER_GID",
 				"name": "USER_GID"
+				},
+				{
+				"default": "127.0.0.0/8,172.17.X.X/X",
+				"label":"FORGEJO__security__REVERSE_PROXY_TRUSTED_PROXIES",
+				"name":"FORGEJO__security__REVERSE_PROXY_TRUSTED_PROXIES"
 				}	
 				],
 			"ports": [
