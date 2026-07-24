@@ -10383,6 +10383,45 @@
 			"categories": [
 				"Backup"
 			],
+			"description": "Open Source Backup Control Plane",
+			"env": [
+				{
+					"default": "Europe/Amsterdam",
+					"label": "TZ",
+					"name": "TZ"
+				},
+				{
+					"default": "http://192.168.0.5:4096",
+					"label": "BASE_URL",
+					"name": "BASE_URL"
+				},
+				{
+					"default": "4096",
+					"label": "PORT",
+					"name": "PORT"
+				},
+				{
+					"default": "Create with openssl rand -hex 32",
+					"label": "APP_SECRET",
+					"name": "APP_SECRET"
+				}
+			],
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/zerobyte.png",
+			"name": "zerobyte",
+			"platform": "linux",
+			"repository": {
+					"stackfile": "stack/zerobyte.yml",
+					"url": "https://github.com/Wishmasterflo/pi-hosted"
+				},
+			"title": "Zerobyte",
+			"id": 242,
+			"type": 3,
+			"note": "<b>Template created by Wishmasterflo</b>"
+			},	
+			{	
+			"categories": [
+				"Backup"
+			],
 			"description": "Self-hosted database backup automation with encryption, compression, and smart retention",
 			"env": [
 				{
@@ -10430,7 +10469,7 @@
 					 ],
 			"restart_policy": "unless-stopped",
 			"title": "DBackup",
-			"id": 242,
+			"id": 243,
 			"type": 1,
 			"volumes": [
 				{
