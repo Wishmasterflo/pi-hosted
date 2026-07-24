@@ -10481,7 +10481,7 @@
 					"container": "/backups"
 				}
 			],
-			"note": "<b>Template created by Wishmasterflo</b>"
+			"note": "<b>Please run /tools/install_zerobye.sh before installing this Docker Container!</b>"
 	}
   ]
 }
