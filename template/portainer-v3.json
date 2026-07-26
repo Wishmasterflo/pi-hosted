@@ -10153,37 +10153,36 @@
 		"categories": [
 		"File Shareing"
 			],
-			"description": "Quick and simple file sharing between different devices",
-			"image": "ghcr.io/hexxa/quickshare:latest",
-			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/quickshare.png",
-			"name": "quickshare",
+			"description": "Pingvin Share is self-hosted file sharing platform ",
+			"image": "ghcr.io/smp46/pingvin-share-x:latest",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/pingvin-share.png",
+			"name": "pingvin-share",
 			"platform": "linux",
 			 "env": [
 				{
-				"default": "qs",
-				"label": "DEFAULTADMIN",
-				"name": "DEFAULTADMIN"
-				},
-				{
-				"default": "1234",
-				"label": "DEFAULTADMINPWD",
-				"name": "DEFAULTADMINPWD"
+				"default": "false",
+				"label": "TRUST_PROXY",
+				"name": "TRUST_PROXY"
 				} 
 				],
 			"ports": [
-				"8686:8686/tcp"
+				"3000:3000/tcp"
 				],				
 			"restart_policy": "unless-stopped",
-			"title": "Quickshare",
+			"title": "Pingvin-Share",
 			"id": 237,
     		"type": 1,
 			"volumes": [
 				{
-				"bind": "/portainer/Config/quickshare/root",
-				"container": "/quickshare/root"
-				}
+				"bind": "/portainer/Config/pingvin-share",
+				"container": "/opt/app/backend/data"
+				},
+				{
+				"bind": "/portainer/Config/pingvin-share/images",
+				"container": "/opt/app/frontend/public/img"
+				}	
 			],
-			"note": "<b>Visit http://127.0.0.1:8686 and log in with the created Username and Password</b>"
+			"note": "<b>Template created by Wishmasterflo</b>"
 	   },
 	   {
 		"categories": [
