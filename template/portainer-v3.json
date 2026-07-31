@@ -3007,31 +3007,29 @@
 		},
 		{
 			"categories": [
-				"Other",
-				"Tools"
+				"Music Downloader"
 			],
-			"description": "InfluxDB is an open source time series database for recording metrics, events, and analytics.",
-			"hostname": "rpi-influxdb1810",
-			"image": "influxdb:1.8.10",
-			"logo": "https://raw.githubusercontent.com/docker-library/docs/43d87118415bb75d7bb107683e79cd6d69186f67/influxdb/logo.png",
-			"name": "influxdb1810",
-			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://www.influxdata.com/\" target=\"_blank\">https://www.influxdata.com/</a><br><b>Official Docker Documentation: </b><a href=\"https://docs.influxdata.com/influxdb/v2.0/install/?t=Docker\" target=\"_blank\">https://docs.influxdata.com/influxdb/v2.0/install/?t=Docker</a><br><br><br>You will need to add /portainer/Config/Influxdb/config/influxdb.conf",
+			"description": "Self-hosted downloader for Spotify playlist and Songs",
+			"image": "ghcr.io/henriquesebastiao/downtify:latest",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/downtify.png",
+			"name": "downtify",
+			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b>",
 			"platform": "linux",
 			"ports": [
-				"8086:8086/tcp"
+				"8000:8000/tcp"
 			],
 			"restart_policy": "unless-stopped",
-			"title": "Influxdb 1.8.10",
+			"title": "Downtify",
 			"id": 74,
 			"type": 1,
 			"volumes": [
 				{
-					"bind": "/portainer/Config/Influxdb/data",
-					"container": "/var/lib/influxdb"
+					"bind": "/portainer/Config/Downtify",
+					"container": "/data"
 				},
 				{
-					"bind": "/portainer/Config/Influxdb/config",
-					"container": "/etc/influxdb"
+					"bind": "/portainer/Downloads",
+					"container": "/downloads"
 				}
 			]
 		},
