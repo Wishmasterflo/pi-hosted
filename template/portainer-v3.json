@@ -10479,6 +10479,30 @@
 				}
 			],
 			"note": "<b>Please run /tools/install_zerobye.sh before installing this Docker Container!</b>"
+			},
+			{	
+			"categories": [
+				"Social"
+			],
+			"description": "Self-hosted database backup automation with encryption, compression, and smart retention",
+			"image": "skobkin/phanpy-docker:latest",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/phanpy.png",
+			"name": "phanpy",
+			"platform": "linux",
+			"ports": [
+				"8007:8080/tcp"
+					 ],
+			"restart_policy": "unless-stopped",
+			"title": "Phanpy",
+			"id": 244,
+			"type": 1,
+			"volumes": [
+				{
+					"bind": "/portainer/Config/phanpy",
+					"container": "/data"
+				}
+			],
+			"note": "<b>Template created by Wishmasterflo</b>"
 	}
   ]
 }
