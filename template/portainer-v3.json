@@ -10503,6 +10503,34 @@
 				}
 			],
 			"note": "<b>Template created by Wishmasterflo</b>"
+			},			
+			{	
+			"categories": [
+				"Music Streaming Server"
+			],
+			"description": "Self-hosted Music Server and Streamer.",
+			"image": "deluan/navidrome:latest",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/navidrome.jpg",
+			"name": "navidrome",
+			"platform": "linux",
+			"ports": [
+				"4533:4533/tcp"
+					 ],
+			"restart_policy": "unless-stopped",
+			"title": "Navidrome",
+			"id": 245,
+			"type": 1,
+			"volumes": [
+				{
+					"bind": "/portainer/Config/navidrome",
+					"container": "/data"
+				},
+				{
+					"bind": "/portainer/Music",
+					"container": "/music:ro"
+				}	
+			],
+			"note": "<b>Template created by Wishmasterflo</b>"	
 	}
   ]
 }
