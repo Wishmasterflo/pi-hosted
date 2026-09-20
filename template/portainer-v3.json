@@ -9880,7 +9880,7 @@
 		"Tools"
 			],
 			"description": "Find My Device Server for Android devices",
-			"image": "registry.gitlab.com/fmd-foss/fmd-server:0.16.0",
+			"image": "registry.gitlab.com/fmd-foss/fmd-server:0.17.0",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/fmd.png",
 			"name": "fmd-server",
 			"platform": "linux",
