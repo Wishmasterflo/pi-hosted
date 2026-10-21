@@ -10265,7 +10265,7 @@
 			"git, Repository"
 			],
 			"description": "A selfhosted git Service",
-			"image": "codeberg.org/forgejo/forgejo:16",
+			"image": "codeberg.org/forgejo/forgejo:17",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/forgejo.png",
 			"name": "forgejo",
 			"platform": "linux",
