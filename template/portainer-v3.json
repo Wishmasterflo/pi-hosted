@@ -1875,7 +1875,7 @@
 				"Tools"
 			],
 			"description": "Web File Browser which can be used as a middleware or standalone app.",
-			"image": "filebrowser/filebrowser:latest",
+			"image": "gtstef/filebrowser:stable-slim",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/filebrowser.png",
 			"name": "filebrowser",
 			"note": "<b>Template created by Pi-Hosted Series</b><br><b>Check our Github page: <a href=\"https://github.com/pi-hosted/pi-hosted\" target=\"_blank\">https://github.com/pi-hosted/pi-hosted</a></b><br><br><b>Official Webpage: </b><a href=\"https://filebrowser.org/\" target=\"_blank\">https://filebrowser.org/</a><br><b>Official Docker Documentation: </b><a href=\"https://filebrowser.org/installation#docker\" target=\"_blank\">https://filebrowser.org/installation#docker</a><br><br><br><b>Youtube Video: </b><a href=https://www.youtube.com/watch?v=30MYRgCObu8&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=4 target=\"_blank\">Novaspirit Tech - Installing JDownloader and File Browser On The Pi Docker Server</a><br><br>The default user and password is admin/admin.",
@@ -1884,21 +1884,21 @@
 				"8083:80/tcp"
 			],
 			"restart_policy": "unless-stopped",
-			"title": "FileBrowser",
+			"title": "FileBrowser Quantum",
 			"id": 44,
 			"type": 1,
 			"volumes": [
 				{
+					"bind": "/home",
+					"container": "/home"
+				},
+				{
 					"bind": "/portainer",
-					"container": "/srv"
+					"container": "/portainer"
 				},
 				{
-					"bind": "/portainer/Config/filebrowser/db",
-					"container": "/database"
-				},
-				{
-					"bind": "/portainer/Config/filebrowser/config",
-					"container": "/config"
+					"bind": "/portainer/Config/filebrowserq/data",
+					"container": "/home/filebrowser/data"
 				}
 			],
 			"note": "<b>Template created by Pi-Hosted Series</b><br>"
