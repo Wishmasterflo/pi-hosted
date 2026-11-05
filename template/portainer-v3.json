@@ -10484,7 +10484,7 @@
 			"categories": [
 				"Social"
 			],
-			"description": "Self-hosted database backup automation with encryption, compression, and smart retention",
+			"description": "A minimalistic opinionated Mastodon web client.",
 			"image": "skobkin/phanpy-docker:latest",
 			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/phanpy.png",
 			"name": "phanpy",
