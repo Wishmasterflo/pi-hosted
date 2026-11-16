@@ -10533,8 +10533,65 @@
 			"note": "<b>Template created by Wishmasterflo</b>"	
 			},
 			{
+			"categories": [
+			"Security"
+			],
+			"description": "Community Based Crowdsec Security",
+			"image": "crowdsecurity/crowdsec:latest",
+			"logo": "https://raw.githubusercontent.com/Wishmasterflo/pi-hosted/master/images/crowdsec.png",
+			"name": "crowdsec",
+			"platform": "linux",
+			 "env": [
+				{
+				"default": "Europe/Amsterdam",
+				"label": "TZ",
+				"name": "TZ"
+				},
+				{
+				"default": "1000",
+				"label": "GID",
+				"name": "GID"
+				},
+				{
+				"default": "crowdsecurity/linux crowdsecurity/sshd crowdsecurity/nginx crowdsecurity/http-cve",
+				"label":"COLLECTIONS",
+				"name":"COLLECTIONS"
+				}	
+				],
+			"ports": [
+				"8080:8080/tcp"
+				],
+			"restart_policy": "unless-stopped",
+			"title": "Crowdsec",
+			"id": 246,
+    			"type": 1,
+			"volumes": [
+				{
+				"bind": "/portainer/Config/crowdsec/data",
+				"container": "/var/lib/crowdsec/data"
+				},
+				{
+				"bind": "/portainer/Config/crowdsec/config",
+				"container": "/etc/crowdsec"
+				},
+				{
+				"bind": "/portainer/Config/crowdsec/acquis.yaml",
+				"container": "/etc/crowdsec/acquis.yaml:ro"
+				},
+				{
+				"bind": "/portainer/Config/nginx-proxy-manager/data/logs",
+				"container": "/var/log/nginx:ro"
+				},
+				{
+				"bind": "/var/log",
+				"container": "/var/log:ro"
+				}
+			],
+			"note": "<b>Template created by Wishmasterflo</b>"	
+			},
+			{
       "type": 3,
-	  "id": 246,			
+	  "id": 247,			
       "title": "HealthLog",
       "name": "healthlog",
       "description": "Self-hosted personal health tracker (PWA + native iOS client): weight, blood pressure, pulse, blood glucose, body composition, sleep, mood, menstrual cycle, and medications on one encrypted timeline. AES-256-GCM at rest, no vendor cloud, no telemetry. Ships app + PostgreSQL 16 as one stack.",
