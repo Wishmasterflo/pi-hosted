@@ -36,6 +36,7 @@ List of all apps included in this project with info related to it.
 |[Codiad](http://codiad.com/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/Codiad/Codiad/wiki/Quick-installation-using-Docker) |  |  |  |
 |[COPS](https://blog.slucas.fr/projects/calibre-opds-php-server/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-cops) |  |  |  |
 |[CouchPotato](https://couchpota.to/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-couchpotato) |  |  |  |
+|[Crowdsec](https://www.crowdsec.net/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/crowdsecurity/crowdsec) |  |  |  |
 |[Cura-NoVNC](https://hub.docker.com/r/mikeah/cura-novnc)|:x:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/helfrichmichael/cura-novnc) |  |  |  |
 |[Daapd](https://owntone.github.io/owntone-server/)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://docs.linuxserver.io/images/docker-daapd) |  |  |  |
 |[DashMachine](https://github.com/rmountjoy92/DashMachine)|:heavy_check_mark:|:heavy_check_mark:|Container| [![](../build/images/blue_doc_icon.png)](https://github.com/rmountjoy92/DashMachine) |  |  |  |
