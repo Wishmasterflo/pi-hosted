@@ -20,4 +20,4 @@ check_internet
 sudo mkdir -p /portainer/Config/dockhand || error "Failed to create the Portainer Config Folder"
 
 sudo docker pull fnsys/dockhand:latest || error "Failed to pull latest Portainer docker image!"
-sudo docker run -d -p 3001:3000 --name=dockhand --restart=unless-stopped -v /var/run/docker.sock:/var/run/docker.sock -v /portainer/Config/dockhand:/app/data fnsys/dockhand:latest || error "Failed to run Dockhand docker image!"
+sudo docker run -d -p 3003:3000 --name=dockhand --restart=unless-stopped -v /var/run/docker.sock:/var/run/docker.sock -v /portainer/Config/dockhand:/app/data fnsys/dockhand:latest || error "Failed to run Dockhand docker image!"
