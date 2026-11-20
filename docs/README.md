@@ -1,9 +1,12 @@
-# Pi-Hosted Portainer Template V3
+# Pi-Hosted Portainer/Dockhand Template V3
 
-This repository is a collection of tutorials for hosting a variety of server applications using Docker or Podman and [Portainer](https://github.com/portainer/portainer) on the Raspberry Pi or any other 64-bit Computer.
+This repository is a collection of tutorials for hosting a variety of server applications using Docker or Podman and [Portainer](https://github.com/portainer/portainer) or [Dockhand](https://dockhand.pro) on the Raspberry Pi or any other 64-bit Computer.
 
 ### App Template for Portainer
 ![App Template Image](https://github.com/Wishmasterflo/pi-hosted/blob/master/apptemplate.png?raw=true)
+
+### App Template for Dockhand
+![App Template Image](https://github.com/Wishmasterflo/pi-hosted/blob/master/Dockhand_template?raw=true)
 
 ### Apps List
 
@@ -45,6 +48,8 @@ You need to reboot/logout for changes to take effect
 ```
 sudo reboot
 ```
+### Portainer Installation
+
 After a reboot, run `install_portainer_docker.sh`, to install Portainer using Docker or
 run `install_portainer_podman.sh`, to install Portainer using Podman. 
 
@@ -75,7 +80,11 @@ cd pi-hosted
 cd pi-hosted
 ./reinstall_portainer_docker.sh
 ```
-
+### Dockhand Installation
+```
+cd pi-hosted
+./install_dockand.sh 
+```
 
 ### Login to Portainer to update the App Template.
 
@@ -87,7 +96,11 @@ Goto https://pi-ip:9443 and create a new Username/password to login.
 
 You're done! Now just click App Templates and deploy applications!
 
-#### Portainer Architecture
+### Login to Dockhand to update the App Template.
+
+Goto http://pi-ip:3003 and create a new Username/password to login.
+
+#### Architecture
 
 | Architecture | Tested OS's | URL |
 | ------------ | ----------- | --- |
