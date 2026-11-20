@@ -6,7 +6,7 @@ This repository is a collection of tutorials for hosting a variety of server app
 ![App Template Image](https://github.com/Wishmasterflo/pi-hosted/blob/master/apptemplate.png?raw=true)
 
 ### App Template for Dockhand
-![App Template Image](https://github.com/Wishmasterflo/pi-hosted/blob/master/Dockhand_template?raw=true)
+![App Template Image](https://github.com/Wishmasterflo/pi-hosted/blob/master/Dockhand_template.png?raw=true)
 
 ### Apps List
 
